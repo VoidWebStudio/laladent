@@ -1,0 +1,69 @@
+p.press-p {
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 9px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+span.press-span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    font-stretch: normal;
+    margin-bottom: 15px;
+    line-height: 19px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.press-item {
+    max-width: 793px;
+    padding-left: 2px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #dddddd;
+}
+
+.press-body {
+    padding-top: 20px;
+    margin-top: 11px;
+}
+
+.col-md-6.press-bl {
+    padding: 0;
+}
+
+.col-md-6.press-bl span {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+}
+
+.col-md-6.press-bl:last-child {
+    padding-left: 63px;
+    text-align: right;
+}
+
+.col-md-6.press-bl img {
+    margin-left: 19px;
+    margin-top: 5px;
+}
+
+.press-block {
+    margin-bottom: 25px;
+}

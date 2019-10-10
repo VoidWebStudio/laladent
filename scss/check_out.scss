@@ -1,0 +1,300 @@
+.order-login {
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    margin-top: 20px;
+    padding: 30px 0 15px 0;
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.order-login p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    display: block;
+    float: left;
+    max-width: 430px;
+    color: #2b2b2b;
+}
+
+.order-login-block {
+    max-width: 589px;
+    margin: 0 auto;
+}
+
+.order-login-block:after {content: "";display: block;clear: both;}
+
+.order-login-block a {
+    width: 113px;
+    height: 54px;
+    border-radius: 27px;
+    border: solid 2px #ff4c72;
+    background-color: #ff4c72;
+    display: block;
+    float: right;
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 47px;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.order-check-block {
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    position: relative;
+    padding: 44px 0 50px 0;
+    margin-bottom: 20px;
+}
+
+span.order-num {
+    font-family: FuturaPTBook;
+    font-size: 100px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 31px;
+    color: #29b3bc;
+}
+
+p.order-check-head {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 589px;
+    color: #2b2b2b;
+}
+
+.order-check-loc {
+    max-width: 895px;
+    margin:  0 auto;
+    margin-top: 48px;
+}
+
+.order-check-loc-items {
+    max-width: 285px;
+    margin-right: 20px;
+    background: white;
+    padding-bottom: 40px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+}
+
+.order-check-loc-items:last-child {
+    margin-right: 0 !important;
+}
+
+.order-check-loc-items div img {
+    width: 100%;
+}
+
+.order-check-loc-items p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    padding: 0 20px 0px 21px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.order-check-loc-items span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    padding: 0 25px 0 21px;
+    line-height: 19px;
+    display: block;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.order-check-form:after {content: "";display: block;clear: both;}
+
+.order-check-form {
+    max-width: 895px;
+    margin: 0 auto;
+    margin-top: 82px;
+}
+
+.order-check-form .shop-cat {
+    width: 285px !important;
+}
+
+.order-check-conf {
+    max-width: 589px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+
+span.order-check-text {
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    font-stretch: normal;
+    line-height: normal;
+    padding: 0 70px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.order-check-conf-r {
+    padding-top: 39px;
+    width: 50%;
+    padding-right: 100px;
+}
+
+.order-check-conf-l p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 25px;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+}
+
+.order-check-conf-l {
+    width: 50%;
+    padding: 38px 0 0 9px;
+}
+
+.order-checkbox span {
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    line-height: 14px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+.order-checkbox span a {
+    color: #2b2b2b;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+.order-checkbox > label {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 9px;
+  }
+
+
+.order-checkbox span:after {
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  box-sizing: border-box;
+  opacity: 0.2;
+  border: solid 2px #000000;
+  width: 24px;
+  height: 24px;
+  opacity: 0.2;
+  border-radius: 7px;
+  border: solid 2px #000000;
+  }
+
+.order-checkbox input {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0; }
+
+.order-checkbox input:checked + span:after {
+  background: #a3bbc1 !important;
+  border-color:#a3bbc1;
+  opacity: 1; 
+ }
+
+.order-checkbox input:checked + span:before {
+    content: "";
+    display: block;
+    z-index: 10;
+    width: 16px;
+    background: url(../images/check3.png)no-repeat;
+    height: 13px;
+    background-position: center center;
+    left: 5px;
+    top: 4px;
+    position: absolute;
+  }
+
+.order-checkbox {
+    margin-top: 10px;
+}
+.order-check-loc-items.act {
+    border: 3px solid  #ff4c72;
+    position: relative;
+}
+
+.order-check-loc-items.act:after {
+    content: "";
+    width: 30px;
+    display: block;
+    height: 30px;
+    position: absolute;
+    background-color: #ff4c72;
+    background-image: url(../images/check2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    top: 6px;
+    right: 6px;
+}
+
+.shop-cat.site-input.poromo-inp {
+    width: 285px;
+    display: none;
+}
+.shop-cat.site-input.poromo-inp.actv {
+    display: block !important;
+    float: unset !important;
+}
+.shop-cat.site-input.poromo-inp2 {
+    width: 285px;
+    float: unset !important;
+}

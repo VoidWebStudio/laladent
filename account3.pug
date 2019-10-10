@@ -1,0 +1,104 @@
+doctype html 
+html(lang="en")
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="account-nav")
+   .center
+    .account-head
+     .row
+      div(class="col-md-6 account-head")
+       p Олег Петров
+      div(class="col-md-6 account-head")
+       a(href="#")
+        span Выйти
+    .account-body
+     ul
+      li
+       a(href="#") Мои бонусы
+        span 5
+      li
+       a(href="#", class="act") Записи на прием
+      li
+       a(href="#") Личные данные
+    .profile-reg
+     .center
+      .profile-head
+       .row
+        div(class="col-md-6 profile-h")
+         p Назначенно 2 записи
+        div(class="col-md-6 profile-h")
+         button
+          span Записаться на прием
+      .profile-reg-items
+       .row
+        div(class="profile-reg-item")
+         p(class="profile-reg-item-date") 24 марта, 13:00
+        div(class="profile-reg-item")
+         p(class="profile-reg-item-p") Отделение
+         span(class="profile-reg-item-address") Ленинский проспект, 20
+         span(class="profile-reg-item-add") М. Третьяковская, М. Новокузнецкая
+         span(class="profile-reg-item-num") +7 (495) 700-80-00
+        div(class="profile-reg-item")
+         p(class="profile-reg-item-p") Лечащий врач
+         div(class="profile-doc-img")
+          img(src="images/doc.png")
+         span(class="profile-reg-item-doc")
+          | Иванов 
+          br
+          | Владимир Петрович
+      .profile-reg-items
+       .row
+        div(class="profile-reg-item")
+         p(class="profile-reg-item-date") 24 марта, 13:00
+        div(class="profile-reg-item")
+         p(class="profile-reg-item-p") Отделение
+         span(class="profile-reg-item-address") Ленинский проспект, 20
+         span(class="profile-reg-item-add") М. Третьяковская, М. Новокузнецкая
+         span(class="profile-reg-item-num") +7 (495) 700-80-00
+        div(class="profile-reg-item")
+         p(class="profile-reg-item-p") Лечащий врач
+         div(class="profile-doc-img")
+          img(src="images/doc.png")
+         span(class="profile-reg-item-doc")
+          | Иванов 
+          br
+          | Владимир Петрович
+    .profile-remind
+     .center
+      .profile-remind-head
+       span Напоминания
+       a(href="#") + добавить напоминание в другое время
+      .profile-remind-block
+       div(class="profile-remind-items")
+        label
+         input(type="checkbox")
+         span За неделю
+        a(href="#") Удалить
+       div(class="profile-remind-items")
+        label
+         input(type="checkbox")
+         span За 24 часа
+        a(href="#") Удалить
+       div(class="profile-remind-items")
+        label
+         input(type="checkbox")
+         span За 2 часа
+        a(href="#") Удалить
+
+
+  include modules/mini_discount
+  include modules/doctors-serch3
+  include modules/search-services2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions  
+  include modules/footer

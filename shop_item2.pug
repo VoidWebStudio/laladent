@@ -1,0 +1,335 @@
+doctype html 
+html(lang="en")
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+   .clinic-block
+    .center
+     div(class="clinic-bl withlink cart-page")
+      .withlink-block
+       a(href="#") Главная
+       a(href="#") Магазин
+       span Наименование товара в несколько строк,с деталями
+      h1(class="clinic-block-head") Наименование товара в несколько строк,с деталями
+   .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+
+  section(class="shop-product")
+   .center
+    div(class="shop-product-block")
+     .row
+      div(class="shop-product-block-l")
+       div(class="shop-product-big-img")
+        img(src="images/search-result2.png")
+       .row
+        div(class="shop-product-small-img actv")
+         img(src="images/search-result2.png")
+        div(class="shop-product-small-img")
+         img(src="images/search-result2.png")
+        div(class="shop-product-small-img")
+         img(src="images/search-result2.png")
+        div(class="shop-product-small-img")
+         img(src="images/search-result2.png")
+      div(class="shop-product-block-r")
+       p(class="shop-product-p") Наименование товара в несколько строк, с деталями
+       span(class="shop-product-span") цена
+       span(class="shop-product-price") 10 000
+        span(class="circel_m") ₽
+       span(class="shop-product-price2") 15 000
+        span(class="circel_m") ₽
+       div(class="shop-pro-block2")
+        p Данный товар приобретается только с услугой по установке коронок, и отдельно не продается
+        span
+         | Краткое описание товара с характеристиками. Неольшой вступительный текст. Привет всем синемаголикам и простым читателям моей рецензии!
+    div(class="shop-product-discription")
+     p Описание товара
+     span
+      | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+    div(class="shop-product-discription2")
+     p Характеристики товара
+     .row
+      div(class="col-md-3")
+       span(class="shop-product-disc-span1") Название параметра
+       span(class="shop-product-disc-span1") Название параметра
+       span(class="shop-product-disc-span1") Длинное название параметра
+       span(class="shop-product-disc-span1") Название параметра
+      div(class="col-md-3")
+       span(class="shop-product-disc-span2") Значение
+       span(class="shop-product-disc-span2") Длинное значение параметра
+       span(class="shop-product-disc-span2") Значение
+       span(class="shop-product-disc-span2") Значение
+      div(class="col-md-3")
+       span(class="shop-product-disc-span1") Название параметра
+       span(class="shop-product-disc-span1") Название параметра
+       span(class="shop-product-disc-span1") Название параметра
+      div(class="col-md-3")
+       span(class="shop-product-disc-span2") Значение
+       span(class="shop-product-disc-span2") Значение
+       span(class="shop-product-disc-span2") Значение
+    div(class="shop-product-discription")
+     p Еще блок текста
+     span
+      | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+
+  include modules/mini_discount2
+  include modules/price2.pug
+  include modules/comment
+  section(class="shop-recomended")
+   .center 
+    p(class="shop-recomended-head") Вам также может быть интересно
+    .row
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        button
+         span Купить
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        button
+         span Купить
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        button
+         span Купить
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        button
+         span Купить
+  section(class="shop-recomended second")
+   .center 
+    p(class="shop-recomended-head") Другие товары этого бренда
+    .row
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        span(class="shop-rec-span") 
+         | Длинное название категории товара
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        span(class="shop-rec-span") 
+         | Длинное название категории товара
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        span(class="shop-rec-span") 
+         | Длинное название категории товара
+     div(class="shop-recomended-block col-lg-3")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        span(class="shop-rec-span") 
+         | Длинное название категории товара
+  include modules/discount
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/questions
+  section(class="ceo2")
+   .center
+    .ceo2-block
+     .ceo2-items
+      h3(class="ceo2-h3")
+       | CEO-текст
+      span(class="ceo2-text")
+       | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+     .ceo2-items
+      p(class="ceo2-head")
+       | История развития
+      span(class="ceo2-text")
+       |Самые ранние упоминания об отбеливании зубов относятся к первому веку нашей эры. Римские врачеватели считали, что использование мочи в значительной мере способствует осветлению зубов.
+      span(class="ceo2-text")
+       | Начиная с XIV по конец конца XVIII столетия, врачеватели славянских народов осуществляли отбеливание зубов при помощи слабого раствора азотной кислоты. Предварительно зубы обрабатывались металлическим напильником: снимался поверхностный слой эмали. Такую технологию применяли Смоляр Н.И., Кононенко В.В., Безвушко Э.В.
+      span(class="ceo2-text")
+       | Начиная с 1848 г. для отбеливания зубов начали применять хлорную известь — раствора кальция гидрохлорида и уксусной кислоты (активным элементом служил хлор). Данную методику предложил Труман.
+     .ceo2-items
+      p(class="ceo2-head")
+       | Классификация
+      p(class="ceo2-head2")
+       | Отбеливание зубов подразделяет
+      span(class="ceo2-text2")
+       span
+       | Домашнее – проводятся в домашних условиях. Применяются разнообразные осветляющие зубные пасты, жвачки с абразивами, специальные средства, приготовленные дома (народные рецепты).      
+      span(class="ceo2-text2")
+       span
+       | Профессиональное — проводятся в стоматологических клиниках при помощи специального оборудования.
+
+      p(class="ceo2-head2")
+       | Профессиональное отбеливание зубов подразделяется по методу воздействия:
+      span(class="ceo2-text2")
+       span
+       | Механическое – очистка эмали путём подачи на неё смеси чистящего порошка с воздухом.
+      span(class="ceo2-text2")
+       span
+       |Ультразвуковое – воздействие на зубную эмаль ультразвуком. Наиболее щадящий метод, но и наиболее дорогостоящий.
+      span(class="ceo2-text2")
+       span
+       |Химическое – воздействие на эмаль зуба химическими составами. Наиболее эффективный метод, но имеет множество побочных эффектов. Применение разрешается только на абсолютно здоровых зубах.
+      span(class="ceo2-text2")
+       span
+       |Лазерное – воздействие на эмаль зуба лазерным лучом. Быстрый и эффективный метод. Значительно отличается от щадящих методов и имеет большую стоимость.
+      span(class="ceo2-text2")
+       span
+       |Фотоотбеливание – воздействие на эмаль зуба светом, подходит для чувствительных зубов. Применяется достаточно редко, так как требуется высокая квалификация и не всегда даёт желаемый результат – в ряде случаев придаёт неестественный оттенок.
+     .ceo2-items
+      p(class="ceo2-head")
+       | Список с нумерацией
+      span(class="ceo2-text")
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+      p(class="ceo2-head3")
+       span 1
+       | Название пункта
+       span(class="ceo2-text")
+        | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+      p(class="ceo2-head3")
+       span 2
+       | Название пункта
+       span(class="ceo2-text")
+        | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+      p(class="ceo2-head3")
+       span 3
+       | Название пункта
+       span(class="ceo2-text")
+        | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+    
+    
+     .ceo2-items
+      p(class="ceo2-head")
+       | Еще кусок текста
+      span(class="ceo2-text")
+       | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.  
+      
+  section(class="cooment-all")
+   .center
+    p(class="cooment-all-head") Комментарии
+    .comment-all-block
+     p(class="cooment-all-p")
+      | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+     .cooment-all-autor
+      span(class="cooment-all-time")
+       | 15.03.2019, 13:15
+      span(class="cooment-all-name") Ирина
+      span(class="cooment-all-stars")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-grey.svg")
+     .comment-all-answ
+      p(class="cooment-all-p") Текст комментария
+      .cooment-all-autor
+       span(class="cooment-all-time") 
+        | 15.03.2019, 13:15
+       span(class="cooment-all-name") Вадим
+     .comment-all-answ
+      p(class="cooment-all-p") Текст комментария
+      .cooment-all-autor 
+       span(class="cooment-all-time")
+        | 15.03.2019, 13:15
+       span(class="cooment-all-name") Олег
+       a(href="#", class="comment-all-btn") Ответить
+    .comment-all-block
+     p(class="cooment-all-p")
+      | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+     .cooment-all-autor
+      span(class="cooment-all-time")
+       | 15.03.2019, 13:15
+      span(class="cooment-all-name") Ирина
+      span(class="cooment-all-stars")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-grey.svg")
+     a(href="#", class="comment-all-btn") Ответить
+   .coment-all-links
+    a(href="#") Оставить комментарий
+    a(href="#") Еще комментарии
+  include modules/price-slider
+  include modules/footer

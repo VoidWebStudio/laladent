@@ -1,0 +1,110 @@
+doctype html 
+html(lang="en")
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+   .clinic-block
+    .center
+     div(class="clinic-bl withlink cart-page")
+      .withlink-block
+       a(href="#") Главная
+       a(href="#") Корзина
+       span Оформление заказа
+      h1(class="clinic-block-head") Оформление заказа
+  
+     
+ 
+  section(class="order-check")
+   .center
+    .order-login
+     .order-login-block
+      p Если у вас есть аккаунт — залогиньтесь, и данные заполнятся автоматически
+      a(href="#") Войти
+    .order-check-block
+     span(class="order-num") 1
+     p(class="order-check-head") Выберете отделение, из которого вам будет удобнее забрать заказ:
+     .order-check-loc
+      .row
+       div(class="order-check-loc-items act")
+        div
+         img(src="images/loc2.png")
+        p Ленинский проспект, 20
+        span М. Третьяковская, М. Новокузнецкая, М. Полянка
+       div(class="order-check-loc-items")
+        div
+         img(src="images/loc2.png")
+        p Ленинский проспект, 20
+        span М. Третьяковская, М. Новокузнецкая, М. Полянка
+       div(class="order-check-loc-items")
+        div
+         img(src="images/loc2.png")
+        p Ленинский проспект, 20
+        span М. Третьяковская, М. Новокузнецкая, М. Полянка
+    .order-check-block
+     span(class="order-num") 2
+     p(class="order-check-head") Укажите контактные данные:
+     .order-check-form
+      div(class="shop-cat site-input") 
+       p Ваше имя
+       input(type="text", placeholder="Ваше имя", value='Олег')
+      div(class="shop-cat site-input")
+       p Номер телефона
+       input(type="text", placeholder="Номер телефона", value='+7 922 333 44')
+      div(class="shop-cat site-input")
+       p Email*
+       input(type="text", placeholder="Email*", value='')
+    .order-check-block
+     span(class="order-num") 3
+     p(class="order-check-head") Подтвердите заказ:
+     .order-check-conf
+      span(class="order-check-text") 
+       | После подтверждения заказа с вами свяжется наш менеджер и сообщит когда можно будет забрать заказ
+      .row
+       .order-check-conf-r
+        p(class="cart-body-rigth-p") Всего 6 товаров на сумму 
+        span(class="cart-body-rigth-price") 60 000
+         span(class="circel_m") ₽
+        div(class="cart-promo-block")
+         span(class="cart-body-promo") Добавить промо-код
+         div(class="shop-cat site-input poromo-inp") 
+          p промо-код
+          input(type="text", placeholder="промо-код")
+       .order-check-conf-l
+        p Оплата на кассе – наличными или картой
+        a(href="#", class="cart-link") 
+         span Оформить заказ
+        div(class="order-checkbox")
+         label
+          input(type="checkbox")
+          span Согласен с
+           a(href="#") Положением по обработке персональных данных
+         label
+          input(type="checkbox")
+          span Согласен с
+           a(href="#") Политикой конфиденциальности
+        div(class="popup-checkbox")
+         label
+          input(type="checkbox")
+          span Согласен с
+           a(href="#") Положением по обработке персональных данных
+         label
+          input(type="checkbox")
+          span Согласен с
+           a(href="#") Политикой конфиденциальности
+       
+
+
+
+
+   
+    
+   
+  include modules/footer

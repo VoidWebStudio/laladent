@@ -1,0 +1,165 @@
+.col-md-6.portfolio-block:first-child {
+    padding: 0 10px 0 0;
+}
+
+.portfolio-block:first-child img {
+    width: 100%;
+}
+
+.portfolio-keys p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 6px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.portfolio-keys p {}
+
+.portfolio-keys:first-child span {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 10px;
+    line-height: 18px;
+    letter-spacing: normal;
+    display: block;
+    color: #29b3bc;
+}
+
+.portfolio-keys:last-child>span {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 5px;
+    color: #565656;
+    display: block;
+}
+
+.portfolio-keys:first-child {
+    padding-right: 10px;
+    width: 70%;
+}
+
+p.portfolio-head {
+  font-family: FuturaDemiC;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  margin-bottom: 11px;
+  line-height: 27px;
+  letter-spacing: normal;
+  color: #2b2b2b;
+}
+
+span.portfolio-span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.portfolio-doc img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.portfolio-doc p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+    margin-bottom: 7px;
+    /* margin-top: 5px; */
+    position: relative;
+    top: 8px;
+}
+
+.portfolio-doc span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+a.portfolio-btn {
+    width: 108px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #ff4c72;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none !important;
+    margin-top: 20px;
+}
+
+a.portfolio-btn span {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 33px;
+    letter-spacing: normal;
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.col-md-6.portfolio-block>div:first-child {
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.portfolio-keys:last-child {
+    padding-left: 2px;
+}
+
+.portfolio-keys:last-child>span .circel_m {
+    margin-left: 5px;
+}
+
+.col-md-6.portfolio-block:last-child {
+    padding: 9px 0 0 11px;
+}
+
+.portfolio-doc {
+    margin-top: 27px;
+}
+
+.portfolio-doc:after {content: "";display: block;clear: both;}

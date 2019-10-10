@@ -1,0 +1,254 @@
+p.cooment-all-head {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+    margin-bottom: 40px;
+}
+
+section.cooment-all {
+    margin-top: 64px;
+}
+p.cooment-all-p {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-family: "FuturaPTBook";
+    letter-spacing: normal;
+    margin-bottom: 8px;
+}
+
+.comment-all-block {
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    padding: 17px 30px 25px 30px;
+    margin-bottom: 17px;
+}
+
+span.cooment-all-time {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: "FuturaPTBook";
+    text-align: right;
+    color: #000000;
+    padding-left: 2px;
+    margin-right: 25px;
+}
+
+span.cooment-all-name {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+.comment-all-answ {
+    margin-top: 23px;
+    padding-left: 30px;
+}
+
+span.cooment-all-stars {
+    display: inline-block;
+    /* margin: 0 auto 0 auto; */
+    float: right;
+}
+
+a.comment-all-btn {
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    color: #ff4c72;
+    margin-top: 23px;
+    display: block;
+}
+.coment-all-links {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.coment-all-links a {
+    width: 261px;
+    height: 54px;
+    border-radius: 27px;
+    border: solid 2px #ff4c72;
+    display: inline-block;
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 50px;
+    text-decoration: none !important;
+    letter-spacing: normal;
+}
+
+.coment-all-links a:first-child {
+    background-color: #ff4c72;
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+.coment-all-links a:last-child {
+    color: #ff4c72;
+}
+
+.coment-all-links a:last-child:after {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-right: 2px solid #ff4c72;
+    border-top: 2px solid #ff4c72;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    /* right: 33px; */
+    /* position: absolute; */
+    margin-top: 11px;
+    margin-right: 0px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+p.price-slider-p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+    margin-bottom: 40px;
+}
+
+section.price-slider {
+    margin-top: 64px;
+    margin-bottom: 71px;
+}
+
+.slider-block7>img {
+    width: 100%;
+    height: 130px;
+}
+
+span.price-slider-txt {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 17px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    margin-top: 10px;
+    display: block;
+    padding-left: 12px;
+}
+
+span.price-slider-span {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+    display: block;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+
+span.price-slider-s {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    display: block;
+    padding-left: 12px;
+    margin-top: 1px;
+}
+
+.slider-block7 {
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.slider-block7 a {
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #29b3bc;
+    padding-left: 12px;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.price-slider-bl {
+    position: relative;
+}
+
+.price-slider-bl .swiper-button-next, .price-slider-bl .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+}
+
+.price-slider-bl .swiper-button-next:after, .price-slider-bl .swiper-button-prev:after {
+  width: 13px;
+  height: 13px;
+  top: 16px; }
+.price-slider-bl .swiper-button-next:after{
+   right: 15px;
+ }
+.price-slider-bl .swiper-button-prev:after{
+  left: 15px;
+}
+.coment-all-links a:first-child:hover {
+    background: #ff2f5b;
+    border-color: #ff2f5b;
+    transition: all 0.3s ease;
+}
+
+.coment-all-links a:last-child:hover {
+    border-color: #ff2f5b;
+    color: #ff2f5b;
+    transition: all 0.3s ease;
+}
+

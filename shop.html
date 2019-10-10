@@ -1,0 +1,1143 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head> </head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <body>
+    <div class="popup_block ask-doctor-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Задать вопрос</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line">
+              <div class="shop-cat site-input">
+                <p>Ваше имя*</p>
+                <input type="text" placeholder="Ваше имя*"/>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Заголовок вопроса*</p>
+                <input type="text" placeholder="Заголовок вопроса*"/>
+              </div>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш вопрос*</p>
+                <textarea placeholder="Ваш вопрос*"></textarea>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <p class="popup-p">Оставьте email или ваш номер, и мы оповестим вас, когда будет опубликован ответ:</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email"/>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона*"/>
+              </div>
+            </div><span class="popup-span">* обязаельно к заполнению</span>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"/><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block callback-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Обратный звонок </p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-twoline">
+              <p class="popup-p">Оставьте номер и ваше имя, и мы перезвоним вам в ближайшее время</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email"/>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона*"/>
+              </div>
+            </div><span class="popup-span">* обязаельно к заполнению</span>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"/><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block confirm">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Запись на прием принята!</p>
+        </div>
+        <div class="popup-body"><span class="popup-confirm-span">Наше менеджер свяжется с вами в ближайшее время и подтвердит запись.</span>
+          <div class="popup-disc"><a class="mini-discount-items col-lg-4" href="#">
+              <div class="mini-discount-item1">
+                <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+              </div></a></div>
+          <div class="popup-robot">    
+            <button class="popup-btn cntr"><span>Принято!</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block lpgin-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Регистрация и вход</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-social">
+              <p class="popup-p2">По номеру телефона</p>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона*"/>
+              </div>
+              <button class="popup-btn"><span>Войти</span></button>
+              <div class="popup-social-block">
+                <p class="popup-p2">Через соцсети</p>
+                <div class="popup-social-block-items"><a href="#"></a><a href="#"></a><a href="#"></a></div>
+              </div>
+            </div>
+            <div class="popup-robot">
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block info-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p class="info-popup-p">Расписание на праздники</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-twoline">
+              <p class="popup-p witout-padd">В новогодние праздники не работаем с 1 по 5 января,  остальные дни в штатном режиме.</p>
+              <button class="popup-btn cntr"><span>ПРИНЯТО!</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block review-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Оставить отзыв</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line"><span class="review-popup-span">Вы можете опционально уточнить отделение, врача и услугу:</span>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш отзыв</p>
+                <textarea placeholder="Ваш отзыв"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Ваше имя</p>
+                <input type="text" placeholder="Ваше имя"/>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Врач</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Отделение</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-line selp">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Услуга</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <p class="popup-p">Для того чтобы оставить отзыв - необходимо указать email или номер телефона:</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email"/>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона*"/>
+              </div>
+            </div>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"/><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block review-popup2">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Написать комментарий</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line">
+              <div class="shop-cat site-input">
+                <p>Ваше имя</p>
+                <input type="text" placeholder="Ваше имя"/>
+              </div>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш комментарий</p>
+                <textarea placeholder="Ваш комментарий"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <p class="popup-p">Для того чтобы оставить отзыв - необходимо указать email или номер телефона:</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email"/>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона</p>
+                <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона"/>
+              </div>
+            </div>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"/><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"/><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block write-review-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Оставить отзыв</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line"><span class="review-popup-span">Вы можете опционально уточнить отделение, врача и услугу:</span>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш отзыв</p>
+                <textarea placeholder="Ваш отзыв"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Врач</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Отделение</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-line selp">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Услуга</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-line">
+              <button class="popup-btn cntr"><span>отправить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block write-review-popup2">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Написать комментарий</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line">
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш комментарий</p>
+                <textarea placeholder="Ваш комментарий"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+            </div>
+            <div class="popup-line">
+              <button class="popup-btn cntr"><span>отправить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block check-number-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Подтверждение номера</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-robot withoutmargin">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"/><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить код</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+            </div>
+            <div class="popup-twoline check-number-block">
+              <p class="check-number-p">На номер +7 (927) 333-43-82 отправлен код</p>
+              <div class="shop-cat site-input">
+                <p>Код из SMS</p>
+                <input type="text" placeholder="Код из SMS" value="4821"/>
+              </div>
+              <button class="popup-btn"><span>Войти</span></button><span class="check-number-span">Отправить код повторно (<span id="popup-timer"></span>)</span><a class="change-number-a" href="#">Изменить номер телефона</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block details-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Вы успешно зарегистрировались</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="details-block">
+              <p class="details-block-p">Пожалуйста заполните информацию о себе:</p>
+              <div>
+                <div class="shop-cat site-input">
+                  <p>Фамилия</p>
+                  <input type="text" placeholder="Фамилия" value="Пертров"/>
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Дата рождения</p>
+                  <input class="popup_valid_date" type="text" placeholder="ДД.ММ.ГГГГ"/>
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Ваше имя</p>
+                  <input type="text" placeholder="Ваше имя" value="Олег"/>
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Номер телефона</p>
+                  <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона"/>
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Отчество</p>
+                  <input type="text" placeholder="Отчество"/>
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Email</p>
+                  <input type="text" placeholder="Email" value="petrov@mail.ru"/>
+                </div>
+              </div>
+            </div>
+            <div class="profile-gender details-gender">
+              <p>Пол</p>
+              <label>
+                <input type="radio" name="gender"/><span>Мужской</span>
+              </label>
+              <label>
+                <input type="radio" name="gender"/><span>Женский</span>
+              </label>
+            </div>
+            <div class="details-btn">
+              <button class="popup-btn cntr"><span>Сохранить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block slider-popup">
+      <div class="popup-slider-close"><span></span><span></span></div>
+      <div class="popup-slider-block">
+        <div class="gallery-popup">
+          <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"/></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"/></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"/></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"/></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"/></div>
+            </div>
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"/></div>
+            </div>
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"/></div>
+            </div>
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block appointment-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Записаться на прием</p>
+        </div>
+        <div class="appointment-block popup-body">
+          <div class="appointment-item">
+            <p class="appointment-item-p">1. Выберете отделение</p>
+            <div class="appointment-item-sel">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Отделение</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div><a class="appointment-a" href="#">Любое отделение</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block appointment-popup2">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Записаться на прием</p>
+        </div>
+        <div class="appointment-block popup-body">
+          <div class="appointment-item">
+            <p class="appointment-item-p">1. Выберете отделение</p><span class="appointment-item-span">Отделение на М. Третьяковская</span><a class="appointment-a" href="#">Изменить</a>
+          </div>
+          <div class="appointment-item appoint-sec">
+            <p class="appointment-item-p">2. Выберете лечащего врача</p>
+            <div class="appointment-item-sel">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Врач</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div><a class="appointment-a" href="#">К любому врачу</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block appointment-popup3">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Записаться на прием</p>
+        </div>
+        <div class="appointment-block popup-body">
+          <div class="appointment-item">
+            <p class="appointment-item-p">1. Выберете отделение</p><span class="appointment-item-span">Отделение на М. Третьяковская</span><a class="appointment-a" href="#">Изменить</a>
+          </div>
+          <div class="appointment-item appoint-sec">
+            <p class="appointment-item-p">2. Выберете лечащего врача</p>
+            <div class="appointment-item-doc">
+              <div><img src="images/doc.png"/></div>
+              <p>Стоматолог-Терапевт</p><span>Иванов Владимир Петрович</span>
+            </div><a class="appointment-a" href="#">Изменить</a>
+          </div>
+          <div class="appointment-item appoint-three">
+            <p class="appointment-item-p">3. Выберете доступные дату и время</p>
+            <div class="appoint-date">
+              <div class="datepicker-here"></div>
+              <div class="apppoint-time">
+                <div class="row">
+                  <div class="apppoint-time-item">
+                    <button class="appoin-disable">10:00</button>
+                    <button class="appoin-disable">10:30</button>
+                    <button class="appoin-disable">11:00</button>
+                    <button class="appoin-disable">11:30</button>
+                    <button class="appoin-disable">12:00</button>
+                    <button class="appoin-disable">12:30</button>
+                    <button class="appoin-active">13:00</button>
+                    <button class="appoin-active">13:30</button>
+                  </div>
+                  <div class="apppoint-time-item">
+                    <button class="appoin-active">14:00</button>
+                    <button class="appoin-disable">14:30</button>
+                    <button class="appoin-active">15:00</button>
+                    <button class="appoin-active">15:30</button>
+                    <button class="appoin-disable">16:00</button>
+                    <button class="appoin-disable">16:30</button>
+                    <button class="appoin-disable">17:00</button>
+                    <button class="appoin-disable">17:30</button>
+                  </div>
+                  <div class="apppoint-time-item">
+                    <button class="appoin-active">18:00</button>
+                    <button class="appoin-active">18:30</button>
+                    <button class="appoin-active">19:00</button>
+                    <button class="appoin-active">19:30</button>
+                    <button class="appoin-active">20:00</button>
+                    <button class="appoin-active">20:30</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="appoint-foot">
+              <div class="popup-twoline">
+                <div class="shop-cat site-input">
+                  <p>Email</p>
+                  <input type="text" placeholder="Email"/>
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Номер телефона</p>
+                  <input class="popup_valid_num" value="+7 (___) ___-__-__" type="text" placeholder="Номер телефона"/>
+                </div>
+              </div><span class="appoint-foot-span">Запись в отделение на М. Театральная к Васильеву М.В. на 15 марта в 15:00</span>
+              <div class="popup-robot">
+                <div class="popup-robot-btn-bl">
+                  <label class="popup-robot-btn">
+                    <input type="checkbox"/><span>I'm not a robot</span>
+                  </label>
+                </div>
+                <button class="popup-btn"><span>Записаться</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+                <div class="popup-conf appointment-conf">
+                  <label>
+                    <input type="checkbox"/><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                  </label>
+                  <label>
+                    <input type="checkbox"/><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mob-header">
+      <div class="center">
+        <div class="row"> 
+          <div class="col-sm-4 col-5 no-padding"><a class="mob-logo" href="index.html"></a></div>
+          <div class="col-sm-4 col-4 no-padding">
+            <button class="mob-button-reg">Записаться</button>
+          </div>
+          <div class="col-sm-2 col-1 no-padding">
+            <button class="mob-button-call"></button>
+          </div>
+          <div class="col-sm-2 col-2 no-padding">
+            <div class="mob-head-btn"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="mob-menu-win">
+        <div class="mob-menu"> 
+          <div class="mob-menu-head">
+            <div class="row">
+              <div class="col-6"><a class="mob-logo" href="index.html"></a></div>
+              <div class="col-6">
+                <div class="mob-head-btn-close"><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mob-menu-num-block">
+            <div class="row">
+              <div class="col-6"><span class="mob-logo-number">+7 (495) 700-80-00</span></div>
+              <div class="col-6"><a class="mob-logo-a" href="#">Личный кабинет</a></div>
+              <div class="col-6">
+                <button class="logo-call logo-btn">Обратный звонок</button>
+              </div>
+              <div class="col-6">
+                <button class="logo-reg logo-btn">запись на прием</button>
+              </div>
+            </div>
+          </div>
+          <div class="mob-menu-add-block">
+            <div class="row">
+              <div class="col-6"> <span class="mob-menu-add-block-span">Отделения:</span><a class="mob-menu-add-block-a" href="#">Народного ополчения</a><a class="mob-menu-add-block-a" href="#">Белорусская</a><a class="mob-menu-add-block-a" href="#">Парк Культуры</a></div>
+              <div class="col-6"> <span class="mob-menu-add-block-span">Время работы</span><span class="mob-menu-add-block-tm">Пн-Пт:<span>09:00 - 21:00</span></span><span class="mob-menu-add-block-tm">Сб: <span>10:00 - 20:00</span></span><span class="mob-menu-add-block-tm">Вс:<span>выходной</span></span></div>
+            </div>
+          </div>
+          <div class="mob-menu-block">
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Услуги</span></div>
+                  <div class="col-6"> <span>Энциклопедия</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Цены</span></div>
+                  <div class="col-6"> <span>Вопросы-Ответы</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Врачи</span></div>
+                  <div class="col-6"> <span>О клинике</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Наш опыт</span></div>
+                  <div class="col-6"> <span>Пресса о нас</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Отделения</span></div>
+                  <div class="col-6"> <span>Магазин</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 "><span class="mob-search">Поиск</span></div>
+                  <div class="col-6"> <span>Корзина</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div id="head-fix">
+        <div class="nav-menu">
+          <div class="center">
+            <div class="row">
+              <div class="nav-block col-md-10 col-lg-9"><span class="nav-name">Отделения:<a class="nav-items" href="press.html">Третьяковская</a><a class="nav-items" href="shop.html">Парк Культуры</a><a class="nav-items" href="search-no-result.html">Белорусская</a></span><span class="nav-social">Мы в соцсетях:<a href="search-result.html"><i class="ic-ins"></i></a><a href="search.html"><i class="ic-fb"></i></a><a href="#"><i class="ic-vk"></i></a></span></div>
+              <div class="user-block col-md-2 col-lg-3"><a href="#">Личный кабинет</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="logo-blocks">
+          <div class="center">
+            <div class="row">
+              <div class="col-md-4 col-lg-6 no-padding logo-bl"><a href="index.html" id="logo"></a></div>
+              <div class="col-md-8 col-lg-6 logo-block">
+                <div><span class="logo-nomber">+7 (495) 700-80-00</span>
+                  <button class="logo-call logo-btn" onclick="popup(&quot;confirm&quot;)">Обратный звонок</button>
+                  <button class="logo-reg logo-btn" onclick="popup(&quot;ask-doctor-popup&quot;)">запись на прием</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="center">
+            <div class="row">
+              <div class="col-lg-8 menu-block">
+                <ul>
+                  <li class="menu-li"><a href="services.html">Услуги</a></li>
+                  <li class="menu-li"><a href="price.html">Цены</a></li>
+                  <li class="menu-li"> <a href="doctors.html">Врачи</a></li>
+                  <li class="menu-li"> <a href="doctor.html">Наш опыт</a></li>
+                  <li class="menu-li"> <a href="reviews.html">Отделения</a></li>
+                  <li class="menu-li"> <a href="services_sub.html">Информация</a>
+                    <ul>
+                      <li><a href="services2.html">Энциклопедия</a></li>
+                      <li><a href="clinics.html">Вопросы-Ответы</a></li>
+                      <li><a href="portfolio.html">О клинике</a></li>
+                      <li><a href="articles.html">Пресса о нас</a></li>
+                      <li><a href="about.html">Магазин</a></li>
+                      <li><a href="cart.html">Личный кабинет</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <button class="search-btn"></button>
+              </div>
+              <div class="col-lg-4 market-block"><a href="cart_promo.html">Магазин</a><a href="offers.html">Корзина</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="scrool-top" id="scr-btn"><a class="scrool-btn" href="#"></a></div>
+    <section class="clinic">
+      <div class="clinic-block">
+        <div class="center">
+          <div class="clinic-bl withlink cart-page">
+            <div class="withlink-block"><a href="#">Главная</a><span>Магазин</span></div>
+            <h1 class="clinic-block-head">Магазин LalaDent</h1>
+          </div>
+        </div>
+      </div>
+      <div class="mini-discount"> 
+        <div class="center">
+          <div class="without-slider">
+            <div class="row"><a class="mini-discount-items col-lg-4" href="#">
+                <div class="mini-discount-item1">
+                  <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+                </div></a><a class="mini-discount-items col-lg-4" href="#">
+                <div class="mini-discount-item2">
+                  <p>Имплантация Nobel по специальной цене</p><span>-10%</span>
+                </div></a><a class="mini-discount-items col-lg-4" href="#">
+                <div class="mini-discount-item3">
+                  <p>Композитный виниры по специальной цене</p><span>9000<span class="circel_m">₽</span></span>
+                </div></a></div>
+          </div>
+          <div class="discount-slider">
+            <div class="discount-slider-block">
+              <div class="slider10 swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item1">
+                        <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+                      </div></a></div>
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item2">
+                        <p>Имплантация Nobel по специальной цене</p><span>-10%</span>
+                      </div></a></div>
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item3">
+                        <p>Композитный виниры по специальной цене</p><span>9000<span class="circel_m">₽</span></span>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="shop">
+      <div class="shop-nav">
+        <div class="center">
+          <div class="shop-cat">
+            <p class="shop-cat-sel">Категория</p>
+            <div class="select-block">
+              <select>
+                <option selected="select">все</option>
+                <option>вваа</option>
+              </select>
+            </div>
+          </div>
+          <div class="shop-cat site-input">
+            <p>Цена от, ₽ </p>
+            <input type="text" placeholder="Цена от, ₽ " value="0"/>
+          </div>
+          <div class="shop-cat site-input">
+            <p>Цена до, ₽</p>
+            <input type="text" placeholder="Цена до, ₽ " value="200 900"/>
+          </div>
+        </div>
+      </div>
+      <div class="shop-body">
+        <div class="shop-body-nav"><span class="shop-body-span">Все товары</span>
+          <div class="shop-body-price"><span>По цене</span></div>
+        </div>
+        <div class="shop-block">
+          <div class="center">
+            <div class="search-result-item">
+              <div class="row">
+                <div class="search-result-bl col-md-9">
+                  <div class="search-result-bl1"><img src="images/search-result.png"/></div>
+                  <div class="search-result-bl2">
+                    <p class="search-result-p">Категория товара</p>
+                    <p class="search-result-sub-h1">Наименование товара в несколько строк, с деталями</p><span class="search-result-span">описание товара с характеристиками. Неольшой вступительный текст. Привет всем синемаголикам и простым читателям моей рецензии!</span>
+                  </div>
+                </div>
+                <div class="search-result-bl col-md-3">
+                  <p class="search-result-p">Цена</p>
+                  <p class="search-result-sub-h2">10 000<span class="circel_m">₽</span></p><span class="search-res-sp">Самовывоз из любого отделения</span><span class="search-res-sp">Оплата на кассе, принимаем карты</span><a class="search-result-link" href="#">Купить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-block">
+          <div class="center">
+            <div class="search-result-item">
+              <div class="row">
+                <div class="search-result-bl col-md-9">
+                  <div class="search-result-bl1"><img src="images/search-result.png"/></div>
+                  <div class="search-result-bl2">
+                    <p class="search-result-p">Категория товара</p>
+                    <p class="search-result-sub-h1">Наименование товара в несколько строк, с деталями</p>
+                    <div class="shop-info">
+                      <div class="row">
+                        <div class="col-md-6 shop-info-block-left"><span>Диагональ/разрешение</span><span>Тип процессора</span><span>Встроенная память (ROM)</span><span>Разрешение фотокамеры</span></div>
+                        <div class="col-md-6 shop-info-block-rigth"><span>6.1"/1792x828 пикс.</span><span>A12 Bionic</span><span>64 ГБ</span><span>12 МПикс</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-result-bl col-md-3">
+                  <p class="search-result-p">Цена</p>
+                  <p class="search-result-sub-h2">10 000<span class="circel_m">₽</span></p><span class="search-res-sp">Самовывоз из любого отделения</span><span class="search-res-sp">Оплата на кассе, принимаем карты</span><a class="search-result-link" href="#">Купить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-block">
+          <div class="center">
+            <div class="search-result-item">
+              <div class="row">
+                <div class="search-result-bl col-md-9">
+                  <div class="search-result-bl1"><img src="images/search-result.png"/></div>
+                  <div class="search-result-bl2">
+                    <p class="search-result-p">Категория товара</p>
+                    <p class="search-result-sub-h1">Наименование товара в несколько строк, с деталями</p>
+                    <div class="shop-info">
+                      <div class="row">
+                        <div class="col-md-6 shop-info-block-left"><span>Диагональ/разрешение</span><span>Тип процессора</span><span>Встроенная память (ROM)</span><span>Разрешение фотокамеры</span></div>
+                        <div class="col-md-6 shop-info-block-rigth"><span>6.1"/1792x828 пикс.</span><span>A12 Bionic</span><span>64 ГБ</span><span>12 МПикс</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-result-bl col-md-3">
+                  <p class="search-result-p">Цена</p>
+                  <p class="search-result-sub-h2">10 000<span class="circel_m">₽</span></p><span class="shop-with-service">
+                     Данный товар приобретается только с услугой по установке коронок, и отдельно не продается</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="discount">
+          <div class="center">
+            <div class="discount-block">
+              <p class="discount-p">Белоснежная улыбка на 8 марта</p><span class="discount-span">-50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="shop-block">
+          <div class="center">
+            <div class="search-result-item">
+              <div class="row">
+                <div class="search-result-bl col-md-9">
+                  <div class="search-result-bl1"><img src="images/search-result.png"/></div>
+                  <div class="search-result-bl2">
+                    <p class="search-result-p">Категория товара</p>
+                    <p class="search-result-sub-h1">Наименование товара в несколько строк, с деталями</p>
+                    <div class="shop-info">
+                      <div class="row">
+                        <div class="col-md-6 shop-info-block-left"><span>Диагональ/разрешение</span><span>Тип процессора</span><span>Встроенная память (ROM)</span><span>Разрешение фотокамеры</span></div>
+                        <div class="col-md-6 shop-info-block-rigth"><span>6.1"/1792x828 пикс.</span><span>A12 Bionic</span><span>64 ГБ</span><span>12 МПикс</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-result-bl col-md-3">
+                  <p class="search-result-p">Цена</p>
+                  <p class="search-result-sub-h2">10 000<span class="circel_m">₽</span></p><span class="search-res-sp">Самовывоз из любого отделения</span><span class="search-res-sp">Оплата на кассе, принимаем карты</span><a class="search-result-link" href="#">Купить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-block">
+          <div class="center">
+            <div class="search-result-item">
+              <div class="row">
+                <div class="search-result-bl col-md-9">
+                  <div class="search-result-bl1"><img src="images/search-result.png"/></div>
+                  <div class="search-result-bl2">
+                    <p class="search-result-p">Категория товара</p>
+                    <p class="search-result-sub-h1">Наименование товара в несколько строк, с деталями</p>
+                    <div class="shop-info">
+                      <div class="row">
+                        <div class="col-md-6 shop-info-block-left"><span>Диагональ/разрешение</span><span>Тип процессора</span><span>Встроенная память (ROM)</span><span>Разрешение фотокамеры</span></div>
+                        <div class="col-md-6 shop-info-block-rigth"><span>6.1"/1792x828 пикс.</span><span>A12 Bionic</span><span>64 ГБ</span><span>12 МПикс</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-result-bl col-md-3">
+                  <p class="search-result-p">Цена</p>
+                  <p class="search-result-sub-h2">10 000<span class="circel_m">₽</span></p><span class="search-res-sp">Самовывоз из любого отделения</span><span class="search-res-sp">Оплата на кассе, принимаем карты</span><a class="search-result-link" href="#">Купить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop-block">
+          <div class="center">
+            <div class="search-result-item">
+              <div class="row">
+                <div class="search-result-bl col-md-9">
+                  <div class="search-result-bl1"><img src="images/search-result.png"/></div>
+                  <div class="search-result-bl2">
+                    <p class="search-result-p">Категория товара</p>
+                    <p class="search-result-sub-h1">Наименование товара в несколько строк, с деталями</p>
+                    <div class="shop-info">
+                      <div class="row">
+                        <div class="col-md-6 shop-info-block-left"><span>Диагональ/разрешение</span><span>Тип процессора</span><span>Встроенная память (ROM)</span><span>Разрешение фотокамеры</span></div>
+                        <div class="col-md-6 shop-info-block-rigth"><span>6.1"/1792x828 пикс.</span><span>A12 Bionic</span><span>64 ГБ</span><span>12 МПикс</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-result-bl col-md-3">
+                  <p class="search-result-p">Цена</p>
+                  <p class="search-result-sub-h2">10 000<span class="circel_m">₽</span></p><span class="shop-with-service">
+                     Данный товар приобретается только с услугой по установке коронок, и отдельно не продается</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <div class="center">
+          <div class="pagination-block"><a class="active_a" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><span>...</span><a href="#">11</a><a href="#">12</a><a class="next-page" href="#">Далее</a></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-callback">
+        <div class="center">
+          <div class="row">
+            <div class="col-lg-7 footer-head no-padding">
+              <p>Хотите записаться или у вас есть вопросы? Звоните<span>+7 (495) 700-80-00</span></p>
+            </div>
+            <div class="col-lg-5 footer-btn">
+              <button onclick="popup(&quot;write-review-popup2&quot;)">Обратный звонок</button>
+              <button onclick="popup(&quot;check-number-popup&quot;)">Запись на прием</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-m">
+        <div class="center">
+          <div class="row">
+            <div class="col-lg-8 no-padding"> 
+              <div class="row">
+                <div class="col-md-4 no-padding">
+                  <div class="row">
+                    <div class="col-md-6 col-6 footer-menu no-padding">
+                      <ul> 
+                        <li><a href="#" onclick="popup(&quot;details-popup&quot;)">Услуги</a></li>
+                        <li><a href="#" onclick="popup(&quot;slider-popup&quot;)">Цены</a></li>
+                        <li> <a href="#" onclick="popup(&quot;appointment-popup&quot;)">Врачи</a></li>
+                        <li> <a href="#" onclick="popup(&quot;appointment-popup2&quot;)">Наш опыт</a></li>
+                        <li> <a href="#" onclick="popup(&quot;appointment-popup3&quot;)">Отделения</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-6 footer-nav no-padding"><span class="footer-span">Информация</span>
+                      <ul>
+                        <li><a href="order_confirm.html">Энциклопедия</a></li>
+                        <li><a href="shop_filtred.html">Вопросы-Ответы</a></li>
+                        <li><a href="shop_noresult.html">О клинике</a></li>
+                        <li><a href="article.html">Пресса о нас</a></li>
+                        <li><a href="case.html">Магазин</a></li>
+                        <li><a href="check_out.html">Личный кабинет</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8 no-padding">
+                  <div class="row">
+                    <div class="col-md-4  col-6 footer-adress"><span class="footer-span">Отделения</span>
+                      <ul>
+                        <li><a href="clinics2.html">М. Третьяковская</a></li>
+                        <li><a href="clinics3.html">М. Парк Культуры</a></li>
+                        <li><a href="qa.html">М. Белорусская</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 col-6 footer-w-week"><span class="footer-span">Время работы</span>
+                      <ul>
+                        <li>Пн-Пт: с 9:00 до 21:00</li>
+                        <li>Сб: с 10:00 до 20:00</li>
+                        <li>Вс: выходной</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 footer-social"><span class="footer-span">Мы в соцсетях</span>
+                      <div><a href="qa2.html"><i class="ic-ins"></i></a><a href="shop_item.html"><i class="ic-fb"></i></a><a href="shop_item2.html"><i class="ic-vk"></i></a></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 nopadding foot-conf"><a href="#">Политика конфеденциальности</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8 no-padding footer-logo">
+              <div><a herf="#"><img src="images/logo.svg"/></a>
+                <div class="foot-add">
+                  <p>ООО «Стоматология ЛаЛаДент»</p>
+                  <p><span>ИНН </span>3664069397</p>
+                  <p><span>ОГРН </span>1053600591197</p>
+                  <p><span>№ лицензии </span>ЛО-25-01-004603</p>
+                </div>
+                <p class="copyrigth">© 2019 ЛалаДент</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="menu_background"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+section.three-links {
+    margin-top: 65px;
+    margin-bottom: 52px;
+}
+.three-links ul {
+    list-style-type: none !important;
+    padding:0;
+
+}
+
+p.three-links-head {
+    font-family: FuturaDemiC; 
+    font-size: 36px;
+    line-height: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.three-links a {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #29b3bc;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+.three-links a:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
+
+.three-links li {
+    margin-bottom: 8px;
+}
+.three-links-block {
+    padding-top: 16px;
+    padding-right: 0 !important;
+    padding-left: 7px;
+}
+.three-links-block:first-child{
+    padding-left:0 !important;
+}
+.three-links-block:last-child{
+    padding-left: 13px !important;
+}
+@media(max-width:991px){
+  .three-links-block:last-child {
+    display: none;
+}
+}
+@media(min-width:768px){
+button.mob_tree_link_btn {
+    display: none;
+}
+}
+@media(max-width:767px){
+
+.mob_tree_link_block {
+    display: none;
+}
+button.mob_tree_link_btn {
+    font-family: FuturaDemiC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    position: relative;
+    color: #29B3BC;
+    border: none !important;
+    padding-right: 15px;
+    bottom: 0;
+    background: transparent;
+    text-align: left;
+}
+button.mob_tree_link_btn.actv:after {
+    transform: rotate(-45deg);
+    top: -5px;
+}
+.mob_tree_link_block.actv {
+    display: block;
+}
+button.mob_tree_link_btn:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #29B3BC;
+    border-top: 2px solid #29B3BC;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    top: -9px;
+}
+p.three-links-head {
+    font-size: 32px;
+}
+  .three-links-block:first-child {
+    padding-left: 0 !important;
+}
+.three-links-block:nth-child(2) {
+    display: none;
+}
+}

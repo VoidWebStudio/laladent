@@ -1,0 +1,116 @@
+@media(max-width:360px){
+	a.mob-logo {
+    width: 110px !important;
+    height: 20px !important;
+    }
+    button.mob-button-reg{
+     height: 20px !important;
+     line-height: 23px;
+     width: 91px;
+     font-size: 10px;
+    }
+    button.mob-button-call {
+    width: 20px !important;
+    height: 20px !important;
+    background-size: 100% 100% !important;
+    margin: 0 0 0 auto !important;
+    display: block !important;
+    }
+    p.address-block-time-p {
+    font-size: 8px !important;
+    }
+    span.address-block-time-span {
+    font-size: 14px !important;
+    }
+    .address-block-btn a {
+    font-size: 11px !important;
+    display: inline-block !important;
+    }
+    .address-block-btn button {
+    width: 90px !important;
+    height: 25px !important;
+    font-size: 11px !important;
+    }
+    button#tur-3d-btn {
+    font-size: 16px !important;
+    }
+    button.video-btn {
+    top: 28% !important;
+    right: 36% !important;
+    }
+    p.stomatology-block-p {
+    font-size: 24px !important;
+    }
+    .price-cont .stock-block p {
+    font-size: 9px !important;
+    }
+    .price-nav-block .price-btn:after {
+    left: 10px !important;
+    }
+    .price-nav-block .price-btn:before{
+    left: 18px !important;
+    }
+    .price-cont {
+    padding-left: 35px !important;
+    }
+    .price-btn {
+    padding-left: 35px !important;
+    }
+    .price-nav-items {
+    padding-left: 30px !important;
+    }
+    p.hospital-loc-p {
+    font-size: 32px;
+    }
+    p.discount-p {
+    font-size: 18px !important;
+    max-width: 190px !important;
+    }
+    .col-sm-2.col-1.no-padding {
+    text-align: right;
+    }
+    a.mob-logo-a {
+    padding-left: 13px !important;
+    }
+    a.mob-logo-a:after {
+    margin-left: 0px !important;
+    }
+    span.mob-logo-number {
+    font-size: 15px !important;
+    }
+    .mini-discount-items > div p {
+    font-size: 15px !important;
+    max-width: 160px !important;
+    }
+    .clinic-block-head{
+    letter-spacing: -1px;
+    line-height: 27px;
+    margin-bottom: 12px;
+    }
+    section.services button.video-btn{
+    top: 28% !important;
+    }
+    button.video-btn:after{
+    top: 26%;
+    }
+    .footer-head > p > span {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+   .clinic-items:before {
+    top: 0px;
+}
+   .our-expert-link a {
+    margin-top: 50px;
+}
+.mob-menu-num-block .logo-btn {
+    width: 130px !important;
+    font-size: 12px !important;
+    line-height: 30px !important;
+}
+
+}
+
+.stm-block-p.active_stm {
+    border-color: transparent;
+}

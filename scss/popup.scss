@@ -1,0 +1,1089 @@
+.popup_block {
+    background: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    overflow-y: auto;
+    z-index: 10000;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.popup_item {
+    width: 589px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.popup-head {
+    padding-top: 18px;
+}
+
+.popup-head p {
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.popup-body {
+    padding: 0 40px;
+}
+
+.popup-line .shop-cat {
+    width: 100%;
+    margin: 0  0 21px 0;
+}
+
+.popup-body {
+    padding-top: 22px;
+    padding-bottom: 30px;
+}
+
+
+.shop-cat.sitetextarea.site-input {
+    height: 200px;
+}
+
+.shop-cat.sitetextarea.site-input textarea {
+    resize: none;
+    height: 100%;
+}
+
+p.popup-p {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 17px;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.shop-cat.site-input {}
+
+.popup-twoline .shop-cat.site-input {
+    width: 48%;
+   
+    margin-right: 20px !important;
+}
+
+.popup-line:after {content: "";display: block;clear: both;}
+
+.popup-twoline:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.popup-twoline .site-input:last-child {
+    margin-right: 0 !important;
+}
+
+span.popup-span {
+    opacity: 0.5;
+    margin-top: 9px;
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    display: block;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.popup-twoline .shop-cat.site-input:nth-child(3n) {
+    margin-right: 0 !important;
+}
+
+.shop-cat textarea {
+  opacity: 0.4;
+  font-family: FuturaDemiC;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.67px;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  height: 200px;
+  width: 100%;
+  border: none;
+  padding-top: 5px;
+}
+
+.shop-cat textarea.act{
+    opacity: 1 !important;
+    color: #565656;
+    letter-spacing: normal !important;
+    text-transform: inherit !important;
+}
+
+
+.popup-robot-btn-bl {
+    width: 188px;
+    height: 50px;
+    border: 1px solid #E7E7E7;
+    background-image: url(../images/check4.png);
+    background-color: #F5F5F5;
+    background-position: 150px 5px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.popup-robot-btn {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+
+
+.popup-robot-btn input {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0; }
+
+
+.popup-robot-btn input:checked + span:before {
+  content: "";
+  display: block;
+  z-index: 10;
+  width: 26px;
+  background: url(../images/check5.png) no-repeat;
+  height: 26px;
+  background-position: center center;
+  left: 5px;
+  top: 9px;
+  position: absolute; }
+.popup-robot-btn span {
+    font-family: FuturaPTBook;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    line-height: 48px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    position: relative;
+    padding-left: 37px;
+    cursor: pointer;
+    top: -3px;
+}
+
+
+.popup-robot {
+    max-width: 393px;
+    margin: 30px auto 0 auto;
+}
+
+button.popup-btn {
+    width: 183px;
+    height: 54px;
+    border-radius: 27px;
+    border: solid 2px #ff4c72;
+    background-color: #ff4c72;
+}
+
+button.popup-btn span {
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+span.popup-robot-span {
+    opacity: 0.5;
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-top: 12px;
+    color: #000000;
+}
+
+
+.popup-conf > label {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 13px;
+  }
+
+.popup-conf span:after {
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 0.2;
+  border: solid 2px #000000;
+  width: 24px;
+  height: 24px;
+  opacity: 0.2;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  border: solid 2px #000000;
+  }
+
+.popup-conf input {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0; }
+
+.popup-conf input:checked + span:after {
+  background: #a3bbc1 !important;
+  border-color: #a3bbc1;
+  opacity: 1; }
+
+.popup-conf input:checked + span:before {
+  content: "";
+  display: block;
+  z-index: 10;
+  width: 16px;
+  background: url(../images/check3.png) no-repeat;
+  height: 13px;
+  background-position: center center;
+  left: 4px;
+  top: 1px;
+  position: absolute;
+  }
+
+
+.popup-conf span {
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    top: 4px;
+    display: block;
+    line-height: 14px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+}
+.popup-conf span a {
+    color: #2b2b2b;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+.popup_item {
+    position: relative;
+}
+
+span.close-popup {
+    background: url('../images/close.png')no-repeat;
+    width: 25px;
+    height: 25px;
+    background-position: center center;
+    display: block;
+    position: absolute;
+    right: 22px;
+    top: 22px;
+    background-size: 100% 100%;
+}
+
+
+.popup_block {
+    display: none;
+}
+.popup_block.act {
+    display: block !important;
+}
+
+
+span.popup-confirm-span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-top: -25px;
+    line-height: normal;
+    display: block;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.popup-disc {
+    max-width: 387px;
+    margin: 19px auto 0 auto;
+}
+
+.popup-disc .mini-discount-items div {
+    margin: 0 !important;
+}
+
+button.popup-btn.cntr {
+    margin: 0 auto;
+    display: block;
+}
+.popup-social {
+    max-width: 388px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+
+p.popup-p2 {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.popup-social-block {
+    margin-top: 40px;
+}
+
+.popup-social-block-items a {
+    width: 54px;
+    height: 54px;
+    border: solid 2px #29b3bc;
+    display: inline-block;
+    background: url("../images/vk.svg")no-repeat;
+    border-radius: 100px;
+    margin-right: 18px;
+    background-position: center center;
+}
+
+.popup-social-block-items {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.popup-social-block-items a:last-child {
+    margin-right: 0 !important;
+    background: url("../images/inst.svg")no-repeat !important;
+    background-position: center center !important;
+}
+
+.popup-social-block-items a:first-child {
+    background: url(../images/fb3.png)no-repeat !important;
+    background-position: center center !important;
+}
+p.info-popup-p {
+    background: url(../images/popup1.png) no-repeat;
+    background-position: 5px center;
+    max-width: 360px;
+    padding-left: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mark-popup.mark-blovk1 p {
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    top: -5px;
+    position: relative;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.mark-popup.mark-blovk1 div {
+    display: inline-block;
+}
+
+.select-block.popup-sel {
+    margin-top: 3px;
+}.popup-sel select {
+    opacity: 0.4;
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.67px !important;
+    color: #2b2b2b !important;
+    text-transform: uppercase !important;
+}
+
+
+.popup-line.selp {
+    margin-top: 20px;
+}
+
+
+span.review-popup-span {
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.7);
+}
+.popup-line.selp .shop-cat {
+    margin-bottom: 30px;
+}
+.select-block.popup-sel {
+    margin-top: 3px;
+}
+
+.popup-body .select-block:after {
+    margin-top: 10px !important;
+}
+.shop-cat.twosel {
+    width: 48% !important;
+}
+
+.popup-robot.withoutmargin {
+    margin-top: 0px !important;
+}
+
+.popup-twoline.check-number-block {
+    max-width: 393px;
+    margin: 36px auto 0 auto;
+}
+
+p.check-number-p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 22px;
+    color: #2b2b2b;
+}
+
+span.check-number-span {
+    opacity: 0.4;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    display: block;
+    color: #29b3bc;
+    margin-top: 20px;
+}
+
+a.change-number-a {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    position: relative;
+    padding-left: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    max-width: 210px;
+    letter-spacing: normal;
+    color: #ff4c72 !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    margin: 36px auto 0 auto;
+    display: block;
+}
+
+a.change-number-a:before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-right: 1.5px solid #ff4c72;
+    border-top: 1.5px solid #ff4c72;
+    transform: rotate(-135deg);
+    left: 8px;
+    top: 4px;
+    position: absolute;
+}
+
+.popup-twoline.check-number-block button {
+    margin-top: 2px;
+}
+
+
+.check-number-popup .shop-cat>input.act{
+    letter-spacing: 6px;
+}
+.popup-body .shop-cat>input.act{
+    padding-top: 2px !important;
+}
+
+
+
+p.details-block-p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto 21px auto;
+    color: #2b2b2b;
+}
+
+.details-block .shop-cat.site-input {
+    width: 245px;
+    margin-bottom: 10px;
+}
+
+.details-block div:after {content: "";display: block;clear: both;}
+
+.details-block .shop-cat.site-input:nth-child(2n) {
+    margin-right: 0 !important;
+}
+
+.profile-gender.details-gender {
+    margin-top: 0px !important;
+}
+
+
+.details-btn {
+    margin-top: 25px;
+}
+
+.popup-disc .mini-discount-items div {
+    padding: 11px 0 22px 20px !important;
+}
+
+p.popup-p.witout-padd {
+    margin-top: -21px !important;
+    line-height: 20px !important;
+    margin-bottom: 28px !important;
+}
+
+
+.popup-slider-block {
+    width: 998px;
+    margin: 0 auto;
+    /* height: 560px; */
+}
+
+p.slide-popup-з {
+    height: 19px;
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.swiper-slide.slide-popup div {
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    overflow: hidden;
+    height: 560px;
+}
+
+.swiper-slide.slide-popup img {
+    width: 100%;
+    /* height: 560px; */
+}
+
+.swiper-slide.slide-popup {
+    max-width: 998px !important;
+}
+.gallery-thumbs {
+      /* height: 20%; */
+      box-sizing: border-box;
+      padding: 15px 0 0 0;
+}
+
+ .gallery-thumbs .swiper-slide {
+      max-width: 130px !important;
+      height: 73px;
+      padding:  0 !important;
+      opacity: 0.6;
+      cursor: pointer;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+      opacity: 1;
+  }
+
+
+
+.gallery-thumbs .swiper-slide div img {
+    width: 100%;
+}
+
+.gallery-thumbs .swiper-slide div {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active div {
+    border: solid 2px #29b3bc;
+}
+
+
+.gallery-popup {position: relative;}
+
+.gallery-popup .swiper-button-next, .gallery-popup .swiper-button-prev {
+    top: 44.5%;
+}
+.gallery-popup .swiper-button-prev {
+    left: -10%;
+}
+.gallery-popup .swiper-button-next {
+    right: -10%;
+}
+
+.popup-slider-close {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 62px;
+    top: 51px;
+}
+
+.popup-slider-close span {
+    display: block;
+    width: 44px;
+    height: 6px;
+    background: #fff;
+    border-radius: 4px;
+    transition: all ease 0.5s;
+    transform: rotate(-45deg);
+    margin-top: 2px;
+}
+
+.popup-slider-close span:first-child {
+    transform: rotate(45deg);
+    margin-top: 6px;
+    margin-bottom: -8px;
+}
+.appointment-item-sel:after {content: "";display: block;clear: both;}
+
+p.appointment-item-p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 0;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.appointment-block.popup-body {
+    padding-top: 0px !important;
+}
+
+.appointment-item-sel {
+    margin-top: 20px;
+    width: 245px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.appointment-item-sel .shop-cat {
+    /* margin: 0 auto; */
+    /* float: unset !important; */
+    width: 245px;
+}
+
+a.appointment-a {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none !important;
+    color: #29b3bc;
+    /* max-width: 150px; */
+    margin: 5px auto 0 auto;
+    display: block;
+}
+
+
+.appointment-item-span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 9px;
+    display: block;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.appointment-item.appoint-sec {
+    margin-top: 25px;
+}
+
+
+.popup_block.callback-popup {
+    padding-top: 188px !important;
+}
+
+.popup_block.confirm {
+    padding-top: 222px !important;
+}
+
+.popup_block.lpgin-popup {
+    padding-top: 156px !important;
+}
+
+.popup_block.info-popup {
+    padding-top: 222px !important;
+}
+
+.popup_block.review-popup2 {
+    padding-top: 122px !important;
+}
+
+.popup_block.write-review-popup {
+    padding-top: 175px !important;
+}
+
+.popup_block.write-review-popup2 {
+    padding-top: 278px !important;
+}
+
+.popup_block.check-number-popup {
+    padding-top: 171px !important;
+}
+
+.popup_block.details-popup {
+    padding-top: 136px !important;
+}
+
+.popup_block.slider-popup {
+    padding-top: 90px !important;
+}
+
+.popup_block.appointment-popup {
+    padding-top: 67px !important;
+}
+
+.popup_block.appointment-popup2 {
+    padding-top: 67px !important;
+}
+
+
+.appointment-item-doc {
+    max-width: 290px;
+    margin: 20px auto 0 auto;
+}
+
+.appointment-item-doc div {
+    width: 50px;
+    margin-right: 15px;
+    height: 50px;
+    float: left;
+}
+
+.appointment-item-doc img {}
+
+.appointment-item-doc p {
+    text-transform: uppercase;
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    margin-bottom: 8px;
+    font-weight: normal;
+    margin-top: 0px;
+    position: relative;
+    top: 8px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+}
+
+.appointment-item-doc span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    /* text-transform: uppercase; */
+    font-style: normal;
+    display: block;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+.appointment-item-doc img {
+    width: 100%;
+}
+.appointment-item.appoint-three {
+    margin: 25px 0 0 0;
+}
+
+.appointment-item-doc:after {content: "";display: block;clear: both;}
+
+.appointment-item-doc {
+    margin-bottom: 10px;
+}
+
+.appoint-date {
+    margin: 21px auto 29px  auto;
+    max-width: 488px;
+}
+
+.datepicker {
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    border: none !important;
+    width: 282px;
+    height: 239px;
+}
+
+.datepicker--nav-title {
+    padding-left: 13px;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.datepicker--nav-title i {
+    color: #2b2b2b;
+}
+
+svg {
+}
+
+.datepicker--nav-action path {
+    stroke: #f0f4f5;
+}
+
+nav.datepicker--nav {
+    padding-top: 10px;
+}
+
+.datepicker--day-name {
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.datepicker--days-names {
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+
+.datepicker--content {
+    padding: 5px 13px 0 8px;
+}
+
+.datepicker--cell.datepicker--cell-day {
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    border: 2px solid transparent;
+    font-style: normal;
+    margin-bottom: -2px;
+    font-stretch: normal;
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    margin-left: 4px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #989898;
+}
+
+.datepicker--cell.datepicker--cell-day.-selected- {
+    border-radius: 60px;
+    color: #29b3bc;
+    background: none !important;
+    border-color: #29b3bc;
+}
+
+.datepicker--cell.datepicker--cell-day:nth-child(7n) {}
+
+.datepicker--nav-action:first-child:after {content: "";display: block;width: 11px;height: 11px;border-right: 3px solid #29b3bc;border-top: 3px solid #29b3bc;transform: rotate(-135deg);right: 7px;position: absolute;}
+
+.datepicker--nav-action:last-child:after {}
+
+.datepicker--nav-action:last-child:after {content: "";display: block;width: 11px;height: 11px;border-right: 3px solid #29b3bc;border-top: 3px solid #29b3bc;transform: rotate(45deg);left: 2px;position: absolute;}
+
+.datepicker--nav-action {
+    position: relative;
+}
+
+.appoint-date:after {content: "";display: block;clear: both;}
+
+.datepicker-here {
+    float: left;
+}
+
+.apppoint-time {
+    padding: 14px 10px 0 16px;
+    float: left;
+    width: 190px;
+    height: 239px;
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    margin-left: 16px;
+}
+
+.apppoint-time-item button {
+    display: block;
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    border: 2px solid transparent;
+    font-style: normal;
+    width: 46px;
+    height: 22px;
+    margin-bottom: 3.6px;
+    font-stretch: normal;
+    line-height: normal;
+    outline: none !important;
+    border: none;
+    background: transparent;
+    letter-spacing: normal;
+}
+
+.apppoint-time .row {
+    margin: 0 !important;
+}
+
+.apppoint-time-item {
+    margin-right: 11px;
+}
+
+.apppoint-time-item:last-child {
+    margin-right: 0 !important;
+}
+
+button.appoin-disable {
+    color: #989898;
+}
+
+button.appoin-active.act {
+    border: solid 2px #29b3bc;
+    color: #29b3bc;
+}
+
+button.appoin-active {
+    color: #000000;
+}
+
+span.appoint-foot-span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    margin-top: 28px;
+    margin-bottom: -10px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.datepicker--days.datepicker--body.active {
+    height: 175px !important;
+    overflow: hidden !important;
+}
+
+.datepicker--cell.-focus- {
+    background: transparent !important;
+}
+
+.popup-twoline .shop-cat.site-input input {
+    padding-top: 7px !important;
+}
+.slider-popup{
+    display:block !important;
+    visibility: hidden;
+}
+
+.popup_block.slider-popup.act {
+    visibility: visible !important;
+}

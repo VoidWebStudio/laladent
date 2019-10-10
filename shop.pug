@@ -1,0 +1,261 @@
+doctype html 
+html(lang="en")
+ head 
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+   .clinic-block
+    .center
+     div(class="clinic-bl withlink cart-page")
+      .withlink-block
+       a(href="#") Главная
+       span Магазин
+      h1(class="clinic-block-head") Магазин LalaDent
+   .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  section(class="shop")
+   .shop-nav
+    .center
+     div(class="shop-cat")
+       p(class="shop-cat-sel") Категория
+       .select-block
+        select
+         option(selected="select") все
+         option вваа
+     div(class="shop-cat site-input")
+       p Цена от, ₽ 
+       input(type="text", placeholder="Цена от, ₽ ", value="0")
+     div(class="shop-cat site-input")
+       p Цена до, ₽
+       input(type="text", placeholder="Цена до, ₽ ", value="200 900")
+
+   .shop-body
+    div(class="shop-body-nav")
+     span(class="shop-body-span") Все товары
+     div(class="shop-body-price")
+      span По цене
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          span(class="search-result-span")
+           | описание товара с характеристиками. Неольшой вступительный текст. Привет всем синемаголикам и простым читателям моей рецензии!
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="shop-with-service") 
+          | Данный товар приобретается только с услугой по установке коронок, и отдельно не продается
+    div(class="discount")
+     .center
+      .discount-block
+       p(class="discount-p") Белоснежная улыбка на 8 марта
+       span(class="discount-span") -50%
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="shop-with-service") 
+          | Данный товар приобретается только с услугой по установке коронок, и отдельно не продается
+   .pagination
+    .center
+     .pagination-block
+      a(href="#", class="active_a") 1
+      a(href="#") 2
+      a(href="#") 3
+      a(href="#") 4
+      a(href="#") 5
+      span ...
+      a(href="#") 11
+      a(href="#") 12
+      a(href="#", class="next-page") Далее
+
+  
+  include modules/footer

@@ -1,0 +1,460 @@
+span.clinic-block-disc.pages.serv {
+    margin-bottom: 60px;
+}
+.clinic-block {
+  background: #f0f4f5;
+}
+.clinic-bl {
+    padding: 51px 0 24px  0;
+    position: relative;
+    overflow: hidden;
+
+}
+span.clinic-block-disc.pages {
+    max-width: 800px;
+    margin-bottom: 85px;
+}
+
+.clinic-bl:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 113px;
+    height: 100%;
+    top: 0;
+    right: 344px;
+    background-image: url(../images/main-hero-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.clinic-block-head {
+  font-family: FuturaDemiC;
+  font-size: 42px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2b2b2b;
+  margin-bottom: 3px; }
+
+span.clinic-block-disc {
+  font-family: 'FuturaPTBook';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    max-width: 405px;
+    display: block;
+    line-height: 1.1;
+    opacity: .5;
+    letter-spacing: normal;
+    margin-bottom: 63px;
+    color: #000000;
+    }
+
+.clinic-items {
+    padding: 0px 0 0 44px;
+    width: 31.8%;
+    position: relative;
+}
+.clinic-items:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    background: url(../images/tooth-s-green.svg) no-repeat;
+    background-size: 100%;
+}
+
+.clinic-items p {
+  font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    margin-bottom: 3px;
+    color: #29b3bc;}
+
+.clinic-items span {
+    opacity: 0.5;
+    font-family: 'FuturaPTBook';
+    color: #000000;
+    display: block;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: .9;
+    margin-top: 5px;
+}
+
+.mini-discount {
+  margin-top: 16px;
+  margin-bottom: 48px; }
+
+.mini-discount-items {
+  padding: 0 0 0 0; 
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  }
+.mini-discount-items:hover {
+    transform: translate(0, -5px);
+    transition: all 0.3s ease;
+}
+
+
+.mini-discount-items div {
+    border-radius: 16px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+    padding: 20px 0 13px 20px;
+    overflow: hidden;
+    position: relative; 
+    }
+
+.mini-discount-item1:before, .mini-discount-item2:before, .mini-discount-item3:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    background-position: top left !important;
+    z-index: 2;
+    background-size: 100% 100% !important;
+    width: 92%;
+}
+.mini-discount-item1, .mini-discount-item2, .mini-discount-item3 {
+    background-position: right center !important;
+}
+.mini-discount-item1{
+ background: url(../images/mdiscount1.png)no-repeat;
+ }
+.mini-discount-item2{
+ background: url(../images/mdiscount2.png)no-repeat;
+ }
+.mini-discount-item3 {
+ background: url(../images/mdiscount3.png)no-repeat;
+ }
+.mini-discount-items > div p {
+  font-family: FuturaDemiC;
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 20px;
+  letter-spacing: normal;
+  color: #ffffff;
+  max-width: 220px;
+  margin-bottom: 5px; 
+  position: relative;
+    z-index: 5;
+    }
+
+.mini-discount-item1:before {
+  background:url("../images/ad-card-red.png");
+}
+
+.mini-discount-item2:before {
+  background:url("../images/ad-card-blue.png");
+}
+
+.mini-discount-item3:before {
+  background:url("../images/ad-card-cyan.png");
+  }
+.mini-discount-item1 {
+  margin-right: 12px; }
+
+.mini-discount-item2 {
+  margin: 0 5px 0 7px; }
+
+.mini-discount-item3 {
+  margin: 0 0 0 13px; }
+
+.mini-discount-items span {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff; 
+  position: relative;
+  z-index: 5;
+}
+
+p.mini-discount-items-p {
+  font-family: 'FuturaPTBook';
+  font-size: 14px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 8px;
+  padding-right: 20px; }
+p.mini-discount-items-p.mini-s-d2 {
+    margin-left: 8px;
+}
+
+p.mini-discount-items-p.mini-s-d3 {
+    margin-left: 14px;
+}
+
+.rigth-block {
+  background: url(../images/doc-big.png) rgba(41, 179, 188, 0.4);
+  background-repeat: no-repeat;
+  background-position: 80.2% 13px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 456px;
+  text-align: center;
+  bottom: 0;
+  }
+
+.discount-slider .mini-discount-items>div {
+    margin: 0 !important;
+}
+.swiper-pagination {
+    width: 100% !important;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.discount-slider {
+     display: none;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #ff4c72;
+}
+
+span.swiper-pagination-bullet {
+    margin-right: 6px;
+}
+
+span.swiper-pagination-bullet:last-child {
+    margin-right: 0 !important;
+}
+@media(max-width:1205px){
+  .rigth-block, .clinic-bl:after{
+  display:none;
+  }
+  .without-slider {
+    display: none;
+  }
+  .discount-slider {
+    display: block;
+}
+  
+}
+@media(min-width:701px){
+ .clinic-items{
+    width: 32%;
+    margin-right: 2%;
+ }
+ .clinic-items:last-child {
+    margin-right: 0 !important;
+ }
+}
+@media(max-width:700px){
+ .clinic-items span{
+    display:none;
+ }
+ .clinic-items{
+  width:100%;
+   margin-bottom: 20px;
+ }
+ .clinic-items:last-child {
+    margin-bottom: 0 !important;
+}
+
+}
+@media(min-width:992px){
+   .clinic-items{
+    width: 31.8% !important;
+    margin-right: 0;
+   }
+}
+@media(max-width:768px){
+.clinic-block-head {
+    font-size: 32px !important;
+}
+span.clinic-block-disc {
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+.clinic-items:before {
+    width: 22px;
+    height: 23px;
+    top: -3px;
+}.clinic-items {
+    padding-left: 29px;
+}
+}
+
+
+span.pages-span1 {
+    opacity: 0.5;
+    font-family: 'FuturaPTBook';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.doc-page-items-a {
+   font-family: FuturaDemiC;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 33px;
+   letter-spacing: normal;
+   color: #ffffff;
+   background-color: #ff4c72;
+   text-transform: uppercase;
+   height: 32px !important;
+   display: inline-block;
+   justify-content: center;
+   text-align: center;
+   width: 175px !important;
+   border-radius: 16px;
+   text-decoration: none !important;
+}
+
+
+
+
+.doc-page-items-text p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+    text-transform: uppercase !important;
+    margin-bottom: 5px;
+}
+
+.doc-page-items-text span {
+    opacity: 0.7;
+    font-family: "FuturaPTBook";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    display: block;
+    margin-bottom: -3px;
+}
+
+.doc-page-items-text {
+   margin-right: 41px;
+}
+
+.doc-page-items-text:last-child {
+    margin-right: 0 !important;
+}
+
+.doc-page-items-text div a {
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    margin-right: 14px;
+}
+.doc-page-items-text div a:last-child{
+    margin-right: 0 !important;
+}
+.doc-page-items-text div a:nth-child(3) {
+  width: 29px !important; }
+
+.doc-page-items-text div i {
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100% !important;
+    display: block;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.doc-page-items-text .ic-ins:hover {
+  background: url(../images/insta-f-hover.svg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.doc-page-items-text .ic-fb:hover {
+  background: url(../images/icon-fb-f-over.svg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.doc-page-items-text .ic-vk:hover {
+  background: url(../images/icon-vk-f-hover.svg);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+.doc-page-items-text .ic-ins {
+  background: url("../images/inst.svg");
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.doc-page-items-text .ic-fb {
+  background: url("../images/fb.svg");
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.doc-page-items-text .ic-vk {
+  background: url("../images/vk.svg");
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.doc-page-items-mark .expert-mark {
+  margin: 5px 0 0 0;
+}
+
+.doc-page-items-cb span {
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: "FuturaPTBook";
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.doc-page-items-btn {
+    margin-right: 25px;
+}
+
+.doc-page-items-cb {
+    margin-top: 2px;
+}
+
+.doc-page-items-mark {
+    margin-right: 16px;
+}
+
+.row.doc-page-block2 {
+    padding-top: 27px;
+}
+@media(max-width:767px){
+ .clinic-bl {
+    padding-top: 12px;
+}
+}

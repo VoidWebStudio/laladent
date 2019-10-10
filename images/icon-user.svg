@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon/action/account_circle_24px 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.900000036">
+        <g transform="translate(-1108.000000, -183.000000)" fill="#FFFFFF" fill-rule="nonzero" id="Group-11">
+            <g transform="translate(0.000000, 175.000000)">
+                <g id="Group-4" transform="translate(1108.000000, 8.000000)">
+                    <g id="icon/action/account_circle_24px-2">
+                        <path d="M5.91549296,0 C7.55211268,0 8.87323944,1.32112676 8.87323944,2.95774648 C8.87323944,4.5943662 7.55211268,5.91549296 5.91549296,5.91549296 C4.27887324,5.91549296 2.95774648,4.5943662 2.95774648,2.95774648 C2.95774648,1.32112676 4.27887324,0 5.91549296,0 Z M5.91549296,14 C3.45070423,14 1.27183099,12.7380282 -1.42108547e-14,10.8253521 C0.0295774648,8.86338028 3.94366197,7.78873239 5.91549296,7.78873239 C7.87746479,7.78873239 11.8014085,8.86338028 11.8309859,10.8253521 C10.5591549,12.7380282 8.38028169,14 5.91549296,14 Z" id="icon/action/account_circle_24px"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,68 @@
+doctype html 
+html(lang="en")
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="account-nav")
+   .center
+    .account-head
+     .row
+      div(class="col-md-6 account-head")
+       p Олег Петров
+      div(class="col-md-6 account-head")
+       a(href="#")
+        span Выйти
+    .account-body
+     ul
+      li
+       a(href="#", class="act") Мои бонусы
+        span 5
+      li
+       a(href="#") Записи на прием
+      li
+       a(href="#") Личные данные
+    .bonnus-block
+     .center
+      .bonus-items
+       .row
+        .bonus-item-r
+         p Cкидка 1000 руб за регистрацию
+         span 
+          | Возле каждой акции делаем вплывающаю подсказку с описанием акции, либо под каждой активной акцией выводим описание в несколько строчек (бледным шрифтом).
+        .bonus-item-l
+          p срок действия
+          span до 3 мая 2019
+      .bonus-items
+       .row
+        .bonus-item-r
+         p Скидка 10% по акции "Семейный доктор"
+         span 
+          | Возле каждой акции делаем вплывающаю подсказку с описанием акции, либо под каждой активной акцией выводим описание в несколько строчек (бледным шрифтом).
+        .bonus-item-l
+          p срок действия
+          span до 21 сентября 2019
+      .bonus-items
+       .row
+        .bonus-item-r
+         p Единоразовая скидка 5% за то, что привел друга
+         span 
+          | Возле каждой акции делаем вплывающаю подсказку с описанием акции, либо под каждой активной акцией выводим описание в несколько строчек (бледным шрифтом).
+        .bonus-item-l
+          p срок действия
+          span до 21 сентября 2019
+      .bonus-count
+       p Итого скидка 50% и 5000 руб купон
+
+  include modules/mini_discount
+  .bonus-btn
+   .center
+    button
+     span Сохранить все акции
+  include modules/footer

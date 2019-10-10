@@ -1,0 +1,419 @@
+doctype html 
+html(lang="en")
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+   .clinic-block
+    .center
+     div(class="clinic-bl withlink cart-page")
+      .withlink-block
+       a(href="#") Главная 
+       span Магазин
+      h1(class="clinic-block-head") Магазин LalaDent
+   .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  section(class="shop")
+   .shop-nav
+    .shop-nav-block
+     .center
+      div(class="shop-cat")
+       p(class="shop-cat-sel") Категория
+       .select-block
+        select
+         option(selected="select") все
+         option вваа
+      div(class="shop-cat site-input")
+       p Цена от, ₽ 
+       input(type="text", placeholder="Цена от, ₽ ", value="0")
+      div(class="shop-cat site-input")
+       p Цена до, ₽
+       input(type="text", placeholder="", value="200 900")
+      div(class="shop-cat")
+       p(class="shop-cat-sel") Производитель
+       .select-block
+        select
+         option(selected="select") все
+         option вваа
+      div(class="shop-cat")
+       p(class="shop-cat-sel") Материал
+       .select-block
+        select
+         option(selected="select") Любой
+         option вваа
+      div(class="shop-cat")
+       p(class="shop-cat-sel") Еще один параметр
+       .select-block
+        select
+         option(selected="select") Любое значение
+         option вваа
+    .shop-nav-block
+     .center
+      div(class="shop-cat")
+       p(class="shop-cat-sel") Еще один параметр
+       .select-block
+        select
+         option(selected="select") Любое значение
+         option вваа
+      div(class="shop-cat")
+       p(class="shop-cat-sel") Еще один параметр
+       .select-block
+        select
+         option(selected="select") Любое значение
+         option вваа
+
+   .shop-body
+    div(class="shop-body-nav")
+     span(class="shop-body-span") Зубные нити
+     div(class="shop-body-price")
+      span По цене
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          span(class="search-result-span")
+           | описание товара с характеристиками. Неольшой вступительный текст. Привет всем синемаголикам и простым читателям моей рецензии!
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="shop-with-service") 
+          | Данный товар приобретается только с услугой по установке коронок, и отдельно не продается
+    div(class="discount")
+     .center
+      .discount-block
+       p(class="discount-p") Белоснежная улыбка на 8 марта
+       span(class="discount-span") -50%
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="search-res-sp") Самовывоз из любого отделения
+         span(class="search-res-sp") Оплата на кассе, принимаем карты
+         a(href="#", class="search-result-link") Купить
+    .shop-block
+     .center
+      .search-result-item
+       .row
+        div(class="search-result-bl col-md-9")
+         div(class="search-result-bl1")
+          img(src="images/search-result.png")
+         div(class="search-result-bl2")
+          p(class="search-result-p") Категория товара
+          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          div(class="shop-info")
+           .row
+            div(class="col-md-6 shop-info-block-left")
+             span Диагональ/разрешение
+             span Тип процессора
+             span Встроенная память (ROM)
+             span Разрешение фотокамеры
+            div(class="col-md-6 shop-info-block-rigth")
+             span 6.1"/1792x828 пикс.
+             span A12 Bionic
+             span 64 ГБ
+             span 12 МПикс
+        div(class="search-result-bl col-md-3")
+         p(class="search-result-p") Цена
+         p(class="search-result-sub-h2") 10 000
+          span(class="circel_m") ₽
+         span(class="shop-with-service") 
+          | Данный товар приобретается только с услугой по установке коронок, и отдельно не продается
+   .pagination
+    .center
+     .pagination-block
+      a(href="#", class="active_a") 1
+      a(href="#") 2
+      a(href="#") 3
+      a(href="#") 4
+      a(href="#") 5
+      span ...
+      a(href="#") 11
+      a(href="#") 12
+      a(href="#", class="next-page") Далее
+
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions
+  section(class="ceo2")
+   .center
+    .ceo2-block
+     .ceo2-items
+      h3(class="ceo2-h3")
+       | CEO-текст
+      span(class="ceo2-text")
+       | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+     .ceo2-items
+      p(class="ceo2-head")
+       | История развития
+      span(class="ceo2-text")
+       |Самые ранние упоминания об отбеливании зубов относятся к первому веку нашей эры. Римские врачеватели считали, что использование мочи в значительной мере способствует осветлению зубов.
+      span(class="ceo2-text")
+       | Начиная с XIV по конец конца XVIII столетия, врачеватели славянских народов осуществляли отбеливание зубов при помощи слабого раствора азотной кислоты. Предварительно зубы обрабатывались металлическим напильником: снимался поверхностный слой эмали. Такую технологию применяли Смоляр Н.И., Кононенко В.В., Безвушко Э.В.
+      span(class="ceo2-text")
+       | Начиная с 1848 г. для отбеливания зубов начали применять хлорную известь — раствора кальция гидрохлорида и уксусной кислоты (активным элементом служил хлор). Данную методику предложил Труман.
+     .ceo2-items
+      p(class="ceo2-head")
+       | Классификация
+      p(class="ceo2-head2")
+       | Отбеливание зубов подразделяет
+      span(class="ceo2-text2")
+       span
+       | Домашнее – проводятся в домашних условиях. Применяются разнообразные осветляющие зубные пасты, жвачки с абразивами, специальные средства, приготовленные дома (народные рецепты).      
+      span(class="ceo2-text2")
+       span
+       | Профессиональное — проводятся в стоматологических клиниках при помощи специального оборудования.
+
+      p(class="ceo2-head2")
+       | Профессиональное отбеливание зубов подразделяется по методу воздействия:
+      span(class="ceo2-text2")
+       span
+       | Механическое – очистка эмали путём подачи на неё смеси чистящего порошка с воздухом.
+      span(class="ceo2-text2")
+       span
+       |Ультразвуковое – воздействие на зубную эмаль ультразвуком. Наиболее щадящий метод, но и наиболее дорогостоящий.
+      span(class="ceo2-text2")
+       span
+       |Химическое – воздействие на эмаль зуба химическими составами. Наиболее эффективный метод, но имеет множество побочных эффектов. Применение разрешается только на абсолютно здоровых зубах.
+      span(class="ceo2-text2")
+       span
+       |Лазерное – воздействие на эмаль зуба лазерным лучом. Быстрый и эффективный метод. Значительно отличается от щадящих методов и имеет большую стоимость.
+      span(class="ceo2-text2")
+       span
+       |Фотоотбеливание – воздействие на эмаль зуба светом, подходит для чувствительных зубов. Применяется достаточно редко, так как требуется высокая квалификация и не всегда даёт желаемый результат – в ряде случаев придаёт неестественный оттенок.
+     .ceo2-items
+      p(class="ceo2-head")
+       | Список с нумерацией
+      span(class="ceo2-text")
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+      p(class="ceo2-head3")
+       span 1
+       | Название пункта
+       span(class="ceo2-text")
+        | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+      p(class="ceo2-head3")
+       span 2
+       | Название пункта
+       span(class="ceo2-text")
+        | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+      p(class="ceo2-head3")
+       span 3
+       | Название пункта
+       span(class="ceo2-text")
+        | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+    
+    
+     .ceo2-items
+      p(class="ceo2-head")
+       | Еще кусок текста
+      span(class="ceo2-text")
+       | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.  
+      
+  section(class="cooment-all")
+   .center
+    p(class="cooment-all-head") Комментарии
+    .comment-all-block
+     p(class="cooment-all-p")
+      | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+     .cooment-all-autor
+      span(class="cooment-all-time")
+       | 15.03.2019, 13:15
+      span(class="cooment-all-name") Ирина
+      span(class="cooment-all-stars")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-grey.svg")
+     .comment-all-answ
+      p(class="cooment-all-p") Текст комментария
+      .cooment-all-autor
+       span(class="cooment-all-time") 
+        | 15.03.2019, 13:15
+       span(class="cooment-all-name") Вадим
+     .comment-all-answ
+      p(class="cooment-all-p") Текст комментария
+      .cooment-all-autor 
+       span(class="cooment-all-time")
+        | 15.03.2019, 13:15
+       span(class="cooment-all-name") Олег
+       a(href="#", class="comment-all-btn") Ответить
+    .comment-all-block
+     p(class="cooment-all-p")
+      | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+     .cooment-all-autor
+      span(class="cooment-all-time")
+       | 15.03.2019, 13:15
+      span(class="cooment-all-name") Ирина
+      span(class="cooment-all-stars")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-green.svg")
+        img(src="images/icon-star-grey.svg")
+     a(href="#", class="comment-all-btn") Ответить
+   .coment-all-links
+    a(href="#") Оставить комментарий
+    a(href="#") Еще комментарии
+  include modules/price-slider
+  include modules/footer

@@ -1,0 +1,467 @@
+.artcl-span {
+    opacity: 0.5;
+    font-family: FuturaPTBook;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    max-width: 620px;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.article-page-bl div {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    float: left;
+}
+
+.article-page-bl img {
+    width: 100%;
+}
+
+.article-page-bl p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.article-page-bl span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    display: block;
+    letter-spacing: normal;
+    margin-top: 0px;
+    color: #000000;
+}
+
+.article-page-bl {
+    padding-top: 36px;
+    padding-bottom: 23px;
+}
+
+.doc-advaice-block {
+    max-width: 793px;
+    height: 363px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    padding: 24px 20px 0 30px;
+}
+
+section.doc-advaice {
+    padding-top: 44px;
+    padding-bottom: 28px;
+}
+
+p.doc-advaice-head {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 9px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+.doc-advaice-img div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.doc-advaice-img img {
+    width: 100%;
+}
+
+.doc-advaice-img p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: -1px;
+    font-style: normal;
+    padding-top: 8px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.doc-advaice-img span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+span {}
+
+.doc-advaice-txt span {
+    font-family: FuturaPTBook;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    display: block;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    margin-bottom: 20px;
+}
+
+.doc-advaice-txt {
+    padding: 32px 70px 0 71px;
+    position: relative;
+}
+
+.doc-advaice-img:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.doc-advaice-txt:before {content: "";display: block;background: url("../images/quotation.png") no-repeat;width: 30px;height: 23px;opacity: 0.4;position: absolute;top: 25px;left: 37px;}
+
+.article-variant-item {
+    width: 386px;
+    /* height: 459px; */
+    border-radius: 16px;
+    margin-right: 21px;
+    background-color: #f0f4f5;
+    padding: 16px 15px 20px 21px;
+}
+
+.article-variant-item:last-child {
+    margin-right: 0 !important;
+}
+
+.article-variant-item-head>p {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: 9px;
+    color: #2b2b2b;
+}
+
+section.article-tree-variant {
+    margin-top: 39px;
+    margin-bottom: 64px;
+}
+
+span.article-variant-item-txt {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 19px;
+    display: block;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.article-variant-param p {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+    font-style: normal;
+    width: 50%;
+    padding-left: 21px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.article-variant-param p span {
+    width: 12px;
+    height: 12px;
+    background-color: #29b3bc;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 5px;
+    border-radius: 30px;
+}
+
+.article-variant-param {
+    margin-top: 15px;
+    border-bottom: solid 1px #dadada;
+    height: 233px;
+}
+
+.article-variant-param div>span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    display: block;
+    text-align: right;
+    width: 50%;
+}
+
+.article-variant-param span.circel_m {
+    margin-left: 4px;
+}
+
+.article-variant-row {
+    margin-bottom: -8px !important;
+}
+
+span.article-variant-total {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    width: 50%;
+    line-height: normal;
+    display: block;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+span.article-variant-price {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: right;
+    line-height: normal;
+    width: 50%;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+span.article-variant-price span {
+    margin-left: 5px;
+}
+
+.article-variant-item-footer {
+    margin-top: 8px;
+}
+
+.article-variant-item-head {
+    padding: 0 5px 0 0;
+}
+
+.article-variant-item-footer a {
+    width: 175px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #ff4c72;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.article-variant-item-footer a span {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 32px;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: block;
+    padding-right: 3px;
+    text-transform: uppercase;
+}
+
+.article-two-variant-block {
+    max-width: 793px;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 63px;
+}
+
+.footnote-block {
+    max-width: 793px;
+    margin: 0 auto;
+    border-bottom: solid 1px #dddddd;
+    border-top: solid 1px #dddddd;
+    padding-top: 16px;
+}
+
+.footnote-block1 p {
+    font-family: FuturaDemiC;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: 8px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+section.footnote {
+    margin-top: 69px;
+}
+
+.footnote-block1>span {
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    font-style: normal;
+    font-stretch: normal;
+    padding-left: 21px;
+    line-height: normal;
+    margin-bottom: 9px;
+    letter-spacing: normal;
+    display: block;
+    color: #2b2b2b;
+}
+
+.footnote-block1>span span {
+    color: #676767;
+    display: inline-block;
+    /* margin-right: 11px; */
+    position: absolute;
+    left: 0;
+}
+
+.footnote-block1 {
+    margin-bottom: 15px;
+}
+
+.footnote-block2 p {
+    font-family: FuturaDemiC;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 7px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+.footnote-block2 span {
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+.footnote-block2 {}
+
+.footnote-block-link {
+    max-width: 793px;
+    margin-top: 14px !important;
+    margin: 0 auto;
+}
+
+.footnote-block-link a {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #29b3bc;
+    margin-right: 20px;
+}
+
+.footnote-block-link {}
+
+span.cooment-not {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 16px 0 12px 0;
+}
+
+.coment-all-links a:first-child {
+    color: white !important;
+    text-align: center;
+    margin-right: 0 !important;
+}
+
+.coment-all-links a:first-child:after {
+    display: none !important;
+}
+
+section.articles>p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+    margin-top: 61px;
+    margin-bottom: -23px;
+}
+section.servisec-info.artic {
+    margin-top: 54px;
+}
+.servisec-illness-block div {
+    height: 440px !important;
+}
+section.services-illness.articl {
+    margin-top: 63px;
+}
