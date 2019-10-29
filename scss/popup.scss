@@ -12,7 +12,7 @@
 }
 
 .popup_item {
-    width: 589px;
+    max-width: 589px;
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
     background-color: #ffffff;
@@ -52,6 +52,9 @@
 
 .shop-cat.sitetextarea.site-input {
     height: 200px;
+    ::placeholder{
+        color: #565656;
+    }
 }
 
 .shop-cat.sitetextarea.site-input textarea {
@@ -612,7 +615,7 @@ p.popup-p.witout-padd {
 
 
 .popup-slider-block {
-    width: 998px;
+    max-width: 998px;
     margin: 0 auto;
     /* height: 560px; */
 }
@@ -635,7 +638,6 @@ p.slide-popup-з {
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
     overflow: hidden;
-    height: 560px;
 }
 
 .swiper-slide.slide-popup img {
@@ -698,6 +700,7 @@ p.slide-popup-з {
     position: absolute;
     right: 62px;
     top: 51px;
+    cursor: pointer;
 }
 
 .popup-slider-close span {
@@ -1086,4 +1089,79 @@ span.appoint-foot-span {
 
 .popup_block.slider-popup.act {
     visibility: visible !important;
+}
+
+.popup_block.appointment-popup3.act {
+    display: block !important;
+}
+
+@media(max-width:767px){
+.popup-twoline .shop-cat.site-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.popup-robot-btn-bl {
+    margin-bottom: 10px;
+}
+
+.popup-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.details-popup .shop-cat.site-input {
+    width: 100% !important;
+}
+.shop-cat.twosel {
+    width: 100% !important;
+    margin-bottom: 10px;
+}
+span.close-popup{
+    top: -40px;
+    right: 10px;
+}
+}
+@media(max-width:527px){
+.apppoint-time {
+    margin-top: 10px;
+    margin-left: 0 !important;
+    width: 220px !important;
+}
+}
+@media(max-width:767px){
+
+.gallery-popup .swiper-button-next {
+    right: 0 !important;
+}
+
+.gallery-popup .swiper-button-prev {
+    left: 0;
+}
+
+.popup-slider-close {
+    right: 20px;
+}
+
+.popup-slider-close span {
+    width: 25px;
+    height: 3px;
+}
+
+.popup-slider-close span:first-child {
+    margin-bottom: -5px;
+}
+.popup_block {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.popup_block {
+    padding-top: 56px !important;
+}
+}
+.popup_block.act {
+    z-index:10000;
+}
+.popup_block{
+     z-index:-10;
 }

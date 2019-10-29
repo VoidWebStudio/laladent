@@ -1,3 +1,4 @@
+
 .clinic-bl.withlink.cart-page:after {
     display: none;
 }
@@ -10,7 +11,7 @@
 }
 
 .cart-body-left {
-    padding: 0 33px 0 100px;
+    padding: 0 0 0 100px;
     width: 70%;
 }
 
@@ -20,17 +21,15 @@
 }
 
 .cart-img {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 16px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
-    background-color: #f8f8f8;
-    margin-right: 20px;
+    padding: 0 0px 0 0px !important;
 }
 
 .cart-img img {
     width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    background-color: #f8f8f8;
+    border-radius: 16px;
+    display: block;
 }
 
 p.cart-p {
@@ -53,7 +52,7 @@ section.cart {
 }
 
 .cart-sps {
-    padding-top: 9px;
+    padding: 9px 0 0 21px;
 }
 
 .cart-sps span {
@@ -66,12 +65,11 @@ section.cart {
     letter-spacing: normal;
     color: #2b2b2b;
     display: inline-block;
-    max-width: 189px;
+    max-width: 190px;
 }
 
 .cart-amount {
-    padding: 9px 0 0 0;
-    margin-left: 40px;
+    padding: 9px 0 0 2px;
 }
 
 .cart-amount span {
@@ -103,13 +101,10 @@ section.cart {
 
 
 .cart-price {
-    padding: 9px 0 0 0;
-    margin-left: 41px;
+    padding: 9px 0 0 24px;
 }
 
 .cart-price>span {
-    width: 71px;
-    height: 18px;
     font-family: FuturaDemiC;
     font-size: 18px;
     font-weight: normal;
@@ -205,7 +200,7 @@ a.cart-link span {
 }
 button.cart-btn {
     position: absolute;
-    right: -32px;
+    right: 1px;
     top: 6px;
     width: 21px;
     height: 21px;
@@ -369,4 +364,37 @@ span.promo-info {
     border: none;
     color: #2b2b2b;
     cursor: pointer;
+}
+@media(max-width:992px){
+    .cart-body-left {
+    padding: 0;
+}
+}
+@media(max-width:767px){
+.cart-body-rigth {
+    padding: 0;
+    width: auto !important;
+    max-width: 300px;
+}
+
+
+
+.cart-body-left {
+    width: 100%;
+}
+}
+@media(max-width:575px){
+
+.cart-img {
+    max-width: 200px;
+}
+
+.cart-sps {
+    padding: 9px 0 0 0;
+}
+
+
+.cart-price {
+    padding: 9px 0 0 0;
+}
 }

@@ -4,7 +4,7 @@
     font-size: 10px;
     font-weight: normal;
     font-style: normal;
-    font-stretch: normal; 
+    font-stretch: normal;  
     line-height: normal;
     margin-bottom: 4px;
     letter-spacing: 1.67px;
@@ -92,6 +92,15 @@ p.maps-p {
     color: #2b2b2b;
     margin-top: 7px;
     margin-bottom: 7px;
+}
+p.maps-p a {
+    text-decoration: none !important;
+    color: #2b2b2b;
+    transition: all 0.3s ease;
+}
+p.maps-p a:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
 }
 span.maps-span {
     opacity: 0.7;
@@ -233,6 +242,7 @@ p.maps-body-all-p {
     line-height: normal;
     letter-spacing: normal;
     color: #ff4c72;
+    transition: all 0.3s ease;
 }
 
 .maps-body-all-item-l a {
@@ -241,7 +251,15 @@ p.maps-body-all-p {
     margin-top: 19px;
     text-decoration: none;
 }
+.maps-body-all-item-l a:hover span {
+     color: #ff2f5b;
+     transition: all 0.3s ease;
+}
 
+.maps-body-all-item-l a:hover:after {
+   border-color: #ff2f5b;
+   transition: all 0.3s ease;
+}
 .maps-body-all-item-l a:after {
     content: "";
     display: inline-block;
@@ -254,13 +272,14 @@ p.maps-body-all-p {
     right: 0px;
     top: 0;
     margin-left: 3px;
+    transition: all 0.3s ease;
 }
 .maps-body-all-block.clinic-select {
     height: 570px !important;
 }
 
-a.maps-body-all-link {
-    width: 355px;
+.maps-body-all-link {
+    max-width: 355px;
     margin-bottom: 5px;
     text-align: center;
     height: 32px;
@@ -269,9 +288,15 @@ a.maps-body-all-link {
     text-decoration: none;
     display: block;
     margin-top: 13px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+.maps-body-all-link:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
 }
 
-a.maps-body-all-link span {
+.maps-body-all-link span {
     font-family: FuturaDemiC;
     font-size: 13px;
     font-weight: normal;
@@ -290,4 +315,45 @@ a.maps-body-all-link span {
 .maps-item .address-block-btn a:after {    
     top: -1px;
     position: relative;
+}
+
+@media(max-width:768px){
+.maps-body-all-block {
+    background-size: cover !important;
+}
+
+.maps-body-all-block {
+    padding-right: 0 !important;
+}
+
+.maps-body-all-item {
+    padding: 17px 5px 16px 5px;
+}
+.maps-nav {
+    margin-top: 70px;
+}
+.col-md-6.maps-item:last-child {
+    padding: 0 !important;
+}
+.maps-item .maps-bl {
+    padding-left: 0 !important;
+}
+.maps-item .address-block-btn button {
+    margin: 0 0 20px 0 !important;
+}
+.maps-item .address-block-btn a {
+    margin-left: 0 !important;
+}
+
+.maps-item .address-block-btn {
+    text-align: initial !important;
+}
+.maps-item p.address-block-time-p {
+    float: inherit !important;
+}
+
+.maps-item .address-block-btn button {
+    display: block !important;
+    width: 175px !important;
+}
 }

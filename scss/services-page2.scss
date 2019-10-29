@@ -13,7 +13,12 @@ section.clinic.without .clinic-bl.withlink:after, section.clinic.without .clinic
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
     background-color: #ffffff;
 }
+@media(max-width:1150px){
+.block-stock {
+    display: none;
+    }
 
+}
 .block-stock p {
     font-family: FuturaDemiC;
     font-size: 22px;
@@ -414,4 +419,18 @@ section.servisec-info {
 }
 section.search.search-background input[type="text"] {
     background-color: #ffffff !important;
+}
+@media(max-width:992px){
+    .servisec-illness-block:first-child {
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+.servisec-illness-block:last-child {
+    padding: 0 !important;
+}
+
+.servisec-illness-block div {
+    padding: 25px 30px  10px 31px;
+    height: auto !important;
+}
 }

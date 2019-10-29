@@ -446,3 +446,15 @@ span.ser-block-numeric-span {
     right: 4.5%;
     top: 41%;
 }
+@media(max-width:550px){
+.services-sub-btn button {
+    font-size: 15px;
+    padding-left: 140px;
+}
+}
+
+@media(max-width:767px){
+.col-md-6.services-with-img-item1:last-child {
+    padding: 0 !important;
+}
+}

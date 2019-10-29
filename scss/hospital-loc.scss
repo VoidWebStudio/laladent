@@ -12,6 +12,7 @@
 
 .hospital-loc-slider .swiper-slide img {
     width: 100% !important;
+  cursor: pointer;
 }
 
 .iframe_map iframe {
@@ -44,10 +45,16 @@ ul.nav-ul {
   margin-right: 21px;
   cursor: pointer;
   letter-spacing: 1px;
-  padding-bottom: 19px;
   transition: all 0.3s ease;
   position: relative;
   }
+  span.hos-nav-span {
+    min-height: 46px;
+    display: block;
+    padding: 0 30px;
+    padding-bottom: 4px;
+    line-height: 18px;
+}
 .hos-nav-li:after {
     content: "";
     display: block;

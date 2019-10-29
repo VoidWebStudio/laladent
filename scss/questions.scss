@@ -1,6 +1,17 @@
 section.questions {
     margin-top: 68px;
 }
+.library{
+  font-family: FuturaDemiC !important;
+  font-size: 36px!important;
+  line-height: normal!important;
+  color: #2b2b2b!important;
+  margin-bottom: 14px!important;
+  text-decoration: none!important;
+}
+.library-list{
+  padding-top: 14px!important;
+}
 .questions-block:first-child {
   padding: 0 10px 0 0;
   }
@@ -96,7 +107,6 @@ a.quest-all:after {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .questions-block p {
     font-size: 32px;
 }

@@ -386,9 +386,6 @@ p.profile-reg-item-date {
     color: #2b2b2b;
 }
 
-.profile-reg-item:first-child {
-    margin-right: 66px;
-}
 
 p.profile-reg-item-p {
     opacity: 0.45;
@@ -444,11 +441,8 @@ span.profile-reg-item-num {
     color: #2b2b2b;
 }
 
-.profile-reg-item:last-child {
-    margin-left: 80px;
-}
 
-span.profile-reg-item-doc {
+.profile-reg-item-doc {
     opacity: 0.7;
     font-family: FuturaDemiC;
     font-size: 18px;
@@ -461,8 +455,13 @@ span.profile-reg-item-doc {
     width: 230px;
     color: #000000;
     margin-top: 14px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
 }
-
+.profile-reg-item-doc:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
 .profile-doc-img {
     width: 50px;
     height: 50px;
@@ -500,8 +499,13 @@ span.profile-reg-item-doc {
     letter-spacing: normal;
     color: #29b3bc;
     margin-left: 21px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
 }
-
+.profile-remind-head a:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
 .profile-remind {
     max-width: 793px;
     margin: 0 auto;
@@ -744,10 +748,72 @@ section.doctors-search.account-d span.doc-numb {
 .shop-cat.site-input.account-rg-inp:nth-child(2n) {
     margin-right: 0 !important;
 }
+@media(max-width:767px){
+.account-body li {
+    float: inherit !important;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    margin: 0 auto;
+    max-width: 150px;
+}
 
+.account-body li:nth-child(2n) a {
+    padding-left: 0 !important;
+}
+.account-body li:nth-child(3n) a {
+    padding-left: 0 !important;
+}
 
+.account-body {
+    padding: 15px 30px;
+}
+.col-md-6.account-head a {
+    margin: 0px 0 10px 0 !important;
+}
+.profile-block {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
 
+.prifile-link {
+    margin: 20px 0 0 0 !important;
+}
+.col-md-6.profile-h button {
+    margin: 0 0 20px 0;
+}
 
+.profile-reg-item {
+    margin-bottom: 20px;
+}
 
+span.profile-reg-item-doc {}
 
+.profile-reg-item-doc:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
 
+.profile-remind-head a {
+    display: block !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+}
+}
+
+.col-md-6.profile-h button:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+}
+.col-md-6.account-head a {
+    text-decoration: none !important;
+}
+
+.col-md-6.account-head a:hover {
+    border-color: #ff2f5b;
+    transition: all 0.3s ease;
+}
+
+.col-md-6.account-head a:hover span {
+    color: #ff2f5b;
+    transition: all 0.3s ease;
+}

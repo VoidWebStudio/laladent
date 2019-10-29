@@ -30,27 +30,30 @@ html(lang="en")
       a(href="#") Войти
     .order-check-block
      span(class="order-num") 1
-     p(class="order-check-head") Выберете отделение, из которого вам будет удобнее забрать заказ:
+     h3(class="order-check-head") Выберете отделение, из которого вам будет удобнее забрать заказ:
      .order-check-loc
       .row
-       div(class="order-check-loc-items act")
-        div
-         img(src="images/loc2.png")
-        p Ленинский проспект, 20
-        span М. Третьяковская, М. Новокузнецкая, М. Полянка
-       div(class="order-check-loc-items")
-        div
-         img(src="images/loc2.png")
-        p Ленинский проспект, 20
-        span М. Третьяковская, М. Новокузнецкая, М. Полянка
-       div(class="order-check-loc-items")
-        div
-         img(src="images/loc2.png")
-        p Ленинский проспект, 20
-        span М. Третьяковская, М. Новокузнецкая, М. Полянка
+        div(class="order-check-loc-item col-md-4 col-sm-6")
+         div(class="order-check-loc-items act")
+          div
+           img(src="images/loc2.png")
+          p Ленинский проспект, 20
+          span М. Третьяковская, М. Новокузнецкая, М. Полянка
+        div(class="order-check-loc-item col-md-4 col-sm-6")
+         div(class="order-check-loc-items")
+          div
+           img(src="images/loc2.png")
+          p Ленинский проспект, 20
+          span М. Третьяковская, М. Новокузнецкая, М. Полянка
+        div(class="order-check-loc-item col-md-4 col-sm-6")
+         div(class="order-check-loc-items")
+          div
+           img(src="images/loc2.png")
+          p Ленинский проспект, 20
+          span М. Третьяковская, М. Новокузнецкая, М. Полянка
     .order-check-block
      span(class="order-num") 2
-     p(class="order-check-head") Укажите контактные данные:
+     h3(class="order-check-head") Укажите контактные данные:
      .order-check-form
       div(class="shop-cat site-input") 
        p Ваше имя
@@ -63,12 +66,12 @@ html(lang="en")
        input(type="text", placeholder="Email*", value='')
     .order-check-block
      span(class="order-num") 3
-     p(class="order-check-head") Подтвердите заказ:
+     h3(class="order-check-head") Подтвердите заказ:
      .order-check-conf
       span(class="order-check-text") 
        | После подтверждения заказа с вами свяжется наш менеджер и сообщит когда можно будет забрать заказ
       .row
-       .order-check-conf-r
+       div(class="order-check-conf-r col-sm-6")
         p(class="cart-body-rigth-p") Всего 6 товаров на сумму 
         span(class="cart-body-rigth-price") 60 000
          span(class="circel_m") ₽
@@ -77,7 +80,7 @@ html(lang="en")
          div(class="shop-cat site-input poromo-inp") 
           p промо-код
           input(type="text", placeholder="промо-код")
-       .order-check-conf-l
+       div(class="order-check-conf-l col-sm-6")
         p Оплата на кассе – наличными или картой
         a(href="#", class="cart-link") 
          span Оформить заказ

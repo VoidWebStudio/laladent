@@ -101,7 +101,7 @@ span.offers-untill {
 a.offers-link {
     /* float: right; */
     display: inline-block;
-    margin-left: 63px;
+    margin: 0  0 0 auto;
     margin-top: 7px;
     position: relative;
     /* padding-right: 0px; */
@@ -127,4 +127,17 @@ a.offers-link:after {
     right: -4px;
     top: 0;
     position: relative;
+}
+
+@media(max-width:500px){
+.offers-bl:last-child {
+    padding: 9px 0 0 0px;
+}
+.offers-link {
+    display: block;
+    margin: 10px 0 0 0 !important;
+}
+.offers-footer-span2 {
+    margin-right: 10px;
+}
 }

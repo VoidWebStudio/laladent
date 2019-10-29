@@ -1,4 +1,3 @@
-
 var galleryThumbs = new Swiper('.gallery-thumbs', {
   spaceBetween: 10,
   slidesPerView: 4,
@@ -15,7 +14,17 @@ var galleryTop = new Swiper('.gallery-top', {
   }
 });
 
-
+var galleryThumbs2 = new Swiper('.gallery-thumbs2', {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+});
+var galleryTop2 = new Swiper('.gallery-top2', {
+  spaceBetween: 10,
+  thumbs: {
+    swiper: galleryThumbs2
+  }
+});
 
 var mySwiper1 = new Swiper('.slider1', {
   slidesPerView: 3,
@@ -127,6 +136,28 @@ var mySwiper7 = new Swiper('.slider5', {
   pagination: {
     el: '.swiper-pagination5',
     clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  },
+});
+var mySwiper7_1 = new Swiper('.slider5-1', {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: '.swiper-button-next51',
+    prevEl: '.swiper-button-prev51',
   },
   breakpoints: {
     640: {
@@ -601,23 +632,29 @@ for(var i=0; i <about_btn.length; i++) {
 
     for(var i=0; i <site_input.length; i++) {
       if (site_input[i].children[1].value!="") {
-       var par=site_input[i].children[0];
-       site_input[i].children[1].classList.add("act");
-       par.classList.add("act");
-     }
+           site_input[i].children[0].classList.add("act");
+           site_input[i].children[1].classList.add("act");
+           
+         }   
      (function(i) {
        var click = site_input[i].children[1];
-       click.oninput = function() {    
+       click.onfocus = function() {  
+
          var parent=this.parentElement;
          var child=parent.children[0];
 
-         if (this.value!="") {
-           this.classList.add("act");
-           child.classList.add("act");
-         }else{
-          this.classList.remove("act");
-          child.classList.remove("act");
-        }
+          this.classList.add("act");
+          child.classList.add("act");
+        
+
+      }
+      click.onblur = function() {  
+       if (this.value=="") {
+           var parent=this.parentElement;
+           var child=parent.children[0];
+           this.classList.remove("act");
+           child.classList.remove("act");
+         }                
 
       }
     })(i);
@@ -629,42 +666,100 @@ for(var i=0; i <about_btn.length; i++) {
   
   for(var i=0; i <price_popup.length; i++) {
 
-    var click = price_popup[i];
-    click.onclick = function() {   
-      var popup_cont = document.querySelectorAll(".appointment-popup3");    
-      popup_cont[0].classList.add("act");
-    }
-  }
-  var gallery_popup = document.querySelectorAll('.gallery-pop');
-  
-  for(var i=0; i <gallery_popup.length; i++) {
-
-    var click = gallery_popup[i];
-    click.onclick = function() {   
-      var popup_cont = document.querySelectorAll(".slider-popup");    
-      popup_cont[0].classList.add("act");
-    }
-  }
-  function popup(param2){
-    var popup_cont = document.querySelectorAll("."+param2+"");    
+   var click = price_popup[i];
+   click.onclick = function() {   
+    var popup_cont = document.querySelectorAll(".appointment-popup");    
     popup_cont[0].classList.add("act");
   }
+}
+var next_pop = document.getElementById('popup-next');
+next_pop.onclick = function() {   
+  var popup_cont = document.querySelectorAll(".appointment-popup"); 
+  var popup_cont2 = document.querySelectorAll(".appointment-popup2");
+  popup_cont[0].classList.remove("act");
+
+  popup_cont2[0].classList.add("act");
+}
+var next_pop2 = document.getElementById('popup-next2');
+next_pop2.onclick = function() {   
+  var popup_cont = document.querySelectorAll(".appointment-popup2"); 
+  var popup_cont2 = document.querySelectorAll(".appointment-popup3");
+  popup_cont[0].classList.remove("act");
+
+  popup_cont2[0].classList.add("act");
+  $('.datepicker-here').datepicker();
+}
+
+var gallery_popup = document.querySelectorAll('.gallery-pop');
+
+for(var i=0; i <gallery_popup.length; i++) {
+
+  var click = gallery_popup[i];
+  click.onclick = function() {   
+    var popup_cont = document.querySelectorAll(".slider-popup");    
+    popup_cont[0].classList.add("act");
+  }
+}
+var gallery_popup2 = document.querySelectorAll('.sertifikat-items');
+
+for(var i=0; i <gallery_popup2.length; i++) {
+
+  var click = gallery_popup2[i];
+  click.onclick = function() {   
+    var popup_cont = document.querySelectorAll(".slider-popup");    
+    popup_cont[0].classList.add("act");
+  }
+}
+var gallery_popup3 = document.querySelectorAll('.services-sub-gallery-block .slider-block');
+
+for(var i=0; i <gallery_popup3.length; i++) {
+
+  var click = gallery_popup3[i];
+  click.onclick = function() {   
+    var popup_cont = document.querySelectorAll(".slider-popup");    
+    popup_cont[0].classList.add("act");
+  }
+}
+var gallery_popup4 = document.querySelectorAll('.comment-slider .slider-block3');
+
+for(var i=0; i <gallery_popup4.length; i++) {
+
+  var click = gallery_popup4[i];
+  click.onclick = function() {   
+    var popup_cont = document.querySelectorAll(".slider-popup");    
+    popup_cont[0].classList.add("act");
+  }
+}
+var gallery_popup5 = document.querySelectorAll('.hospital-loc-slider .slider-block4');
+
+for(var i=0; i <gallery_popup5.length; i++) {
+
+  var click = gallery_popup5[i];
+  click.onclick = function() {   
+    var popup_cont = document.querySelectorAll(".slider-popup");    
+    popup_cont[0].classList.add("act");
+  }
+}
+function popup(param2){
+  var popup_cont = document.querySelectorAll("."+param2+"");    
+  popup_cont[0].classList.add("act");
+}
 
 
-  var popup_close = document.querySelectorAll(".close-popup");
-  for(var i=0; i <popup_close.length; i++) {
+var popup_close = document.querySelectorAll(".close-popup");
+for(var i=0; i <popup_close.length; i++) {
 
-    var click = popup_close[i];
-    click.onclick = function() {   
-     var par=this.parentElement;
-     var par2=par.parentElement;
-     par2.classList.remove("act");
+  var click = popup_close[i];
+  click.onclick = function() {   
+   var par=this.parentElement;
+   var par2=par.parentElement;
+   par2.classList.remove("act");
 
-   }
  }
+}
 
- var popup_close_slider = document.querySelectorAll(".popup-slider-close");
- for(var i=0; i <popup_close_slider.length; i++) {
+var popup_close_slider = document.querySelectorAll(".popup-slider-close");
+for(var i=0; i <popup_close_slider.length; i++) {
 
   var click = popup_close_slider[i];
   click.onclick = function() {   
@@ -673,7 +768,6 @@ for(var i=0; i <about_btn.length; i++) {
 
  }
 }
-
 
 
 window.addEventListener("DOMContentLoaded", function() {
@@ -688,9 +782,20 @@ window.addEventListener("DOMContentLoaded", function() {
       range.select()
     }
   }
+  function setCursorPosition2(pos, elem) {
+    elem.focus();
+    if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+    else if (elem.createTextRange) {
+      var range = elem.createTextRange();
+      range.collapse(true);
+      range.moveEnd("character", pos);
+      range.moveStart("character", pos);
+     
+    }
+  }
 
   function mask(event) {
-    var matrix = this.defaultValue,
+    var matrix = "+7 (___) ___-__-__",
     i = 0,
     def = matrix.replace(/\D/g, ""),
     val = this.value.replace(/\D/g, "");
@@ -698,10 +803,15 @@ window.addEventListener("DOMContentLoaded", function() {
     matrix = matrix.replace(/[_\d]/g, function(a) {
       return val.charAt(i++) || "_"
     });
+    
     this.value = matrix;
-    i = matrix.lastIndexOf(val.substr(-1));
+    
+    i = matrix.lastIndexOf(val.substr(17));
+    
     i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
-    setCursorPosition(i, this)
+    
+    setCursorPosition2(i, this)
+    
   }
   function mask2(event) {
     var matrix = "__.__.____";
@@ -777,5 +887,6 @@ function countdown(seconds) {
   }
   tick();
 }
+
 
 countdown(30);

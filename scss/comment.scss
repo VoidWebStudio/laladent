@@ -79,10 +79,12 @@ span.comment-d {
 .doc-callback img {
     float: left;
     margin-right: 15px;
+    width: 50px;
 }
 
-.doc-callback p {
+.doc-collback-name {
     opacity: 0.7;
+    display: block;
     font-family: FuturaDemiC;
     font-size: 18px;
     font-weight: normal;
@@ -92,10 +94,11 @@ span.comment-d {
     letter-spacing: normal;
     color: #000000;
     margin: 32px 0 0px 0;
+    text-decoration: none !important;
     transition: all 0.3s ease;
     cursor:pointer;
 }
-.doc-callback p:hover {
+.doc-collback-name:hover {
     color: #29b3bc;
     transition: all 0.3s ease;
 }
@@ -116,13 +119,13 @@ span.comment-d {
 .comment-btn button{
   width: 193px;
   letter-spacing: 0.05em;
-  height: 54px;
+  height: 55px;
   text-transform: uppercase;
   border-radius: 27px;
   border: solid 2px #ff4c72;
   font-size: 16px;
   font-family: FuturaDemiC;
-  line-height: 54px;
+  line-height: 51px;
 }
 .comment-btn1{
   background-color: #ff4c72;
@@ -279,4 +282,8 @@ button.comment-btn1:last-child {
 .rew-btn {
     text-align: center;
     margin-top: 33px;
+}
+.doc-callback a:first-child {
+    position: relative;
+    z-index: 10;
 }

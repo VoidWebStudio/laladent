@@ -20,9 +20,7 @@
     color: #000000;
 }
 
-.portfolio-keys p {}
-
-.portfolio-keys:first-child span {
+.portfolio-keys:first-child a {
     font-family: FuturaDemiC;
     font-size: 18px;
     font-weight: normal;
@@ -33,8 +31,13 @@
     letter-spacing: normal;
     display: block;
     color: #29b3bc;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
 }
-
+.portfolio-keys:first-child a:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
 .portfolio-keys:last-child>span {
     font-family: FuturaDemiC;
     font-size: 18px;
@@ -53,7 +56,7 @@
     width: 70%;
 }
 
-p.portfolio-head {
+.portfolio-head {
   font-family: FuturaDemiC;
   font-size: 28px;
   font-weight: normal;
@@ -63,9 +66,14 @@ p.portfolio-head {
   line-height: 27px;
   letter-spacing: normal;
   color: #2b2b2b;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
 }
-
-span.portfolio-span {
+.portfolio-head:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
+.portfolio-span {
     opacity: 0.7;
     font-family: FuturaPTBook;
     font-size: 18px;
@@ -102,7 +110,7 @@ span.portfolio-span {
     top: 8px;
 }
 
-.portfolio-doc span {
+.portfolio-doc a {
     opacity: 0.7;
     font-family: FuturaDemiC;
     font-size: 18px;
@@ -112,9 +120,15 @@ span.portfolio-span {
     line-height: normal;
     letter-spacing: normal;
     color: #000000;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
 }
-
-a.portfolio-btn {
+.portfolio-doc a:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
+.portfolio-btn {
+    transition: all 0.3s ease;
     width: 108px;
     height: 32px;
     border-radius: 16px;
@@ -125,8 +139,11 @@ a.portfolio-btn {
     text-decoration: none !important;
     margin-top: 20px;
 }
-
-a.portfolio-btn span {
+.portfolio-btn:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+}
+.portfolio-btn span {
     font-family: FuturaDemiC;
     font-size: 13px;
     font-weight: normal;
@@ -163,3 +180,9 @@ a.portfolio-btn span {
 }
 
 .portfolio-doc:after {content: "";display: block;clear: both;}
+@media(max-width:768px){
+    .navigation-block {
+    margin-top: 70px;
+}
+
+}

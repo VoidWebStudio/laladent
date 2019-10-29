@@ -67,3 +67,10 @@ span.press-span {
 .press-block {
     margin-bottom: 25px;
 }
+@media(max-width:767px){
+
+.col-md-6.press-bl:last-child {
+    padding-left: 0 !important;
+    text-align: inherit !important;
+}
+}

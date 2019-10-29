@@ -38,7 +38,7 @@
     margin-bottom: 0px;
 }
 
-.article-page-bl span {
+.article-page-bl a {
     opacity: 0.7;
     font-family: FuturaDemiC;
     font-size: 18px;
@@ -47,11 +47,16 @@
     font-stretch: normal;
     line-height: normal;
     display: block;
+    text-decoration: none;
     letter-spacing: normal;
     margin-top: 0px;
     color: #000000;
+    transition: all 0.3s ease;
 }
-
+.article-page-bl a:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
 .article-page-bl {
     padding-top: 36px;
     padding-bottom: 23px;
@@ -59,11 +64,10 @@
 
 .doc-advaice-block {
     max-width: 793px;
-    height: 363px;
     margin: 0 auto;
     border-radius: 16px;
     background-color: #f0f4f5;
-    padding: 24px 20px 0 30px;
+    padding: 24px 20px 10px 30px;
 }
 
 section.doc-advaice {
@@ -109,7 +113,7 @@ p.doc-advaice-head {
     text-transform: uppercase;
 }
 
-.doc-advaice-img span {
+.doc-advaice-img a {
     opacity: 0.7;
     font-family: FuturaDemiC;
     font-size: 18px;
@@ -119,9 +123,13 @@ p.doc-advaice-head {
     line-height: normal;
     letter-spacing: normal;
     color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
-
-span {}
+.doc-advaice-img a:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
 
 .doc-advaice-txt span {
     font-family: FuturaPTBook;
@@ -150,8 +158,8 @@ span {}
 .doc-advaice-txt:before {content: "";display: block;background: url("../images/quotation.png") no-repeat;width: 30px;height: 23px;opacity: 0.4;position: absolute;top: 25px;left: 37px;}
 
 .article-variant-item {
-    width: 386px;
-    /* height: 459px; */
+    max-width: 386px;
+    height: 100%;
     border-radius: 16px;
     margin-right: 21px;
     background-color: #f0f4f5;
@@ -199,8 +207,7 @@ span.article-variant-item-txt {
     font-weight: normal;
     position: relative;
     font-style: normal;
-    width: 50%;
-    padding-left: 21px;
+    padding: 0 10px 0 21px;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
@@ -237,7 +244,7 @@ span.article-variant-item-txt {
     color: #000000;
     display: block;
     text-align: right;
-    width: 50%;
+    padding: 0 0 0 10px;
 }
 
 .article-variant-param span.circel_m {
@@ -298,8 +305,12 @@ span.article-variant-price span {
     margin-top: 20px;
     text-align: center;
     text-decoration: none !important;
+    transition: all 0.3s ease;
 }
-
+.article-variant-item-footer a:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+}
 .article-variant-item-footer a span {
     font-family: FuturaDemiC;
     font-size: 13px;
@@ -464,4 +475,119 @@ section.servisec-info.artic {
 }
 section.services-illness.articl {
     margin-top: 63px;
+}
+section.video-answer h3 {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+.services-sub-history-head {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+.white-tooth-block h3 {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.article-variant-items.col-md-4 {
+    padding: 0;
+}
+
+.article-variant-items.col-md-4:nth-child(2n) {
+    padding-left: 7px;
+}
+
+.article-variant-items.col-md-4:nth-child(3n) {
+    padding-left: 7px;
+}
+
+.article-variant-items.col-md-4:nth-child(3n) .article-variant-item {
+    margin: 0  0 0 auto;
+}
+.article-variant-two.col-md-6 {
+    padding: 0 0 0 0px;
+}
+
+.article-variant-two.col-md-6:nth-child(2n) {
+    padding-left: 7px;
+}
+
+@media(max-width:767px){
+
+
+.article-variant-items.col-md-4:nth-child(3n) {
+    padding-left: 0;
+}
+
+.article-variant-items.col-md-4.col-sm-6 {
+    margin-bottom: 10px;
+}
+.article-variant-two.col-md-6.col-sm-6{
+   margin-bottom: 10px; 
+}
+}
+@media(max-width:576px){
+
+.article-variant-items.col-md-4:nth-child(3n) .article-variant-item {
+    /* margin: 0 auto !important; */
+}
+
+.article-variant-items.col-md-4 .article-variant-item {
+    margin: 0 auto !important;
+}
+
+.article-variant-two.col-md-6.col-sm-6 .article-variant-item {
+    margin: 0 auto !important;
+}
+
+.article-variant-two.col-md-6:nth-child(2n) {
+    padding-left: 0 !important;
+}
+.doc-advaice-txt {
+    padding: 32px 10px 0 30px;
+}
+.doc-advaice-txt:before {
+    left: 0;
+}
+.doc-advaice-block {
+    padding: 24px 10px 10px 10px;
+}
+.doc-advaice-head {
+    font-size: 30px !important;
+    text-align: center;
+}
+.services-sub-result-p {
+    font-size: 24px !important;
+}
+}
+@media(max-width:1200px){
+.swiper-button-next.swiper-button-next11 {
+    right: 0 !important;
+}
+
+.swiper-button-prev.swiper-button-prev11 {
+    left: 0 !important;
+}
 }

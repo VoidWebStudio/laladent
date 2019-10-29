@@ -1,5 +1,5 @@
 include popup
-div(class="mob-header")
+div(class="mob-header") 
  .center
   .row 
    div(class="col-sm-4 col-5 no-padding")
@@ -37,9 +37,9 @@ div(class="mob-header")
     .row
      div(class="col-6") 
       span(class="mob-menu-add-block-span") Отделения:
-      a(href="#")(class="mob-menu-add-block-a") Народного ополчения
-      a(href="#")(class="mob-menu-add-block-a") Белорусская
-      a(href="#")(class="mob-menu-add-block-a") Парк Культуры
+      a(href="#", class="mob-menu-add-block-a") Народного ополчения
+      a(href="#", class="mob-menu-add-block-a") Белорусская
+      a(href="#", class="mob-menu-add-block-a") Парк Культуры
      div(class="col-6") 
       span(class="mob-menu-add-block-span") Время работы
       span(class="mob-menu-add-block-tm") Пн-Пт:
@@ -162,9 +162,9 @@ header
     .row
      div(class="nav-block col-md-10 col-lg-9")
       span(class="nav-name") Отделения:
-       a(href="press.html")(class="nav-items") Третьяковская
-       a(href="shop.html")(class="nav-items") Парк Культуры
-       a(href="search-no-result.html")(class="nav-items") Белорусская
+       a(href="press.html", class="nav-items") Третьяковская
+       a(href="shop.html", class="nav-items") Парк Культуры
+       a(href="search-no-result.html", class="nav-items") Белорусская
       span(class="nav-social") Мы в соцсетях:
        a(href='search-result.html')
         i(class="ic-ins")
@@ -173,7 +173,7 @@ header
        a(href='#')
         i(class="ic-vk")
      div(class="user-block col-md-2 col-lg-3")
-      a(href="#") Личный кабинет
+      a(href="#", onclick='popup("details-popup")') Личный кабинет
   .logo-blocks
    .center
     .row
@@ -182,8 +182,8 @@ header
      div(class="col-md-8 col-lg-6 logo-block")
       div
        span(class="logo-nomber") +7 (495) 700-80-00
-       button(class="logo-call logo-btn", onclick='popup("confirm")') Обратный звонок
-       button(class="logo-reg logo-btn", onclick='popup("ask-doctor-popup")') запись на прием
+       button(class="logo-call logo-btn", onclick='popup("callback-popup")') Обратный звонок
+       button(class="logo-reg logo-btn", onclick='popup("appointment-popup")') запись на прием
   .menu
    .center
     .row
@@ -213,11 +213,11 @@ header
          li
           a(href="about.html") Магазин
          li
-          a(href="cart.html") Личный кабинет
+          a(href="#", onclick='popup("details-popup")') Личный кабинет
       button(class="search-btn")
      div(class="col-lg-4 market-block")
       a(href="cart_promo.html") Магазин
       a(href="offers.html") Корзина
-div(class="scrool-top")(id="scr-btn")
- a(href="#")(class="scrool-btn")
+div(class="scrool-top", id="scr-btn")
+ a(href="#", class="scrool-btn")
 

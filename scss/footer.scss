@@ -163,15 +163,12 @@ footer {
 }
 .footer-social .ic-ins{
     background:url('../images/inst.svg');
-    transition: all 0.3s ease
 }
 .footer-social .ic-fb{
     background:url('../images/fb.svg');
-    transition: all 0.3s ease
 }
 .footer-social .ic-vk{
     background:url('../images/vk.svg');
-    transition: all 0.3s ease
 }
 .footer-social i{
     width: 100%;
@@ -258,16 +255,13 @@ p.copyrigth {
 
 .footer-social .ic-ins:hover {
     background: url(../images/insta-f-hover.svg);
-    transition: all 0.3s ease;
 }
 
 .footer-social .ic-fb:hover {
     background: url(../images/icon-fb-f-over.svg);
-    transition: all 0.3s ease;
 }
 .footer-social .ic-vk:hover {
     background: url(../images/icon-vk-f-hover.svg);
-    transition: all 0.3s ease;
 }
 .foot-conf a:hover {
     color: #09d9e7;
@@ -276,7 +270,7 @@ p.copyrigth {
 
 .footer-btn button{
     width: 214px;
-    height: 54px;
+    height: 55px;
     font-size: 16px;
 }
 @media(min-width:1201px){

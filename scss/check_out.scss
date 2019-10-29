@@ -72,7 +72,7 @@ span.order-num {
     color: #29b3bc;
 }
 
-p.order-check-head {
+.order-check-head {
     font-family: FuturaDemiC;
     font-size: 36px;
     font-weight: normal;
@@ -94,15 +94,22 @@ p.order-check-head {
 
 .order-check-loc-items {
     max-width: 285px;
-    margin-right: 20px;
     background: white;
     padding-bottom: 40px;
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
 }
 
-.order-check-loc-items:last-child {
-    margin-right: 0 !important;
+.order-check-loc-item {
+    padding: 0 0 0 0;
+}
+
+.order-check-loc-item:nth-child(2n) {
+    padding-left: 7px;
+}
+
+.order-check-loc-item:nth-child(3n) .order-check-loc-items {
+    margin: 0 0 0 auto;
 }
 
 .order-check-loc-items div img {
@@ -172,8 +179,8 @@ span.order-check-text {
 
 .order-check-conf-r {
     padding-top: 39px;
-    width: 50%;
-    padding-right: 100px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .order-check-conf-l p {
@@ -189,7 +196,6 @@ span.order-check-text {
 }
 
 .order-check-conf-l {
-    width: 50%;
     padding: 38px 0 0 9px;
 }
 
@@ -297,4 +303,76 @@ span.order-check-text {
 .shop-cat.site-input.poromo-inp2 {
     width: 285px;
     float: unset !important;
+}
+@media(max-width:992px){
+    .order-check-loc-item:nth-child(3n){
+    padding-left: 7px;
+    }
+    .order-check-loc-item:nth-child(3n) .order-check-loc-items{
+    margin:0;
+    }
+
+
+}
+@media(max-width:767px){
+
+    .order-check-loc-items {
+    max-width: 100%;
+}
+
+.order-check-loc-item:nth-child(3n) {
+    padding-left: 10px !important;
+}
+
+.order-check-loc-item{
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.order-login-block {
+    padding: 0 10px;
+}
+
+.order-login p {
+    float: initial !important;
+}
+
+.order-login-block a {
+    display: block;
+    float: initial;
+}
+.order-check-block {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.order-num {
+    position: static !important;
+    font-size: 80px !important;
+}
+.order-check-head {
+    font-size: 27px;
+}
+}
+@media(max-width:575px){
+.order-check-text {
+    padding: 0 !important;
+}
+.order-check-loc-item:nth-child(2n) {
+    padding-left: 10px;
+}
+.order-check-conf-l {
+    padding-left: 0;
+}
+
+.order-check-form .shop-cat {
+    width: 100% !important;
+    float: unset;
+    margin-bottom: 10px;
+}
+}
+.order-check-conf-r .cart-body-rigth-p{
+    max-width: 200px;
+}
+.order-check-conf-l .cart-link{
+    max-width: 285px;
+    width: auto !important;
 }

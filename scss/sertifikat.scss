@@ -25,14 +25,13 @@ section.sertifikat {
 }
 
 .sertifikat-items {
-    margin-right: 20px;
+    padding-right: 8px;
 }
 
 .sertifikat-items img {
-    /* width: 100%; */
+    width: 100%;
     display: block;
-    height: 256px;
-    width: 183px;
+    cursor:pointer;
 }
 
 span.sertifikat-span {

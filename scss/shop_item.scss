@@ -24,17 +24,15 @@ search-res-sp
 }
 
 .shop-product-block-l {
-    width: 68.5%;
     padding-top: 10px;
 }
 
 .shop-product-block-r {
-    width: 31.5%;
     padding-top: 6px;
-    padding-left: 27px;
+    padding-left: 50px;
+    padding-right: 0;
 }
 
-.shop-product-big-img {}
 
 section.shop-product {
     padding-top: 15px;
@@ -92,7 +90,7 @@ span.shop-product-price2 {
 }
 
 .shop-pro-block1 a {
-    width: 285px;
+    max-width: 285px;
     height: 54px;
     border-radius: 27px;
     border: solid 2px #ff4c72;
@@ -215,7 +213,7 @@ p {}
     margin: 0 auto;
 }
 
-.shop-product-discription p {
+.shop-product-discription h3 {
     font-family: FuturaDemiC;
     font-size: 36px;
     font-weight: normal;
@@ -247,7 +245,7 @@ p {}
     margin-bottom: 39px;
 }
 
-.shop-product-discription2 p {
+.shop-product-discription2 h3 {
     font-family: FuturaDemiC;
     font-size: 36px;
     font-weight: normal;
@@ -364,4 +362,52 @@ section.clinic.shop-itm {
     line-height: 17px;
     letter-spacing: normal;
     color: #000000;
+}
+.gallery-popup2 img {display: block;max-width: 387px;margin: 0 auto;height: auto !important;}
+
+.gallery-thumbs2 .swiper-slide.thumb-popup {
+    width: 124.8px !important;
+    border: solid 2px transparent;
+    margin-right: 10px;
+    overflow: hidden;
+    height: 70px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.gallery-thumbs2 .swiper-slide.thumb-popup img {
+    display: block;
+    width: 58%;
+    margin: 0 auto;
+}
+
+.gallery-thumbs2 .swiper-slide.thumb-popup.swiper-slide-thumb-active {
+    border-radius: 6px;
+    border: solid 2px #29b3bc;
+}
+.gallery-popup2 .swiper-slide.slide-popup div {
+    height: auto !important;
+}
+
+@media(max-width:767px){
+.shop-product-block-r {
+    padding-left: 0;
+    padding-top: 30px;
+}
+}
+.shop-product-discription h3 {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 19px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
 }

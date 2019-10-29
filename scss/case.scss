@@ -74,10 +74,12 @@ section.case {
 }
 
 .case-items-doc-img {
-    width: 90px;
-    height: 90px;
+    padding: 0 27px 0 0;  
     border-radius: 30px;
-    margin-right: 20px;
+   
+}
+.case-items-doc {
+    padding: 0 !important;
 }
 
 .case-items-doc-img img {
@@ -176,8 +178,8 @@ span.case-items-comment {
     color: #000000;
 }
 
-.case-items-doc-block a {
-    width: 108px;
+.case-items-doc-block>a {
+    max-width: 108px;
     height: 32px;
     border-radius: 16px;
     background-color: #ff4c72;
@@ -185,8 +187,13 @@ span.case-items-comment {
     display: block;
     text-decoration: none !important;
     margin-top: 14px;
+    transition: all 0.3s ease;
 }
-
+.case-items-doc-block > a:hover {
+    border-color: #ff2f5b;
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+}
 .case-items-doc-block a span {
     font-family: FuturaDemiC;
     font-size: 13px;
@@ -224,7 +231,13 @@ span.case-items-comment {
     letter-spacing: normal;
     display: block;
     margin-bottom: 5px;
+    text-decoration: none !important;
     color: #29b3bc;
+    transition: all 0.3s ease;
+}
+.case-price-l a:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
 }
 
 .case-price {
@@ -261,7 +274,7 @@ span.case-items-comment {
     margin:  0 auto;
 }
 
-.case-tech-block p {
+.case-tech-block h3 {
     font-family: FuturaDemiC;
     font-size: 36px;
     font-weight: normal;
@@ -278,7 +291,7 @@ section.case-tech {
     margin-bottom: 60px;
 }
 
-p.case-p {
+.case-p {
     font-family: FuturaDemiC;
     font-size: 36px;
     font-weight: normal;
@@ -291,7 +304,7 @@ p.case-p {
     color: #2b2b2b;
 }
 
-section.video-answer-slider p {
+section.video-answer-slider h3 {
     font-family: FuturaDemiC;
     font-size: 36px;
     font-weight: normal;
@@ -312,4 +325,23 @@ section.video-answer-slider {
     position: relative;
     max-width: 793px;
     margin: 0 auto;
+}
+p.case-items-doc-p a {
+    color: #2b2b2b;
+    text-decoration: none !important;
+}
+
+span.case-items-span a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p.case-items-doc-p a:hover {
+    color:#29b3bc;
+    transition:all 0.3s ease;
+}
+@media(max-width:576px){
+.case-items-doc-img {
+    max-width: 100px;
+}
 }
