@@ -9971,7 +9971,7 @@ a.search-result-link {
   text-decoration: none;
   text-transform: uppercase; }
 
-a.search-result-sub-h1 {
+p.search-result-sub-h1 {
   font-family: FuturaDemiC;
   font-size: 28px;
   margin-top: -2px;
@@ -9982,8 +9982,7 @@ a.search-result-sub-h1 {
   font-stretch: normal;
   line-height: 27px;
   letter-spacing: normal;
-  color: #2b2b2b;
-  text-decoration: none; }
+  color: #2b2b2b; }
 
 p.search-result-sub-h2 {
   font-family: FuturaDemiC;

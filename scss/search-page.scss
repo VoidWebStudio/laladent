@@ -232,7 +232,7 @@ a.search-result-link {
     text-transform: uppercase;
 }
 
-p.search-result-sub-h1 {
+a.search-result-sub-h1 {
     font-family: FuturaDemiC;
     font-size: 28px;
     margin-top: -2px;
@@ -244,6 +244,7 @@ p.search-result-sub-h1 {
     line-height: 27px;
     letter-spacing: normal;
     color: #2b2b2b;
+    text-decoration: none;
 }
 
 .search-result-bl.col-md-9 {}
