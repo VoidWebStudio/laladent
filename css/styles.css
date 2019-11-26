@@ -9784,13 +9784,13 @@ section.search-page {
 .search-result {
   margin-top: 35px; }
 
-p.search-result-head {
+h1.search-result-head {
   font-family: FuturaDemiC;
   font-size: 28px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  margin-bottom: 37px;
+  padding-bottom: 30px;
   line-height: normal;
   letter-spacing: normal;
   color: #2b2b2b; }
@@ -9813,7 +9813,7 @@ p.search-result-p {
   letter-spacing: 1.67px;
   color: #000000; }
 
-p.search-result-sub-p {
+a.search-result-sub-p {
   font-family: FuturaDemiC;
   font-size: 28px;
   font-weight: normal;
@@ -9822,7 +9822,8 @@ p.search-result-sub-p {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #2b2b2b; }
+  color: #2b2b2b;
+  text-decoration: none; }
 
 span.search-result-span {
   opacity: 0.7;
@@ -9893,7 +9894,7 @@ a.search-result-link {
   text-decoration: none;
   text-transform: uppercase; }
 
-p.search-result-sub-h1 {
+a.search-result-sub-h1 {
   font-family: FuturaDemiC;
   font-size: 28px;
   margin-top: -2px;
@@ -9904,7 +9905,8 @@ p.search-result-sub-h1 {
   font-stretch: normal;
   line-height: 27px;
   letter-spacing: normal;
-  color: #2b2b2b; }
+  color: #2b2b2b;
+  text-decoration: none; }
 
 p.search-result-sub-h2 {
   font-family: FuturaDemiC;

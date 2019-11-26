@@ -20,19 +20,21 @@ html(lang="en")
       h1(class="search-result-head") 3 результата по запросу «Кариес»:
       .search-result-item
        p(class="search-result-p") Услуги
-       p(class="search-result-sub-p") Лечение кариеса зуба
+       a.search-result-sub-p(href='#') Лечение кариеса зуба
+
+
        span(class="search-result-span")
         span Кариес 
         | – неприятное заболевание, которое проявляется в начале своего развития некрасивыми коричневыми пятнами на поверхности зубов, а потом приводит к активному разрушению эмали...
       .search-result-item
        p(class="search-result-p") Энциклопедия
-       p(class="search-result-sub-p") Лечение кариеса зуба
+       a.search-result-sub-p(href='#') Лечение кариеса зуба
        span(class="search-result-span")
         span Кариес 
         | – неприятное заболевание, которое проявляется в начале своего развития некрасивыми коричневыми пятнами на поверхности зубов, а потом приводит к активному разрушению эмали...
       .search-result-item
        p(class="search-result-p") Услуги
-       p(class="search-result-sub-p") Лечение кариеса зуба
+       a.search-result-sub-p(href='#') Лечение кариеса зуба
        span(class="search-result-span")
         span Кариес 
         | – неприятное заболевание, которое проявляется в начале своего развития некрасивыми коричневыми пятнами на поверхности зубов, а потом приводит к активному разрушению эмали...
@@ -40,10 +42,11 @@ html(lang="en")
        .row
         div(class="search-result-bl col-md-9")
          div(class="search-result-bl1")
-          img(src="images/search-result.png")
+          a(href="#")
+            img(src="images/search-result.png")
          div(class="search-result-bl2")
           p(class="search-result-p") Категория товара
-          p(class="search-result-sub-h1") Наименование товара в несколько строк, с деталями
+          a.search-result-sub-h1(href="#") Наименование товара в несколько строк, с деталями
           span(class="search-result-span")
            span Кариес 
            | описание товара с характеристиками. Неольшой вступительный текст. Привет всем синемаголикам и простым читателям моей рецензии!
@@ -51,8 +54,10 @@ html(lang="en")
          p(class="search-result-p") Цена
          p(class="search-result-sub-h2") 10 000
           span(class="circel_m") ₽
-         span(class="search-res-sp") Самовывоз из любого отделения
-         span(class="search-res-sp") Оплата на кассе, принимаем карты
+          a(href="#")
+           span(class="search-res-sp") Самовывоз из любого отделения
+          a(href="#")
+           span(class="search-res-sp") Оплата на кассе, принимаем карты
          a(href="#", class="search-result-link") Купить
    .pagination
     .center
