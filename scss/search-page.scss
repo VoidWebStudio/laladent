@@ -115,7 +115,7 @@ p.search-result-head {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    margin-bottom: 37px;
+    padding-bottom: 30px;
     line-height: normal;
     letter-spacing: normal;
     color: #2b2b2b;
@@ -141,7 +141,7 @@ p.search-result-p {
     color: #000000;
 }
 
-p.search-result-sub-p {
+a.search-result-sub-p {
     font-family: FuturaDemiC;
     font-size: 28px;
     font-weight: normal;
@@ -244,7 +244,7 @@ a.search-result-sub-h1 {
     line-height: 27px;
     letter-spacing: normal;
     color: #2b2b2b;
-    text-decoration: none;
+     text-decoration: none;
 }
 
 .search-result-bl.col-md-9 {}
