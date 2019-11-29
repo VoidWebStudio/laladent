@@ -52,9 +52,6 @@
 
 .shop-cat.sitetextarea.site-input {
     height: 200px;
-    ::placeholder{
-        color: #565656;
-    }
 }
 
 .shop-cat.sitetextarea.site-input textarea {
@@ -652,6 +649,9 @@ p.slide-popup-з {
       /* height: 20%; */
       box-sizing: border-box;
       padding: 15px 0 0 0;
+    .swiper-slide-active{
+        opacity: 1;
+    }
 }
 
  .gallery-thumbs .swiper-slide {
@@ -700,7 +700,6 @@ p.slide-popup-з {
     position: absolute;
     right: 62px;
     top: 51px;
-    cursor: pointer;
 }
 
 .popup-slider-close span {

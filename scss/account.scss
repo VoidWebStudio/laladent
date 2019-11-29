@@ -70,9 +70,6 @@ section.account-nav {
 .account-body li {
     float: left;
     position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .account-body li a {
@@ -80,6 +77,7 @@ section.account-nav {
     font-size: 18px;
     font-weight: normal;
     padding: 0 21px 13px 21px;
+    display: block;
     height: 100%;
     font-style: normal;
     font-stretch: normal;
@@ -89,9 +87,6 @@ section.account-nav {
     color: rgba(0, 0, 0, 0.4);
     text-decoration: none !important;
     border-bottom: 4px solid transparent;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
 }
 
 .account-body li:first-child a:before {
@@ -101,9 +96,7 @@ section.account-nav {
     width: 21px;
     height: 21px;
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     left: -4px;
     top: 2px;
 }
@@ -133,10 +126,7 @@ section.account-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-
 
 span.account-span {
     opacity: 0.4;

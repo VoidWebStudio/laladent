@@ -6,11 +6,21 @@
 .col-lg-6.new_tech_block:first-child {
     padding: 0 10px 0 0;
 }
+.disabledNav{
+    opacity: 1;
+}
+swiper-button-prev41{
+    position: absolute;
+}
+.swiper-button-disabled{
+    cursor: pointer!important;
+    opacity:0.35!important;
+    pointer-events: visible!important;
 
+}
 section.new_tech {
     padding: 6px 0 0 0;
 }
-
 .new_tech_block_img {
     overflow: hidden;
     border-radius: 16px;
@@ -118,7 +128,7 @@ section.about-text {
     color: #2b2b2b;
 }
 
-.about-text-img div {
+.about-text-img a {
     border-radius: 6px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
     overflow: hidden;

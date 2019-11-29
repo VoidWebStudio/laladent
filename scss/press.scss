@@ -1,4 +1,4 @@
-p.press-p {
+a.press-p {
     font-family: FuturaDemiC;
     font-size: 28px;
     font-weight: normal;
@@ -8,6 +8,7 @@ p.press-p {
     line-height: normal;
     letter-spacing: normal;
     color: #2b2b2b;
+    text-decoration: none;
 }
 
 span.press-span {
@@ -22,6 +23,7 @@ span.press-span {
     line-height: 19px;
     letter-spacing: normal;
     color: #000000;
+    padding-left: 1px;
 }
 
 .press-item {

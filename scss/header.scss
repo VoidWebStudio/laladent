@@ -43,6 +43,7 @@ a.scrool-btn {
     transform: translate(0, 0);
     transition: all 0.2s ease;
     display: block;
+  opacity: .5;
 }
 
 a.scrool-btn:before, a.scrool-btn:after {

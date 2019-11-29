@@ -2,9 +2,12 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
 });
 var galleryTop = new Swiper('.gallery-top', {
   spaceBetween: 10,
+    loop:false,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -14,10 +17,13 @@ var galleryTop = new Swiper('.gallery-top', {
   }
 });
 
+
 var galleryThumbs2 = new Swiper('.gallery-thumbs2', {
   spaceBetween: 10,
   slidesPerView: 4,
   freeMode: true,
+  watchSlidesVisibility: true,
+  watchSlidesProgress: true,
 });
 var galleryTop2 = new Swiper('.gallery-top2', {
   spaceBetween: 10,
@@ -81,7 +87,7 @@ var mySwiper2 = new Swiper('.slider2', {
 });
 var mySwiper3 = new Swiper('.slider3', {
   spaceBetween: 10,
-  width:155,
+  slidesPerView:6.5,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -101,6 +107,29 @@ var mySwiper3 = new Swiper('.slider3', {
       width:155
     }
   }
+});
+var mySwiper19 = new Swiper('.slider19', {
+    spaceBetween: 10,
+    slidesPerView:4.5,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        // when window width is <= 320px
+        360: {
+            width:155,
+        },
+        // when window width is <= 480px
+        640: {
+            width:155
+        },
+        // when window width is <= 640px
+        768: {
+            spaceBetween: 10,
+            width:155
+        }
+    }
 });
 var mySwiper4 = new Swiper('.slider4-1', {
   spaceBetween: 7,
@@ -251,7 +280,7 @@ var mySwiper11 = new Swiper('.slider11', {
 });
 var mySwiper12 = new Swiper('.slider12', {
   spaceBetween: 21,
-  width:183,
+  slidesPerView:4,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -688,18 +717,17 @@ next_pop2.onclick = function() {
 
   popup_cont2[0].classList.add("act");
   $('.datepicker-here').datepicker();
-}
-
-var gallery_popup = document.querySelectorAll('.gallery-pop');
-
-for(var i=0; i <gallery_popup.length; i++) {
-
-  var click = gallery_popup[i];
-  click.onclick = function() {   
-    var popup_cont = document.querySelectorAll(".slider-popup");    
-    popup_cont[0].classList.add("act");
-  }
-}
+};
+// var gallery_popup = document.querySelectorAll('.gallery-pop');
+//
+// for(var i=0; i <gallery_popup.length; i++) {
+//
+//   var click = gallery_popup[i];
+//   click.onclick = function() {
+//     var popup_cont = document.querySelectorAll(".slider-popup");
+//     popup_cont[1].classList.add("act");
+//   };
+// }
 var gallery_popup2 = document.querySelectorAll('.sertifikat-items');
 
 for(var i=0; i <gallery_popup2.length; i++) {
