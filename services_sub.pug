@@ -1,0 +1,250 @@
+doctype html
+html(lang="en") 
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+    .clinic-block
+     .center
+      div(class="clinic-bl withlink")
+       div(class="rigth-block", style="background: url(images/servbg.png)no-repeat;background-position: 30px center !important;")
+       .withlink-block
+        a(href="#") Главная
+        a(href="#") Услуги
+        span Диагностика заболеваний
+       h1(class="clinic-block-head") Услуги стоматологии LalaDent
+       span(class="clinic-block-disc pages") Небольшой текст о большом спектре услуг и качестве их оказания
+       div(class="col-md-8 no-padding")
+        .row
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк 
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+    .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+         p(class="mini-discount-items-p mini-s-d1")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+         p(class="mini-discount-items-p mini-s-d2")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+         p(class="mini-discount-items-p mini-s-d3")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  include modules/services_sub
+  section(class="services-sub-all")
+   .center
+    .services-sub-all-block
+     .services-sub-all-items
+      p(class="services-sub-all-p") Диагностика заболеваний
+      span(class="services-sub-all-span")
+       | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+     .services-sub-all-items
+      p(class="services-sub-all-p") История развития
+      span(class="services-sub-all-span")
+       | Самые ранние упоминания об отбеливании зубов относятся к первому веку нашей эры. Римские врачеватели считали, что использование мочи в значительной мере способствует осветлению зубов.
+      span(class="services-sub-all-span")
+       | Начиная с XIV по конец конца XVIII столетия, врачеватели славянских народов осуществляли отбеливание зубов при помощи слабого раствора азотной кислоты. Предварительно зубы обрабатывались металлическим напильником: снимался поверхностный слой эмали. Такую технологию применяли Смоляр Н.И., Кононенко В.В., Безвушко Э.В.
+      span(class="services-sub-all-span")
+       | Начиная с 1848 г. для отбеливания зубов начали применять хлорную известь — раствора кальция гидрохлорида и уксусной кислоты (активным элементом служил хлор). Данную методику предложил Труман.
+      div(class="services-sub-all-img")
+       img(src="images/girl2.png")
+       span(class="services-sub-all-img-span") Изображение в тексте с подписью
+      span(class="services-sub-all-span")
+       | В конце XIX в. для отбеливания зубов активно начали применять хлорид алюминия, щавелевую кислоту, пирозон (перекисный эфир), водородный диоксид (перекись водорода, или пергидроль), серную кислоту, натрия гипофосфат, хлорную известь и даже цианид калия.[1] В 1918 году был открыт принцип активизации отбеливания с помощью теплового излучения, который с успехом применяется в наше время. Световое излучение высокой интенсивности вызывает быстрый подъём температуры в растворе перекиси водорода, что приводит к бурному ускорению химических процессов отбеливания зубов. В настоящее время наиболее эффективными прямыми окислителями являются пирозон, супероксол и диоксид натрия, непрямыми — производные хлора.
+
+
+  section(class="services-sub-result")
+   .center
+    .row
+     div(class="col-lg-5 services-sub-result-items")
+      p(class="services-sub-result-p") Результаты лечения
+      span(class="services-sub-result-span")
+       span
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+      span(class="services-sub-result-span")
+       span
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+      span(class="services-sub-result-span")
+       span
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+      span(class="services-sub-result-span")
+       span
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+     div(class="col-lg-7 services-sub-result-items")
+      .row
+       div(class="col-md-6 services-sub-result-img")
+        img(src="images/before.png")
+        span до
+       div(class="col-md-6 services-sub-result-img")
+        img(src="images/after.png")
+        span после
+      .services-sub-btn
+       button Подробная карточка случая
+  section(class="services-sub-history")
+   .center
+    p(class="services-sub-history-head") История развития
+    .services-sub-history-block
+     .services-sub-history-items
+      p(class="services-sub-history-p") Отбеливание зубов подразделяется:
+      span(class="services-sub-history-span")
+       span
+       | Домашнее – проводятся в домашних условиях. Применяются разнообразные осветляющие зубные пасты, жвачки с абразивами, специальные средства, приготовленные дома (народные рецепты).
+      span(class="services-sub-history-span")
+       span
+       | Профессиональное — проводятся в стоматологических клиниках при помощи специального оборудования.
+     .services-sub-history-items
+      p(class="services-sub-history-p") Профессиональное отбеливание зубов подразделяется по методу воздействия:
+      span(class="services-sub-history-span")
+       span
+       | Механическое – очистка эмали путём подачи на неё смеси чистящего порошка с воздухом.
+      span(class="services-sub-history-span")
+       span
+       | Ультразвуковое – воздействие на зубную эмаль ультразвуком. Наиболее щадящий метод, но и наиболее дорогостоящий.
+      span(class="services-sub-history-span")
+       span
+       | Химическое – воздействие на эмаль зуба химическими составами. Наиболее эффективный метод, но имеет множество побочных эффектов. Применение разрешается только на абсолютно здоровых зубах.
+      span(class="services-sub-history-span")
+       span
+       | Лазерное – воздействие на эмаль зуба лазерным лучом. Быстрый и эффективный метод. Значительно отличается от щадящих методов и имеет большую стоимость.
+      span(class="services-sub-history-span")
+       span
+       | Фотоотбеливание – воздействие на эмаль зуба светом, подходит для чувствительных зубов. Применяется достаточно редко, так как требуется высокая квалификация и не всегда даёт желаемый результат – в ряде случаев придаёт неестественный оттенок.
+  section(class="services-sub-gallery")
+   .center  
+    p(class="services-sub-gallery-p") Галерея фотографий
+    .services-sub-gallery-block
+     div(class="slider11 swiper-container")
+      .swiper-wrapper 
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+     .swiper-button-prev
+     .swiper-button-next
+     .swiper-pagination
+
+
+  section(class="white-tooth")
+   .center  
+    div(class="white-tooth-block")
+     p Отбеливание зубов
+     span 
+      | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+
+  section(class="services-with-img")
+   .center  
+    p(class="services-with-img-head") Блоки картинка + текст
+    div(class="services-with-img-item")
+     .row
+      div(class="col-md-6 services-with-img-item1")
+       div
+        img(src="images/girl3.png")
+      div(class="col-md-6 services-with-img-item1")
+       p Блок 1
+       span 
+        | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+    div(class="services-with-img-item")
+     .row
+      div(class="col-md-6 services-with-img-item1")
+       p Блок 2
+       span 
+        | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+      div(class="col-md-6 services-with-img-item1")
+       div
+        img(src="images/girl3.png")
+    div(class="services-with-img-item")
+     .row
+      div(class="col-md-6 services-with-img-item1")
+       div
+        img(src="images/girl3.png")
+      div(class="col-md-6 services-with-img-item1")
+       p Блок 3
+       span 
+        | Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.
+
+
+
+
+  section(class="ser-block-numeric")
+   .center 
+    p(class="all-head") Список с нумерацией 
+    div(class="ser-block-numeric-block")
+     p(class="ser-block-numeric-p")
+      | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..
+     div(class="ser-block-numeric-items")
+      p 
+       span 1
+       | Название пункта
+      span(class="ser-block-numeric-span")
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+     div(class="ser-block-numeric-items")
+      p 
+       span 2
+       | Название пункта
+      span(class="ser-block-numeric-span")
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+     div(class="ser-block-numeric-items")
+      p 
+       span 3
+       | Название пункта
+      span(class="ser-block-numeric-span")
+       | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions
+  include modules/ceo2
+  include modules/comment-all
+  include modules/price-slider
+  include modules/footer

@@ -1,0 +1,833 @@
+.mini-discount-account {
+    max-width: 793px;
+    margin: 0 auto;
+}
+
+.col-md-6.account-head p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+.col-md-6.account-head a {
+    width: 71px;
+    height: 32px;
+    margin: 6px 0 0 auto;
+    border-radius: 16px;
+    border: solid 2px #ff4c72;
+    display: block;
+    text-align: center;
+}
+
+.col-md-6.account-head a span {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: #ff4c72;
+}
+
+section.account-nav {
+    margin-top: 63px;
+}
+
+.account-head {
+    max-width: 793px;
+    margin: 0 auto;
+}
+
+.col-md-6.account-head {
+    padding: 0;
+}
+
+.col-md-6.account-head:last-child {
+    /* text-align: right; */
+}
+
+.account-body {
+    max-width: 793px;
+    margin: 2px auto 63px auto;
+    border-radius: 26.5px;
+    background-color: #f0f4f5;
+    padding: 13px 0 1px 54px;
+}
+
+.account-body ul {
+    list-style-type: none !important;
+    margin: 0 !important;
+}
+
+.account-body ul:after {content: "";display: block;clear: both;}
+
+.account-body li {
+    float: left;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-body li a {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 21px 13px 21px;
+    height: 100%;
+    font-style: normal;
+    font-stretch: normal;
+    position: relative;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: none !important;
+    border-bottom: 4px solid transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.account-body li:first-child a:before {
+    content: "";
+    background-repeat: no-repeat !important;
+    background: url(../images/grey-star.png);
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -4px;
+    top: 2px;
+}
+
+.account-body span {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ff4c72;
+    display: block;
+    right: 6px;
+    top: -5px;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-stretch: normal;
+    line-height: 15px;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+.account-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+span.account-span {
+    opacity: 0.4;
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    text-align: center;
+    color: #2b2b2b;
+    padding-bottom: 70px;
+}
+.account-body li a.act {
+    color: #29b3bc;
+    border-color: #29b3bc;
+    opacity: 1;
+}
+
+.account-body li a:hover {
+    color: #29b3bc;
+}
+.account-d-p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+section.doctors-search.account-d {
+    margin-top: 47px;
+}
+.profile-block {
+    max-width: 793px;
+    margin: -44px auto 69px auto;
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    padding: 39px 84px 40px 102px;
+}
+
+.account-input.col-md-6 {
+    max-width: 285px;
+    height: 59px;
+    /* margin-right: 20px; */
+    margin-bottom: 11px;
+    border-radius: 8px;
+    border: solid 2px #bedfe1;
+    background-color: #ffffff;
+    padding: 11px 11px 10px 18px;
+    margin-right: 20px;
+}
+
+.account-input.col-md-6 p {
+    opacity: 0.4;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: -2px;
+    text-transform: uppercase;
+    letter-spacing: 1.67px;
+    color: #2b2b2b;
+}
+
+.account-input.col-md-6 input {
+    width: 100%;
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #565656;
+    border: none;
+}
+
+.account-input:nth-child(2n) {
+    margin-right: 0 !important;
+}
+
+.profile-gender p {
+    opacity: 0.4;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #2b2b2b;
+}
+
+.profile-gender {
+    margin-top: 10px;
+}
+.profile-gender> label {
+  position: relative;
+  margin-top: 0px;
+  }
+
+.profile-gender span {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  display: block;
+  margin-right: 16px;
+  font-family: FuturaDemiC;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #484a4a;
+  }
+
+.profile-gender span:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background: #d6e3f2;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  box-sizing: border-box;
+  opacity: 0.2;
+  border-radius: 15px;
+  border: solid 2px #000000;
+  }
+
+.profile-gender input {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+ }
+
+.profile-gender input:checked + span:after{
+  background: #ff4c72;
+  border-color: #ff4c72;
+  opacity: 1;
+}
+
+.profile-gender input:checked + span:before {
+    content: "";
+    display: block;
+    z-index: 10;
+    background: url(../images/check2.png) no-repeat;
+    height: 18px;
+    width: 14px;
+    left: 8px;
+    top: 3px;
+    position: absolute;
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+
+a.prifile-link {
+    width: 250px;
+    text-align: center;
+    height: 54px;
+    border-radius: 27px;
+    border: solid 2px #ff4c72;
+    text-decoration: none !important;
+    background-color: #ff4c72;
+    display: block;
+    margin: 38px auto 0 170px;
+}
+
+a.prifile-link span {
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 50px;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.profile-reg {
+    max-width: 793px;
+    margin: 0 auto;
+}
+
+.col-md-6.profile-h {
+    padding: 0;
+}
+
+.col-md-6.profile-h p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+.col-md-6.profile-h button {
+    width: 175px;
+    height: 32px;
+    display: block;
+    border-radius: 16px;
+    background-color: #ff4c72;
+    border: none;
+    margin: 8px 0px 0 auto;
+}
+
+.col-md-6.profile-h button span {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.profile-reg-items {
+    border-radius: 16px;
+    background-color: #f0f4f5;
+    margin-bottom: 20px;
+    padding: 19px 0px 15px 20px;
+}
+
+.profile-reg-item {
+    padding: 0;
+}
+
+p.profile-reg-item-date {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+
+p.profile-reg-item-p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 2px;
+    font-stretch: normal;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    color: #000000;
+}
+
+span.profile-reg-item-address {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+    display: block;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+span.profile-reg-item-add {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    font-stretch: normal;
+    line-height: 19px;
+    max-width: 150px;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+span.profile-reg-item-num {
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+
+.profile-reg-item-doc {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 19px;
+    display: block;
+    letter-spacing: normal;
+    width: 230px;
+    color: #000000;
+    margin-top: 14px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+.profile-reg-item-doc:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
+.profile-doc-img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.profile-doc-img img {
+    width: 100%;
+}
+
+.profile-remind-head span {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    margin-top: 0px;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+.profile-remind-head a {
+    top: -3px;
+    position: relative;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #29b3bc;
+    margin-left: 21px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+.profile-remind-head a:hover {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
+.profile-remind {
+    max-width: 793px;
+    margin: 0 auto;
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+.profile-remind-items > label {
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 22px;
+  }
+
+.profile-remind-items span {
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  display: block;
+  margin-right: 16px;
+  font-family: FuturaDemiC;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.7);
+  }
+
+.profile-remind-items span:after {
+  content: '';
+  background: #ffffff;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  box-sizing: border-box;
+  opacity: 0.2;
+  border: solid 2px #000000;
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
+  border-radius: 7px;
+  border: solid 2px #000000;
+  }
+
+.profile-remind-items input {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0; }
+
+.profile-remind-items input:checked + span:after {
+  background: #ff4c72;
+  border-color: #ff4c72;
+  opacity: 1; }
+
+.profile-remind-items input:checked + span:before {
+    content: "";
+    display: block;
+    z-index: 10;
+    width: 16px;
+    height: 16px;
+    background: url(../images/check2.png)no-repeat;
+    left: 0;
+    top: 0px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 8px;
+  }
+
+.profile-remind-block:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-remind-block {
+    margin-top: 4px;
+}
+
+.profile-remind-items {
+    float: left;
+    margin-right: 3px;
+    border-radius: 16px;
+    padding: 16px 0px 14px 14px;
+}
+
+.profile-remind-items a {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    display: none;
+    font-style: normal;
+    margin-left: 26px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: #29b3bc;
+}
+
+.profile-remind-items:hover {
+    background-color: #f0f4f5;
+    cursor: pointer;
+}
+.profile-remind-items:hover.profile-remind-items a{
+  display:block;
+}
+.bonnus-block {
+    max-width: 793px;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    padding-top: 1px;
+}
+.bonus-item-r p {
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 28px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+.bonus-item-r span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 18px;
+    letter-spacing: normal;
+    display: block;
+    color: #000000;
+}
+
+.bonus-item-r {
+    padding-left: 2px;
+    padding-right: 65px;
+    max-width: 600px;
+}
+
+.bonus-item-l p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: 7px;
+    letter-spacing: 1.67px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.bonus-item-l span {
+    opacity: 0.7;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.bonus-item-l {
+    padding: 18px 0 0 4px;
+}
+
+.bonus-items {
+    border-bottom: solid 1px #dddddd;
+    margin-bottom: 26px;
+    padding-bottom: 30px;
+}
+
+.bonus-count p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+.bonus-count {
+    margin-bottom: 10px;
+}
+
+.bonus-btn button {
+    width: 241px;
+    height: 54px;
+    border-radius: 27px;
+    border: solid 2px #ff4c72;
+    background-color: #ff4c72;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bonus-btn button span {
+    font-family: FuturaDemiC;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.bonus-btn {
+    margin-bottom: 69px;
+    margin-top: 54px;
+}
+.account-body li a.act:before {
+    background: url(../images/icon-star-green.svg) !important;
+}
+
+section.doctors-search.account-d span.doc-numb {
+    margin-top: -11px !important;
+    margin-bottom: 8px !important;
+} 
+.shop-cat.site-input.account-rg-inp {
+    width: 285px !important;
+    margin-bottom: 10px;
+}
+
+.shop-cat.site-input.account-rg-inp:nth-child(2n) {
+    margin-right: 0 !important;
+}
+@media(max-width:767px){
+.account-body li {
+    float: inherit !important;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.account-body li:nth-child(2n) a {
+    padding-left: 0 !important;
+}
+.account-body li:nth-child(3n) a {
+    padding-left: 0 !important;
+}
+
+.account-body {
+    padding: 15px 30px;
+}
+.col-md-6.account-head a {
+    margin: 0px 0 10px 0 !important;
+}
+.profile-block {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.prifile-link {
+    margin: 20px 0 0 0 !important;
+}
+.col-md-6.profile-h button {
+    margin: 0 0 20px 0;
+}
+
+.profile-reg-item {
+    margin-bottom: 20px;
+}
+
+span.profile-reg-item-doc {}
+
+.profile-reg-item-doc:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
+
+.profile-remind-head a {
+    display: block !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+}
+}
+
+.col-md-6.profile-h button:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+}
+.col-md-6.account-head a {
+    text-decoration: none !important;
+}
+
+.col-md-6.account-head a:hover {
+    border-color: #ff2f5b;
+    transition: all 0.3s ease;
+}
+
+.col-md-6.account-head a:hover span {
+    color: #ff2f5b;
+    transition: all 0.3s ease;
+}

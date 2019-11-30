@@ -1,0 +1,359 @@
+.clinic-nm span:first-child {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;  
+    line-height: normal;
+    margin-bottom: 4px;
+    letter-spacing: 1.67px;
+    color: #000000;
+    text-transform: uppercase !important;
+    display: block;
+}
+
+.clinic-nm {
+    margin-top: 17px;
+    margin-bottom: 56px;
+}
+
+.clinic-nm span:last-child {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    display: block;
+    color: #000000;
+}
+
+section.maps {
+    margin-top: -34px;
+}
+
+.maps-nav a {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-decoration: none !important;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #29b3bc;
+    padding: 5px 15px 4px 15px;
+    display: block;
+    float: left;
+}
+
+.maps-nav a.avtive_nav {
+    background: #29b3bc;
+    color: white !important;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.maps-nav {
+    margin-left: -15px;
+    margin-bottom: 63px;
+}
+
+.maps-nav:after {content: "";display: block;clear: both;}
+
+.maps-body {
+    max-width: 793px;
+    margin: 0 auto;
+}
+
+.col-md-6.maps-item img {
+    width: 100%;
+}
+
+.col-md-6.maps-item:first-child {
+    padding: 0 10px 0 0px !important;
+}
+
+.col-md-6.maps-item:last-child {
+    padding: 0 0 0 10px !important;
+}
+
+p.maps-p {
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+p.maps-p a {
+    text-decoration: none !important;
+    color: #2b2b2b;
+    transition: all 0.3s ease;
+}
+p.maps-p a:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
+span.maps-span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    margin-bottom: 8px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.col-md-6.maps-bl:last-child {
+    padding-left: 16px;
+}
+
+.col-md-6.maps-bl {
+    padding: 0;
+}
+
+.maps-items {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dddddd;
+    margin-bottom: 22px;
+}
+.maps-body-all-block {
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    margin: 0 -10px 60px -10px !important;
+    background: url("../images/loc3.png")no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    padding: 18px 20px 15px 0;
+}
+
+
+.maps-body-all {
+    margin-top: -28px;
+}
+
+.maps-body-all-item {
+    max-width: 395px;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding: 17px 0 16px 20px;
+    margin-left: auto;
+}
+
+p.maps-body-all-head {
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: 4px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+}
+
+span.maps-body-all-address {
+    display: block;
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    margin-bottom: 14px;
+    font-weight: normal;
+    display: block;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+p.maps-body-all-p {
+    opacity: 0.45;
+    font-family: FuturaDemiC;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.67px;
+    margin-bottom: 6px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.maps-body-all-item-r {
+    width: 55%;
+}
+
+.maps-body-all-item-l {
+    width: 45%;
+    padding: 0 0 0 2px;
+    margin-top: -6px;
+}
+
+.maps-body-all-item-r span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-bottom: -1px;
+    display: block;
+    color: #000000;
+}
+
+.maps-body-all-item-l>span {
+    opacity: 0.7;
+    font-family: FuturaPTBook;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.maps-body-all-item-l a span {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff4c72;
+    transition: all 0.3s ease;
+}
+
+.maps-body-all-item-l a {
+    display: block;
+    position: relative;
+    margin-top: 19px;
+    text-decoration: none;
+}
+.maps-body-all-item-l a:hover span {
+     color: #ff2f5b;
+     transition: all 0.3s ease;
+}
+
+.maps-body-all-item-l a:hover:after {
+   border-color: #ff2f5b;
+   transition: all 0.3s ease;
+}
+.maps-body-all-item-l a:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #ff4c72;
+    border-top: 2px solid #ff4c72;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    right: 0px;
+    top: 0;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+}
+.maps-body-all-block.clinic-select {
+    height: 570px !important;
+}
+
+.maps-body-all-link {
+    max-width: 355px;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #ff4c72;
+    text-decoration: none;
+    display: block;
+    margin-top: 13px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+.maps-body-all-link:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+}
+
+.maps-body-all-link span {
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 34px;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: block;
+}
+
+.maps-body-all-block.clinic-select {
+    background: url(../images/loc4.png) no-repeat !important;
+}
+.maps-item .address-block-btn a:after {    
+    top: -1px;
+    position: relative;
+}
+
+@media(max-width:768px){
+.maps-body-all-block {
+    background-size: cover !important;
+}
+
+.maps-body-all-block {
+    padding-right: 0 !important;
+}
+
+.maps-body-all-item {
+    padding: 17px 5px 16px 5px;
+}
+.maps-nav {
+    margin-top: 70px;
+}
+.col-md-6.maps-item:last-child {
+    padding: 0 !important;
+}
+.maps-item .maps-bl {
+    padding-left: 0 !important;
+}
+.maps-item .address-block-btn button {
+    margin: 0 0 20px 0 !important;
+}
+.maps-item .address-block-btn a {
+    margin-left: 0 !important;
+}
+
+.maps-item .address-block-btn {
+    text-align: initial !important;
+}
+.maps-item p.address-block-time-p {
+    float: inherit !important;
+}
+
+.maps-item .address-block-btn button {
+    display: block !important;
+    width: 175px !important;
+}
+}

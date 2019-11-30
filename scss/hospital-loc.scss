@@ -1,0 +1,478 @@
+
+.address-block-btn button:hover {
+    background: #ff2f5b;
+    transition: all 0.3s ease;
+    background-color: #ff2f5b;
+}
+
+.address-block-btn a:hover {
+    color: #ff2f5b;
+    transition: all 0.3s ease;
+}
+
+.hospital-loc-slider .swiper-slide img {
+    width: 100% !important;
+  cursor: pointer;
+}
+
+.iframe_map iframe {
+    width: 100% !important;
+}
+
+section.hospital-loc {
+    margin-bottom: 68px;
+}
+.hospital-loc-p {
+  font-family: FuturaDemiC;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; 
+  line-height: normal;
+  letter-spacing: normal;
+  color: #2b2b2b;
+  text-align: center; }
+
+ul.nav-ul {
+  list-style-type: none !important;
+  padding: 0; }
+
+.hos-nav-li {
+  display: block;
+  width: 32.16%;
+  float: left;
+  text-align: center;
+  margin-right: 21px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  position: relative;
+  }
+  span.hos-nav-span {
+    min-height: 46px;
+    display: block;
+    padding: 0 30px;
+    padding-bottom: 4px;
+    line-height: 18px;
+}
+.hos-nav-li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    background: #05a7b1;
+    transition: all 0.3s ease;
+}
+li.hos-nav-li:last-child {
+    margin-right: 0 !important;
+}
+
+.hos-nav-ul:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.hos-nav-li:hover:after {
+  opacity: 1;
+  width: 100%;
+  transition: all 0.3s ease;
+  }
+.hos-nav-li.active:after {
+  opacity: 1;
+  width: 100%;
+  background:#ff4c72 !important;
+  transition: all 0.3s ease;
+  }
+
+.hos-nav-p {
+  font-family: FuturaDemiC;
+  color: #29b3bc;
+  margin-bottom: 1px;
+  transition: all 0.3s ease;
+  }
+
+.hos-nav-span {
+  font-family: "FuturaPTBook";
+  font-size: 18px;
+  line-height: normal;
+  color: #29b3bc; 
+  margin-top: -3px;
+  transition: all 0.3s ease;
+  }
+
+
+.hos-nav-li.active>.hos-nav-span, .hos-nav-li.active>.hos-nav-p {
+  color: #ff4c72 !important; 
+  transition: all 0.3s ease;
+  }
+
+p.address-block-p {
+  font-size: 24px;
+  line-height: normal;
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-bottom: -1px;
+  letter-spacing: -1px;
+  }
+
+span.address-block-span {
+  font-family: "FuturaPTBook";
+  font-size: 16px;
+  color: #000000; }
+
+p.address-block-time-p {
+  font-family: FuturaDemiC;
+  font-size: 10px;
+  line-height: normal;
+  letter-spacing: 1.67px;
+  color: #000000;
+  opacity: 0.45;
+  }
+
+span.address-block-time-span {
+  font-family: "FuturaPTBook";
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  display: block;
+  }
+.hospital-loc-block {
+    background: #f0f4f5;
+    display: block;
+    margin-top: 37px;
+    padding-top: 21px;
+    padding-bottom: 30px;
+}
+
+
+
+ul.hos-nav-ul {
+    padding: 0;
+}
+
+
+
+
+.tab-cont {
+    padding-top: 14px;
+}
+
+.loc-block {
+    padding: 0 10px 0 0;
+    border-radius: 10px;
+}
+
+.loc-block img {
+    width: 100%;
+}
+
+.address-block {
+    padding: 14px 0 0 54px;
+}
+
+p.address-block-time-p {
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+.address-block-time {
+    padding: 0;
+}
+
+.address-block-btn {
+    margin-top: 16px;
+    margin-bottom: 26px;
+}
+
+.address-block-btn button {
+    width: 175px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #ff4c72;
+    border: none !important;
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    font-weight: lighter !important;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.address-block-btn button {
+    border-color: #ff4c72;
+    transition: all 0.3s ease;
+}
+
+.address-block-btn a {
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff4c72;
+    text-decoration: none !important;
+    margin-left: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.address-block-btn a {
+    color: #ff2f5b;
+    transition: all 0.3s ease;
+}
+.address-block-btn a:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #ff4c72;
+    border-top: 2px solid #ff4c72;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    right: 0px;
+    top: 0;
+    margin-left: 4px;
+}
+.tur-3d {
+    max-width: 394px;
+}
+
+button#tur-3d-btn {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    background: #29b3bc;
+    width: 100%;
+    height: 84px;
+    position: relative;
+    font-family: FuturaDemiC;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none !important;
+    text-align: right;
+    color: #ffffff;
+    padding-right: 28px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+button#tur-3d-btn:hover {
+    background: #05a7b1;
+    transition: all 0.3s ease;
+}
+  button#tur-3d-btn:before {
+    content: "";
+    background: url(../images/3d.png)black no-repeat;
+    position: absolute;
+    width: 133px;
+    height: 100%;
+    display: block;
+    background-position: center center;
+    background-size: 100% 100%;
+    left: 0;
+    z-index: 5;
+    top: 0;
+}
+  .hospital-loc-slider {
+    margin-top: 31px;
+    position: relative;
+}
+.tab-cont {position: relative;overflow: hidden;}
+.tab-cont>div{opacity: 0; transition: all 0.5s ease-in; top:0;position: absolute;top: 0; left: 0;height: 100%;width: 100%;
+    left: 0;}
+.tab-cont>div.active{opacity: 1;position: static;}
+
+
+
+@media(min-width:768px){
+  .hospital-loc-mob{
+   display:none;
+ }
+}
+
+
+@media(max-width:767px){
+.hospital-loc-mob{
+  display:block;
+}
+.hospital-loc{
+   display:none;
+ }
+
+.hospital-loc-block-mob-body img {
+    width: 100%;
+}
+
+.hospital-loc-block-mob-head p {
+    font-family: FuturaDemiC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 34px;  
+    color: #2B2B2B;
+    margin-bottom: 5px;
+}
+
+.hospital-loc-block-mob {
+    background: #F0F4F5;
+}
+
+span.hospital-loc-block-mob-add {
+    font-family: "FuturaPTBook";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 0px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    display: block;
+}
+
+span.hospital-loc-block-mob-num {
+    font-family: FuturaDemiC;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;  /* identical to box height */
+    color: #29B3BC;
+}
+
+.hospital-loc-block-mob-head {
+    margin-bottom: 10px;
+}
+
+.address-block-btn button {
+    display: block;
+    margin: 0 0 29px auto !important;
+}
+
+.address-block-btn{text-align: right;}
+
+.hospital-loc-mob .tur-3d button {
+    text-align: left !important;
+    padding-left: 163px;
+}
+
+.hospital-loc-block-mob-body .hospital-loc-slider {
+    padding-bottom: 25px;
+}
+.tur-3d {
+    max-width: 100% !important;
+}
+.hospital-loc-slider .swiper-pagination {
+    margin-top: 0 !important;
+}
+.hospital-loc-block-mob-item {
+    border-bottom: 1px solid #E6E6E6;
+}
+.hospital-loc-block-mob-head:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid #000000;
+    border-top: 3px solid #000000;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(-45deg);
+    right: 33px;
+    position: absolute;
+    /* margin-top: 4px; */
+    /* margin-left: 8px; */
+    top: 45%;
+    opacity: 0.2;
+}
+
+.hospital-loc-block-mob-head {
+    position: relative;
+    padding: 10px 0 0 0;
+}
+.hospital-loc-block-mob-body.sh_loc {
+    display: block;
+}
+
+.hospital-loc-block-mob-body {
+    display: none;
+}
+
+.hospital-loc-block-mob-head.active_loc:after {
+    transform: rotate(135deg);
+}
+section.hospital-loc-mob {
+    margin-bottom: 50px;
+}
+}
+@media(max-width:1200px){
+  .hos-nav-li {
+  display: block;
+  width: 30%;
+  }
+
+}
+@media(max-width:575px){
+.hospital-loc-mob .tur-3d button {
+    text-align: left !important;
+    padding-left: 123px;
+    padding-right: 20px !important;
+}
+button#tur-3d-btn:before {
+    width: 107px;
+  }
+.col-sm-6.address-block-time div {}
+
+.address-block-time div {
+    float: right;
+    margin-top: 10px;
+}
+
+p.address-block-time-p {
+    float: left;
+}
+
+
+.address-block-btn button {
+    display: inline-block;
+    width: 108px !important;
+}
+
+.address-block-btn.col-sm-6 {
+    text-align: left;
+}
+
+.address-block-btn button:last-child {
+    width: 108px;
+}
+
+.address-block-btn button:first-child {
+     display: none;
+}
+  
+}
+.address-block-btn.col-sm-6 {
+    padding: 0 !important;
+}
+@media(min-width:1000px){
+  .hos-nav-p {
+    font-size: 28px !important;
+    }
+
+}
+@media(min-width:767px){
+  .hos-nav-p {
+    font-size: 24px;
+    }
+
+}

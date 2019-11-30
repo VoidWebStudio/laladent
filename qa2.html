@@ -1,0 +1,2081 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <body>
+    <div class="popup_block ask-doctor-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Задать вопрос</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line">
+              <div class="shop-cat site-input">
+                <p>Ваше имя*</p>
+                <input type="text" placeholder="Ваше имя*">
+              </div>
+              <div class="shop-cat site-input">
+                <p>Заголовок вопроса*</p>
+                <input type="text" placeholder="Заголовок вопроса*">
+              </div>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш вопрос*</p>
+                <textarea placeholder="Ваш вопрос*"></textarea>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <p class="popup-p">Оставьте email или ваш номер, и мы оповестим вас, когда будет опубликован ответ:</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+              </div>
+            </div><span class="popup-span">* обязаельно к заполнению</span>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block callback-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Обратный звонок </p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-twoline">
+              <p class="popup-p">Оставьте номер и ваше имя, и мы перезвоним вам в ближайшее время</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+              </div>
+            </div><span class="popup-span">* обязаельно к заполнению</span>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block confirm">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Запись на прием принята!</p>
+        </div>
+        <div class="popup-body"><span class="popup-confirm-span">Наше менеджер свяжется с вами в ближайшее время и подтвердит запись.</span>
+          <div class="popup-disc"><a class="mini-discount-items col-lg-4" href="#">
+              <div class="mini-discount-item1">
+                <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+              </div></a></div>
+          <div class="popup-robot">    
+            <button class="popup-btn cntr"><span>Принято!</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block lpgin-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Регистрация и вход</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-social">
+              <p class="popup-p2">По номеру телефона</p>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+              </div>
+              <button class="popup-btn"><span>Войти</span></button>
+              <div class="popup-social-block">
+                <p class="popup-p2">Через соцсети</p>
+                <div class="popup-social-block-items"><a href="#"></a><a href="#"></a><a href="#"></a></div>
+              </div>
+            </div>
+            <div class="popup-robot">
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block info-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p class="info-popup-p">Расписание на праздники</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-twoline">
+              <p class="popup-p witout-padd">В новогодние праздники не работаем с 1 по 5 января,  остальные дни в штатном режиме.</p>
+              <button class="popup-btn cntr"><span>ПРИНЯТО!</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block review-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Оставить отзыв</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line"><span class="review-popup-span">Вы можете опционально уточнить отделение, врача и услугу:</span>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш отзыв</p>
+                <textarea placeholder="Ваш отзыв"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+              <div class="shop-cat site-input">
+                <p>Ваше имя</p>
+                <input type="text" placeholder="Ваше имя">
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Врач</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Отделение</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-line selp">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Услуга</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <p class="popup-p">Для того чтобы оставить отзыв - необходимо указать email или номер телефона:</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона*</p>
+                <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+              </div>
+            </div>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block review-popup2">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Написать комментарий</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line">
+              <div class="shop-cat site-input">
+                <p>Ваше имя</p>
+                <input type="text" placeholder="Ваше имя">
+              </div>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш комментарий</p>
+                <textarea placeholder="Ваш комментарий"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <p class="popup-p">Для того чтобы оставить отзыв - необходимо указать email или номер телефона:</p>
+              <div class="shop-cat site-input">
+                <p>Email</p>
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="shop-cat site-input">
+                <p>Номер телефона</p>
+                <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+              </div>
+            </div>
+            <div class="popup-robot">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+              <div class="popup-conf">
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                </label>
+                <label>
+                  <input type="checkbox"><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block write-review-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Оставить отзыв</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line"><span class="review-popup-span">Вы можете опционально уточнить отделение, врача и услугу:</span>
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш отзыв</p>
+                <textarea placeholder="Ваш отзыв"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+            </div>
+            <div class="popup-twoline">
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Врач</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+              <div class="shop-cat twosel">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Отделение</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-line selp">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Услуга</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="popup-line">
+              <button class="popup-btn cntr"><span>отправить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block write-review-popup2">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Написать комментарий</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-line">
+              <div class="shop-cat sitetextarea site-input">
+                <p>Ваш комментарий</p>
+                <textarea placeholder="Ваш комментарий"></textarea>
+              </div>
+              <div class="mark-popup mark-blovk1">
+                <p>Ваша оценка нашей работы:</p>
+                <div><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span><span class="expert-m-span"></span></div>
+              </div>
+            </div>
+            <div class="popup-line">
+              <button class="popup-btn cntr"><span>отправить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block check-number-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Подтверждение номера</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="popup-robot withoutmargin">
+              <div class="popup-robot-btn-bl">
+                <label class="popup-robot-btn">
+                  <input type="checkbox"><span>I'm not a robot</span>
+                </label>
+              </div>
+              <button class="popup-btn"><span>отправить код</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+            </div>
+            <div class="popup-twoline check-number-block">
+              <p class="check-number-p">На номер +7 (927) 333-43-82 отправлен код</p>
+              <div class="shop-cat site-input">
+                <p>Код из SMS</p>
+                <input type="text" placeholder="Код из SMS" value="4821">
+              </div>
+              <button class="popup-btn"><span>Войти</span></button><span class="check-number-span">Отправить код повторно (<span id="popup-timer"></span>)</span><a class="change-number-a" href="#">Изменить номер телефона</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block details-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Вы успешно зарегистрировались</p>
+        </div>
+        <div class="popup-body">
+          <form>
+            <div class="details-block">
+              <p class="details-block-p">Пожалуйста заполните информацию о себе:</p>
+              <div>
+                <div class="shop-cat site-input">
+                  <p>Фамилия</p>
+                  <input type="text" placeholder="Пертров">
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Дата рождения</p>
+                  <input class="popup_valid_date" type="text" placeholder="ДД.ММ.ГГГГ">
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Ваше имя</p>
+                  <input type="text" placeholder="Олег">
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Номер телефона</p>
+                  <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Отчество</p>
+                  <input type="text" placeholder="Отчество">
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Email</p>
+                  <input type="text" placeholder="petrov@mail.ru">
+                </div>
+              </div>
+            </div>
+            <div class="profile-gender details-gender">
+              <p>Пол</p>
+              <label>
+                <input type="radio" name="gender"><span>Мужской</span>
+              </label>
+              <label>
+                <input type="radio" name="gender"><span>Женский</span>
+              </label>
+            </div>
+            <div class="details-btn">
+              <button class="popup-btn cntr"><span>Сохранить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block slider-popup">
+      <div class="popup-slider-close"><span></span><span></span></div>
+      <div class="popup-slider-block">
+        <div class="gallery-popup">
+          <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+              <div class="swiper-slide slide-popup">
+                <div><img src="images/girl4.png"></div>
+                <p class="slide-popup-з">Подпись к фото если есть</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"></div>
+            </div>
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"></div>
+            </div>
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"></div>
+            </div>
+            <div class="swiper-slide thumb-popup">
+              <div><img src="images/girl4.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block appointment-popup">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Записаться на прием</p>
+        </div>
+        <div class="appointment-block popup-body">
+          <div class="appointment-item">
+            <p class="appointment-item-p">1. Выберете отделение</p>
+            <div class="appointment-item-sel">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Отделение</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div><a class="appointment-a" href="#" id="popup-next">Любое отделение</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block appointment-popup2">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Записаться на прием</p>
+        </div>
+        <div class="appointment-block popup-body">
+          <div class="appointment-item">
+            <p class="appointment-item-p">1. Выберете отделение</p><span class="appointment-item-span">Отделение на М. Третьяковская</span><a class="appointment-a" href="#">Изменить</a>
+          </div>
+          <div class="appointment-item appoint-sec">
+            <p class="appointment-item-p">2. Выберете лечащего врача</p>
+            <div class="appointment-item-sel">
+              <div class="shop-cat">
+                <div class="select-block popup-sel">
+                  <select>
+                    <option selected="select">Врач</option>
+                    <option>вваа</option>
+                  </select>
+                </div>
+              </div>
+            </div><a class="appointment-a" href="#" id="popup-next2">К любому врачу</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_block appointment-popup3">
+      <div class="popup_item"><span class="close-popup"></span>
+        <div class="popup-head">
+          <p>Записаться на прием</p>
+        </div>
+        <div class="appointment-block popup-body">
+          <div class="appointment-item">
+            <p class="appointment-item-p">1. Выберете отделение</p><span class="appointment-item-span">Отделение на М. Третьяковская</span><a class="appointment-a" href="#">Изменить</a>
+          </div>
+          <div class="appointment-item appoint-sec">
+            <p class="appointment-item-p">2. Выберете лечащего врача</p>
+            <div class="appointment-item-doc">
+              <div><img src="images/doc.png"></div>
+              <p>Стоматолог-Терапевт</p><span>Иванов Владимир Петрович</span>
+            </div><a class="appointment-a" href="#">Изменить</a>
+          </div>
+          <div class="appointment-item appoint-three">
+            <p class="appointment-item-p">3. Выберете доступные дату и время</p>
+            <div class="appoint-date">
+              <div class="datepicker-here"></div>
+              <div class="apppoint-time">
+                <div class="row">
+                  <div class="apppoint-time-item">
+                    <button class="appoin-disable">10:00</button>
+                    <button class="appoin-disable">10:30</button>
+                    <button class="appoin-disable">11:00</button>
+                    <button class="appoin-disable">11:30</button>
+                    <button class="appoin-disable">12:00</button>
+                    <button class="appoin-disable">12:30</button>
+                    <button class="appoin-active">13:00</button>
+                    <button class="appoin-active">13:30</button>
+                  </div>
+                  <div class="apppoint-time-item">
+                    <button class="appoin-active">14:00</button>
+                    <button class="appoin-disable">14:30</button>
+                    <button class="appoin-active">15:00</button>
+                    <button class="appoin-active">15:30</button>
+                    <button class="appoin-disable">16:00</button>
+                    <button class="appoin-disable">16:30</button>
+                    <button class="appoin-disable">17:00</button>
+                    <button class="appoin-disable">17:30</button>
+                  </div>
+                  <div class="apppoint-time-item">
+                    <button class="appoin-active">18:00</button>
+                    <button class="appoin-active">18:30</button>
+                    <button class="appoin-active">19:00</button>
+                    <button class="appoin-active">19:30</button>
+                    <button class="appoin-active">20:00</button>
+                    <button class="appoin-active">20:30</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="appoint-foot">
+              <div class="popup-twoline">
+                <div class="shop-cat site-input">
+                  <p>Email</p>
+                  <input type="text" placeholder="Email">
+                </div>
+                <div class="shop-cat site-input">
+                  <p>Номер телефона</p>
+                  <input class="popup_valid_num" type="text" placeholder="+7 (___) ___-__-__">
+                </div>
+              </div><span class="appoint-foot-span">Запись в отделение на М. Театральная к Васильеву М.В. на 15 марта в 15:00</span>
+              <div class="popup-robot">
+                <div class="popup-robot-btn-bl">
+                  <label class="popup-robot-btn">
+                    <input type="checkbox"><span>I'm not a robot</span>
+                  </label>
+                </div>
+                <button class="popup-btn"><span>Записаться</span></button><span class="popup-robot-span">Текст про капчу для бабули</span>
+                <div class="popup-conf appointment-conf">
+                  <label>
+                    <input type="checkbox"><span>Согласен с<a href="#">Положением по обработке персональных данных</a></span>
+                  </label>
+                  <label>
+                    <input type="checkbox"><span>Согласен с<a href="#">Политикой конфиденциальности</a></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mob-header"> 
+      <div class="center">
+        <div class="row"> 
+          <div class="col-sm-4 col-5 no-padding"><a class="mob-logo" href="index.html"></a></div>
+          <div class="col-sm-4 col-4 no-padding">
+            <button class="mob-button-reg">Записаться</button>
+          </div>
+          <div class="col-sm-2 col-1 no-padding">
+            <button class="mob-button-call"></button>
+          </div>
+          <div class="col-sm-2 col-2 no-padding">
+            <div class="mob-head-btn"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="mob-menu-win">
+        <div class="mob-menu"> 
+          <div class="mob-menu-head">
+            <div class="row">
+              <div class="col-6"><a class="mob-logo" href="index.html"></a></div>
+              <div class="col-6">
+                <div class="mob-head-btn-close"><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="mob-menu-num-block">
+            <div class="row">
+              <div class="col-6"><span class="mob-logo-number">+7 (495) 700-80-00</span></div>
+              <div class="col-6"><a class="mob-logo-a" href="#">Личный кабинет</a></div>
+              <div class="col-6">
+                <button class="logo-call logo-btn">Обратный звонок</button>
+              </div>
+              <div class="col-6">
+                <button class="logo-reg logo-btn">запись на прием</button>
+              </div>
+            </div>
+          </div>
+          <div class="mob-menu-add-block">
+            <div class="row">
+              <div class="col-6"> <span class="mob-menu-add-block-span">Отделения:</span><a class="mob-menu-add-block-a" href="#">Народного ополчения</a><a class="mob-menu-add-block-a" href="#">Белорусская</a><a class="mob-menu-add-block-a" href="#">Парк Культуры</a></div>
+              <div class="col-6"> <span class="mob-menu-add-block-span">Время работы</span><span class="mob-menu-add-block-tm">Пн-Пт:<span>09:00 - 21:00</span></span><span class="mob-menu-add-block-tm">Сб: <span>10:00 - 20:00</span></span><span class="mob-menu-add-block-tm">Вс:<span>выходной</span></span></div>
+            </div>
+          </div>
+          <div class="mob-menu-block">
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Услуги</span></div>
+                  <div class="col-6"> <span>Энциклопедия</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Цены</span></div>
+                  <div class="col-6"> <span>Вопросы-Ответы</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Врачи</span></div>
+                  <div class="col-6"> <span>О клинике</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Наш опыт</span></div>
+                  <div class="col-6"> <span>Пресса о нас</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 mob-menu-btn"><span>Отделения</span></div>
+                  <div class="col-6"> <span>Магазин</span></div>
+                </div>
+              </div>
+              <div class="mob-menu-block-body">
+                <ul>
+                  <li><a href="#">Название пункта 1</a></li>
+                  <li><a href="#">Название пункта 2</a></li>
+                  <li><a href="#">Название пункта 3</a></li>
+                  <li><a href="#">Название пункта 4</a></li>
+                  <li><a href="#">Название пункта 5</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="mob-menu-block-items">
+              <div class="mob-menu-block-head">
+                <div class="row">
+                  <div class="col-6 "><span class="mob-search">Поиск</span></div>
+                  <div class="col-6"> <span>Корзина</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div id="head-fix">
+        <div class="nav-menu">
+          <div class="center">
+            <div class="row">
+              <div class="nav-block col-md-10 col-lg-9"><span class="nav-name">Отделения:<a class="nav-items" href="press.html">Третьяковская</a><a class="nav-items" href="shop.html">Парк Культуры</a><a class="nav-items" href="search-no-result.html">Белорусская</a></span><span class="nav-social">Мы в соцсетях:<a href="search-result.html"><i class="ic-ins"></i></a><a href="search.html"><i class="ic-fb"></i></a><a href="#"><i class="ic-vk"></i></a></span></div>
+              <div class="user-block col-md-2 col-lg-3"><a href="#" onclick="popup(&quot;details-popup&quot;)">Личный кабинет</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="logo-blocks">
+          <div class="center">
+            <div class="row">
+              <div class="col-md-4 col-lg-6 no-padding logo-bl"><a href="index.html" id="logo"></a></div>
+              <div class="col-md-8 col-lg-6 logo-block">
+                <div><span class="logo-nomber">+7 (495) 700-80-00</span>
+                  <button class="logo-call logo-btn" onclick="popup(&quot;callback-popup&quot;)">Обратный звонок</button>
+                  <button class="logo-reg logo-btn" onclick="popup(&quot;appointment-popup&quot;)">запись на прием</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <div class="center">
+            <div class="row">
+              <div class="col-lg-8 menu-block">
+                <ul>
+                  <li class="menu-li"><a href="services.html">Услуги</a></li>
+                  <li class="menu-li"><a href="price.html">Цены</a></li>
+                  <li class="menu-li"> <a href="doctors.html">Врачи</a></li>
+                  <li class="menu-li"> <a href="doctor.html">Наш опыт</a></li>
+                  <li class="menu-li"> <a href="reviews.html">Отделения</a></li>
+                  <li class="menu-li"> <a href="services_sub.html">Информация</a>
+                    <ul>
+                      <li><a href="services2.html">Энциклопедия</a></li>
+                      <li><a href="clinics.html">Вопросы-Ответы</a></li>
+                      <li><a href="portfolio.html">О клинике</a></li>
+                      <li><a href="articles.html">Пресса о нас</a></li>
+                      <li><a href="about.html">Магазин</a></li>
+                      <li><a href="#" onclick="popup(&quot;details-popup&quot;)">Личный кабинет</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <button class="search-btn"></button>
+              </div>
+              <div class="col-lg-4 market-block"><a href="cart_promo.html">Магазин</a><a href="offers.html">Корзина</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="scrool-top" id="scr-btn"><a class="scrool-btn" href="#"></a></div>
+    <section class="clinic">
+      <div class="clinic-block">
+        <div class="center">
+          <div class="clinic-bl withlink">
+            <div class="rigth-block" style="background: url(images/servbg.png)no-repeat;background-position: 30px center !important;"></div>
+            <div class="withlink-block"><a href="#">Главная</a><a href="#">Вопросы и ответы</a><span>Какой имплант лучше поставить на жевательные зубы?</span></div>
+            <h1 class="clinic-block-head qa-page">Какой имплант лучше поставить на жевательные зубы?</h1>
+            <div class="col-md-8 no-padding">
+              <div class="row">
+                <div class="clinic-items">
+                  <p>Иконка и какой-нибудь полезный факт</p><span>Краткое описание факта, детали в несколько строк </span>
+                </div>
+                <div class="clinic-items">
+                  <p>Иконка и какой-нибудь полезный факт</p><span>Краткое описание факта, детали в несколько строк</span>
+                </div>
+                <div class="clinic-items">
+                  <p>Иконка и какой-нибудь полезный факт</p><span>Краткое описание факта, детали в несколько строк</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mini-discount"> 
+        <div class="center">
+          <div class="without-slider">
+            <div class="row"><a class="mini-discount-items col-lg-4" href="#">
+                <div class="mini-discount-item1">
+                  <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+                </div>
+                <p class="mini-discount-items-p mini-s-d1">Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.</p></a><a class="mini-discount-items col-lg-4" href="#">
+                <div class="mini-discount-item2">
+                  <p>Имплантация Nobel по специальной цене</p><span>-10%</span>
+                </div>
+                <p class="mini-discount-items-p mini-s-d2">Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.</p></a><a class="mini-discount-items col-lg-4" href="#">
+                <div class="mini-discount-item3">
+                  <p>Композитный виниры по специальной цене</p><span>9000<span class="circel_m">₽</span></span>
+                </div>
+                <p class="mini-discount-items-p mini-s-d3">Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.</p></a></div>
+          </div>
+          <div class="discount-slider">
+            <div class="discount-slider-block">
+              <div class="slider10 swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item1">
+                        <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+                      </div></a></div>
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item2">
+                        <p>Имплантация Nobel по специальной цене</p><span>-10%</span>
+                      </div></a></div>
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item3">
+                        <p>Композитный виниры по специальной цене</p><span>9000<span class="circel_m">₽</span></span>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="qa-page">
+      <div class="center">
+        <div class="qa-page-block">
+          <div class="qa-page-question">
+            <h3 class="qa-question-head">Вопрос</h3>
+            <p class="qa-page-p">Какой имплант лучше поставить на жевательные зубы?</p><span>Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.</span>
+            <div class="comment-slider">
+              <div class="slider3 swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                  <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <div class="qa2"><span class="qa-date">15.03.2019</span><span class="qa-autor">Ирина</span></div>
+          </div>
+          <div class="qa-page-answer">
+            <h3 class="qa-answer-head">Ответ</h3>
+            <div class="qa-doctor">
+              <div class="row">
+                <div class="qa-doc-img col-md-2">
+                  <div><a href="#"><img src="images/doc.png"></a></div>
+                  <div class="qa-mark">
+                    <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div>
+                  </div><span class="qa-callback">25 отзывов</span>
+                </div>
+                <div class="qa-doc-info col-md-7"><a class="qa-doc-info-p" href="#">Иванов Владимир Петрович</a><span class="qa-doc-info-span">Опыт работы 15 лет</span>
+                  <div class="row">
+                    <div class="div col-6 qa-doc-info-block">
+                      <p class="qa-doc-info-block-p">Специализация</p><span class="qa-doc-info-block-span">Стоматолог-имплантолог,</span><span class="qa-doc-info-block-span">стоматолог-терапевт,</span><span class="qa-doc-info-block-span">стоматолог-ортопед</span>
+                    </div>
+                    <div class="div col-6 qa-doc-info-block">
+                      <p class="qa-doc-info-block-p">Второй список</p><span class="qa-doc-info-block-span">Второй список строка 1,</span><span class="qa-doc-info-block-span">Второй список строка 2,</span><span class="qa-doc-info-block-span">Второй список строка 3,</span><span class="qa-doc-info-block-span">Второй список строка 4</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="qa-doc-address col-md-3"><a href="#"><span>записаться на прием</span></a>
+                  <p class="qa-doc-info-block-p">Принимает в отделениях<span class="qa-doc-info-block-span">М. Третьяковская,</span><span class="qa-doc-info-block-span">М. Парк Культуры</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="qa-page-txt"><span>Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.</span><span>Производители имплантационных систем грамотно подошли к решению вопроса, поэтому стали выпускать широкий размерный ряд моделей. При подборе конструкции для жевательной группы зубов учитываются следующие факторы: качество материалов, прогнозируемый срок службы, соотношение цены и качества.</span><span>Врачи нашей стоматологии работают с проверенными системами имплантации, на которые предоставляется пожизненная гарантия. Если говорить о лучшем производителе на сегодняшний день, то наш опыт подсказывает, что это швейцарская компания Nobel Biocare. Их системы характеризуются лучшей прочностью и приживаемостью.</span><span>Доверьтесь профессионалу при выборе и не волнуйтесь!</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="clinic shop-itm">
+      <div class="mini-discount-account">
+        <div class="center">
+          <p class="shop-itm-p">Цены на услуги по имплантантам</p>
+          <div class="without-slider">
+            <div class="row"><a class="mini-discount-items col-lg-6" href="#">
+                <div class="mini-discount-item1">
+                  <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+                </div>
+                <p class="mini-discount-items-p mini-s-d1">Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.</p></a><a class="mini-discount-items col-lg-6" href="#">
+                <div class="mini-discount-item2">
+                  <p>Имплантация Nobel по специальной цене</p><span>-10%</span>
+                </div>
+                <p class="mini-discount-items-p mini-s-d2">Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.</p></a></div>
+          </div>
+          <div class="discount-slider">
+            <div class="discount-slider-block">
+              <div class="slider10 swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item1">
+                        <p>Белоснежная улыбка на 8 марта</p><span>-50%</span>
+                      </div></a></div>
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item2">
+                        <p>Имплантация Nobel по специальной цене</p><span>-10%</span>
+                      </div></a></div>
+                  <div class="swiper-slide"><a class="mini-discount-items" href="#">
+                      <div class="mini-discount-item3">
+                        <p>Композитный виниры по специальной цене</p><span>9000<span class="circel_m">₽</span></span>
+                      </div></a></div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="price">
+      <div class="center">
+        <div class="price-block">
+          <div class="price-nav">
+            <div class="price-nav-block">
+              <div class="row">
+                <div class="price-btn col-sm-6"><span>Первичный осмотр и консультация</span></div>
+                <div class="price-cont col-sm-6">
+                  <div class="price-contbl">
+                    <p>Цена</p><span>Бесплатно</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-nav-items">
+              <p class="rice-nav-items-p">
+                 Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты</p><span class="rice-nav-items-span">В стоимость входит:</span>
+              <ul>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+              </ul><a class="rice-link" href="#">Подробнее об услуге</a>
+            </div>
+          </div>
+          <div class="price-nav">
+            <div class="price-nav-block">
+              <div class="row">
+                <div class="price-btn col-sm-6"><span>Лечение кариеса</span></div>
+                <div class="price-cont col-sm-6">
+                  <div class="price-contbl">
+                    <p>Цена</p><span>от 1 000<span class="circel_m">₽</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-nav-items">
+              <p class="rice-nav-items-p">
+                 Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты</p><span class="rice-nav-items-span">В стоимость входит:</span>
+              <ul>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+              </ul><a class="rice-link" href="#">Подробнее об услуге</a>
+            </div>
+          </div>
+          <div class="price-nav">
+            <div class="price-nav-block">
+              <div class="row">
+                <div class="price-btn col-sm-6"><span>Световая пломба</span></div>
+                <div class="price-cont col-sm-6 stock">       
+                  <div class="price-contbl">
+                    <p>Цена</p><span>от 7 000<span class="circel_m">₽</span></span>
+                  </div>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p><span>от 5 000<span class="circel_m">₽</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-nav-items">
+              <p class="rice-nav-items-p">
+                 Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты</p><span class="rice-nav-items-span">В стоимость входит:</span>
+              <ul>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+              </ul><a class="rice-link" href="#">Подробнее об услуге</a>
+            </div>
+          </div>
+          <div class="price-nav">
+            <div class="price-nav-block">
+              <div class="row">
+                <div class="price-btn col-sm-6"><span>Снятие зубных отложений</span></div>
+                <div class="price-cont col-sm-6">
+                  <div class="price-contbl">
+                    <p>Цена</p><span>от 1 000<span class="circel_m">₽</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-nav-items">
+              <p class="rice-nav-items-p">
+                 Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты</p><span class="rice-nav-items-span">В стоимость входит:</span>
+              <ul>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+              </ul><a class="rice-link" href="#">Подробнее об услуге</a>
+            </div>
+          </div>
+          <div class="price-nav">
+            <div class="price-nav-block">
+              <div class="row">
+                <div class="price-btn col-sm-6"><span>Профессиональная чистка зубов</span></div>
+                <div class="price-cont col-sm-6">
+                  <div class="price-contbl">
+                    <p>Цена</p><span>от 1 000<span class="circel_m">₽</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="price-nav-items">
+              <p class="rice-nav-items-p">
+                 Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты</p><span class="rice-nav-items-span">В стоимость входит:</span>
+              <ul>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+                <li>Название пункта, который входит в стоимость </li>
+              </ul><a class="rice-link" href="#">Подробнее об услуге</a>
+            </div>
+          </div>
+        </div>
+        <div class="prece-all-bl"><a class="site-link" href="#">
+            <div>ВСЕ ЦЕНЫ НА УСЛУГИ</div></a></div>
+      </div>
+    </section>
+    <section class="services-sub-gallery">
+      <div class="center"> 
+        <p class="services-sub-gallery-p">Галерея фотографий</p>
+        <div class="services-sub-gallery-block">
+          <div class="slider11 swiper-container">
+            <div class="swiper-wrapper"> 
+              <div class="slider-block swiper-slide"><img src="images/chair.png"></div>
+              <div class="slider-block swiper-slide"><img src="images/chair.png"></div>
+              <div class="slider-block swiper-slide"><img src="images/chair.png"></div>
+              <div class="slider-block swiper-slide"><img src="images/chair.png"></div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="video-answer">
+      <div class="center"> 
+        <p>Видео ответ</p>
+        <div class="video-answer-block">
+          <div><img src="images/girl4.png"></div>
+          <button class="video-btn"></button>
+        </div>
+      </div>
+    </section>
+    <section class="discount">
+      <div class="center">
+        <div class="discount-block">
+          <p class="discount-p">Белоснежная улыбка на 8 марта</p><span class="discount-span">-50%</span>
+        </div>
+      </div>
+    </section>
+    <section class="cooment-all">
+      <div class="center">
+        <p class="cooment-all-head">Комментарии</p>
+        <div class="comment-all-block">
+          <p class="cooment-all-p mob_all">
+             Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+            <button class="mob_all_btn">Развернуть </button>
+          </p>
+          <div class="cooment-all-autor"><span class="cooment-all-time">15.03.2019, 13:15</span><span class="cooment-all-name">Ирина</span><span class="cooment-all-stars"><img src="images/icon-star-green.svg"><img src="images/icon-star-green.svg"><img src="images/icon-star-green.svg"><img src="images/icon-star-green.svg"><img src="images/icon-star-grey.svg"></span></div>
+          <div class="comment-all-answ">
+            <p class="cooment-all-p">Текст комментария</p>
+            <div class="cooment-all-autor"><span class="cooment-all-time">
+                 15.03.2019, 13:15</span><span class="cooment-all-name">Вадим</span></div>
+          </div>
+          <div class="comment-all-answ">
+            <p class="cooment-all-p">Текст комментария</p>
+            <div class="cooment-all-autor"> <span class="cooment-all-time">15.03.2019, 13:15</span><span class="cooment-all-name">Олег</span><a class="comment-all-btn" href="#">Ответить</a></div>
+          </div>
+        </div>
+        <div class="comment-all-block">
+          <p class="cooment-all-p mob_all">Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+            <button class="mob_all_btn">Развернуть </button>
+          </p>
+          <div class="cooment-all-autor"><span class="cooment-all-time">15.03.2019, 13:15</span><span class="cooment-all-name">Ирина</span><span class="cooment-all-stars"><img src="images/icon-star-green.svg"><img src="images/icon-star-green.svg"><img src="images/icon-star-green.svg"><img src="images/icon-star-green.svg"><img src="images/icon-star-grey.svg"></span></div><a class="comment-all-btn" href="#">Ответить</a>
+        </div>
+      </div>
+      <div class="coment-all-links"><a href="#" onclick="popup(&quot;write-review-popup2&quot;)">Оставить комментарий</a><a href="#">Еще комментарии</a></div>
+    </section>
+    <section class="search search-background">
+      <p>Услуги стоматологии LalaDent</p>
+      <div class="center">
+        <div class="seacrh-bl">
+          <input type="text" placeholder="ПОИСК ПО НАЗВАНИЮ УСЛУГИ">
+        </div>
+        <div class="categor-block"><a class="serv_btn btn_active" href="#">Детская стоматология</a><a class="serv_btn" href="#">Диагностика заболеваний</a><a class="serv_btn" href="#">Гигиена и профилактика</a><a class="serv_btn" href="#">Хирургическая стоматология</a><a class="serv_btn" href="#">Имплантология</a><a class="serv_btn" href="#">Ортодонтия</a><a class="serv_btn" href="#">Пародонтология</a><a class="serv_btn" href="#">Терапевтическая стоматология</a><a class="serv_btn" href="#">Эндодонтия</a><a class="serv_btn" href="#">Эстетическая стоматология</a><a class="serv_btn" href="#">Лазерная стоматология</a><a class="serv_btn" href="#">Протезирование зубов</a></div>
+      </div>
+      <div class="services-filter btn_active">
+        <div class="services-filter-block btn_active">
+          <p class="searc-serv-head">Детская стоматология</p>
+          <div class="center">
+            <div class="row serv-bl">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ до </span>5 000 <span class="circel_m">₽</span><a class="stomatology-block-list" href="#">
+                      <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ до </span>2 000 <span class="circel_m">₽</span></span></a></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ до </span>5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head">Диагностика заболеваний</p>
+          <div class="center">
+            <div class="row serv-bl">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽</span>до 2 000<span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head">Гигиена и профилактика</p>
+          <div class="center">
+            <div class="row serv-bl">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Люминиры</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head">Хирургическая стоматология</p>
+          <div class="center">
+            <div class="row serv-bls">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head-small">Ортогнатическая хирургия</p>
+          <div class="center">
+            <div class="row serv-bls">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head-small">Зубосохраняющие операции</p>
+          <div class="center">
+            <div class="row serv-bls">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Косметическая реставрация зубов</p>
+                  <div class="stock-block">
+                    <p>акция до 22 сентября</p>
+                  </div><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 2 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Винирование зубов (виниры)</p><span>Цена от 1 000 <span class="circel_m">₽ до 2 000 </span><span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head-small">Удаление зуба</p>
+          <div class="center">
+            <div class="row serv-bls">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ до </span>5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a><a class="stomatology-block-list" href="#">
+                  <p>Ультразвуковая чистка зубов</p><span>Цена от 1 000 <span class="circel_m">₽ </span>до 5 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="services-filter-block">
+          <p class="searc-serv-head-small">Хирургическое вмешательство при воспалительных процессах</p>
+          <div class="center">
+            <div class="row serv-bls">
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+              <div class="stomatology-block-s col-lg-3"><a class="stomatology-block-list" href="#">
+                  <p>Отбеливание зубов</p><span>Цена от 1 000 <span class="circel_m">₽</span></span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="qa">
+      <div class="qa-body">
+        <p>Вопросы и ответы по теме</p>
+        <div class="qa-block">
+          <div class="center">
+            <div class="qa-question">
+              <p>Какой имплант лучше поставить на жевательные зубы?</p><span class="qa-txt">Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.</span><span class="qa-date">15.03.2019</span><span class="qa-autor">Ирина</span>
+            </div>
+            <div class="qa-answer">
+              <p>ответ</p><span class="qa-txt">Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.</span>
+              <div class="qa-doc">
+                <div class="row">
+                  <div class="qa-doc1 col-sm-8"><a href="#"><img src="images/doc.png"></a><span>Стоматолог-Терапевт</span><a href="#">Иванов Владимир Петрович</a></div>
+                  <div class="qa-doc2 col-sm-4"><span>7 комментариев</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="qa-block">
+          <div class="center">
+            <div class="qa-question">
+              <p>Какой имплант лучше поставить на жевательные зубы?</p><span class="qa-txt">Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.</span><span class="qa-date">15.03.2019</span><span class="qa-autor">Ирина</span>
+            </div>
+            <div class="qa-answer">
+              <p>ответ</p><span class="qa-txt">Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.</span>
+              <div class="qa-doc">
+                <div class="row">
+                  <div class="qa-doc1 col-sm-8"><a href="#"><img src="images/doc.png"></a><span>Стоматолог-Терапевт</span><a href="#">Иванов Владимир Петрович</a></div>
+                  <div class="qa-doc2 col-sm-4"><span>7 комментариев</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="qa-block">
+          <div class="center">
+            <div class="qa-question">
+              <p>Какой имплант лучше поставить на жевательные зубы?</p><span class="qa-txt">Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.</span><span class="qa-date">15.03.2019</span><span class="qa-autor">Ирина</span>
+            </div>
+            <div class="qa-answer">
+              <p>ответ</p><span class="qa-txt">Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.</span>
+              <div class="qa-doc">
+                <div class="row">
+                  <div class="qa-doc1 col-sm-8"><a href="#"><img src="images/doc.png"></a><span>Стоматолог-Терапевт</span><a href="#">Иванов Владимир Петрович</a></div>
+                  <div class="qa-doc2 col-sm-4"><span>7 комментариев    </span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-expert"> 
+      <div class="center">
+        <h3 class="our-expert-head">Наши специалисты</h3><span class="our-expert-span">Небольшой текст о квалификации, образовании и большом опыте работы врачей</span>
+        <div class="our-expert-slider">
+          <div class="slider5 swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a class="slider-expert-block" href="#"><img src="images/our-expert.png">
+                  <div class="slider-expert-bl">
+                    <p class="expert-name">
+                       Иванов <br>Владимир Петрович</p>
+                    <p class="our-expert-p">Специализация</p>
+                    <div class="slider-ex-bl"><span class="expert-line">Стоматолог-имплантолог,</span><span class="expert-line">стоматолог-терапевт,</span><span class="expert-line">стоматолог-ортопед </span></div>
+                    <div class="row">
+                      <div class="experience-block col-xs-6">
+                        <p class="our-expert-p">Опыт работы</p><span>15 лет</span>
+                      </div>
+                      <div class="expert-sign-up col-xs-6">
+                        <button>записаться</button>
+                      </div>
+                      <div class="expert-mark"> 
+                        <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div><span>25 отзывов</span>
+                      </div>
+                    </div>
+                  </div></a></div>
+              <div class="swiper-slide"><a class="slider-expert-block" href="#"><img src="images/our-expert.png">
+                  <div class="slider-expert-bl">
+                    <p class="expert-name">
+                       Иванов <br>Владимир Петрович</p>
+                    <p class="our-expert-p">Специализация</p>
+                    <div class="slider-ex-bl"><span class="expert-line">Стоматолог-имплантолог,</span><span class="expert-line">стоматолог-терапевт,</span><span class="expert-line">стоматолог-ортопед </span></div>
+                    <div class="row">
+                      <div class="experience-block col-xs-6">
+                        <p class="our-expert-p">Опыт работы</p><span>15 лет</span>
+                      </div>
+                      <div class="expert-sign-up col-xs-6">
+                        <button>записаться</button>
+                      </div>
+                      <div class="expert-mark"> 
+                        <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div><span>25 отзывов</span>
+                      </div>
+                    </div>
+                  </div></a></div>
+              <div class="swiper-slide"><a class="slider-expert-block" href="#"><img src="images/our-expert.png">
+                  <div class="slider-expert-bl">
+                    <p class="expert-name">
+                       Иванов <br>Владимир Петрович</p>
+                    <p class="our-expert-p">Специализация</p>
+                    <div class="slider-ex-bl"><span class="expert-line">Стоматолог-имплантолог,</span><span class="expert-line">стоматолог-терапевт,</span><span class="expert-line">стоматолог-ортопед </span></div>
+                    <div class="row">
+                      <div class="experience-block col-xs-6">
+                        <p class="our-expert-p">Опыт работы</p><span>15 лет</span>
+                      </div>
+                      <div class="expert-sign-up col-xs-6">
+                        <button>записаться</button>
+                      </div>
+                      <div class="expert-mark"> 
+                        <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div><span>25 отзывов</span>
+                      </div>
+                    </div>
+                  </div></a></div>
+              <div class="swiper-slide"><a class="slider-expert-block" href="#"><img src="images/our-expert.png">
+                  <div class="slider-expert-bl">
+                    <p class="expert-name">
+                       Иванов <br>Владимир Петрович</p>
+                    <p class="our-expert-p">Специализация</p>
+                    <div class="slider-ex-bl"><span class="expert-line">Стоматолог-имплантолог,</span><span class="expert-line">стоматолог-терапевт,</span><span class="expert-line">стоматолог-ортопед </span></div>
+                    <div class="row">
+                      <div class="experience-block col-xs-6">
+                        <p class="our-expert-p">Опыт работы</p><span>15 лет</span>
+                      </div>
+                      <div class="expert-sign-up col-xs-6">
+                        <button>записаться</button>
+                      </div>
+                      <div class="expert-mark"> 
+                        <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div><span>25 отзывов</span>
+                      </div>
+                    </div>
+                  </div></a></div>
+              <div class="swiper-slide"><a class="slider-expert-block" href="#"><img src="images/our-expert.png">
+                  <div class="slider-expert-bl">
+                    <p class="expert-name">
+                       Иванов <br>Владимир Петрович</p>
+                    <p class="our-expert-p">Специализация</p>
+                    <div class="slider-ex-bl"><span class="expert-line">Стоматолог-имплантолог,</span><span class="expert-line">стоматолог-терапевт,</span><span class="expert-line">стоматолог-ортопед </span></div>
+                    <div class="row">
+                      <div class="experience-block col-xs-6">
+                        <p class="our-expert-p">Опыт работы</p><span>15 лет</span>
+                      </div>
+                      <div class="expert-sign-up col-xs-6">
+                        <button>записаться</button>
+                      </div>
+                      <div class="expert-mark"> 
+                        <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div><span>25 отзывов</span>
+                      </div>
+                    </div>
+                  </div></a></div>
+            </div>
+          </div>
+          <div class="swiper-button-prev swiper-button-prev5"></div>
+          <div class="swiper-button-next swiper-button-next5"></div>
+          <div class="swiper-pagination swiper-pagination5"></div>
+        </div>
+        <div class="our-expert-link"><a class="site-link" href="#"> 
+            <div>Весь список врачей</div></a></div>
+      </div>
+    </section>
+    <section class="hospital-loc-mob">
+      <h2 class="hospital-loc-p">Отделения клиники</h2>
+      <div class="hospital-loc-block-mob">
+        <div class="hospital-loc-block-mob-item">
+          <div class="hospital-loc-block-mob-head">
+            <div class="center">
+              <p>М. Третьяковская</p><span class="hospital-loc-block-mob-add">Ленинский проспект, 20</span><span class="hospital-loc-block-mob-num">+7 495 700 8000</span>
+            </div>
+          </div>
+          <div class="hospital-loc-block-mob-body">
+            <div class="iframe_map">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36de576975b0c11351ee15ac01165fb08627bd92dcf742d055e81433fa313de6&amp;amp;source=constructor" width="690" height="345" frameborder="0"></iframe>
+            </div>
+            <div class="center"> 
+              <div class="row">
+                <div class="col-sm-6 address-block-time">
+                  <p class="address-block-time-p">Время работы отделения</p>
+                  <div><span class="address-block-time-span">Пн-Пт с 09:00 до 20:00</span><span class="address-block-time-span">Сб с 10:00 до 18:00</span><span class="address-block-time-span">Вс с 10:00 до 15:00</span></div>
+                </div>
+                <div class="address-block-btn col-sm-6">
+                  <button>записаться на прием</button>
+                  <button>записаться</button><a href="#">Подробнее об отделении</a>
+                </div>
+              </div>
+              <div class="tur-3d">
+                <button id="tur-3d-btn">Посмотреть 3D-тур</button>
+              </div>
+              <div class="hospital-loc-slider">
+                <div class="slider4-1 swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hospital-loc-block-mob-item">
+          <div class="hospital-loc-block-mob-head">
+            <div class="center">
+              <p>М. Парк Культуры</p><span class="hospital-loc-block-mob-add">Ленинский проспект, 20</span><span class="hospital-loc-block-mob-num">+7 495 700 8000</span>
+            </div>
+          </div>
+          <div class="hospital-loc-block-mob-body">
+            <div class="iframe_map">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36de576975b0c11351ee15ac01165fb08627bd92dcf742d055e81433fa313de6&amp;amp;source=constructor" width="690" height="345" frameborder="0"></iframe>
+            </div>
+            <div class="center">
+              <div class="row">
+                <div class="col-sm-6 address-block-time">
+                  <p class="address-block-time-p">Время работы отделения</p>
+                  <div><span class="address-block-time-span">Пн-Пт с 09:00 до 20:00</span><span class="address-block-time-span">Сб с 10:00 до 18:00</span><span class="address-block-time-span">Вс с 10:00 до 15:00</span></div>
+                </div>
+                <div class="address-block-btn col-sm-6">
+                  <button>записаться на прием</button>
+                  <button>записаться</button><a href="#">Подробнее об отделении</a>
+                </div>
+              </div>
+              <div class="tur-3d">
+                <button id="tur-3d-btn">Посмотреть 3D-тур</button>
+              </div>
+              <div class="hospital-loc-slider">
+                <div class="slider4-1 swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hospital-loc-block-mob-item">
+          <div class="hospital-loc-block-mob-head">
+            <div class="center">
+              <p>М. Белорусская</p><span class="hospital-loc-block-mob-add">Ленинский проспект, 20</span><span class="hospital-loc-block-mob-num">+7 495 700 8000</span>
+            </div>
+          </div>
+          <div class="hospital-loc-block-mob-body">
+            <div class="iframe_map">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36de576975b0c11351ee15ac01165fb08627bd92dcf742d055e81433fa313de6&amp;amp;source=constructor" width="690" height="345" frameborder="0"></iframe>
+            </div>
+            <div class="center">
+              <div class="row">
+                <div class="col-sm-6 address-block-time">
+                  <p class="address-block-time-p">Время работы отделения</p>
+                  <div><span class="address-block-time-span">Пн-Пт с 09:00 до 20:00</span><span class="address-block-time-span">Сб с 10:00 до 18:00</span><span class="address-block-time-span">Вс с 10:00 до 15:00</span></div>
+                </div>
+                <div class="address-block-btn col-sm-6">
+                  <button>записаться на прием</button>
+                  <button>записаться</button><a href="#">Подробнее об отделении</a>
+                </div>
+              </div>
+              <div class="tur-3d">
+                <button id="tur-3d-btn">Посмотреть 3D-тур</button>
+              </div>
+              <div class="hospital-loc-slider">
+                <div class="slider4-1 swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hospital-loc">
+      <h2 class="hospital-loc-p">Отделения клиники</h2>
+      <div class="hospital-loc-block">
+        <div class="center">
+          <div class="div loc-nav">
+            <ul class="hos-nav-ul">
+              <li class="hos-nav-li active">
+                <p class="hos-nav-p">М. Третьяковская</p><span class="hos-nav-span">Ленинский проспект, 20</span>
+              </li>
+              <li class="hos-nav-li">
+                <p class="hos-nav-p">М. Парк Культуры</p><span class="hos-nav-span">Ленинский проспект, 20</span>
+              </li>
+              <li class="hos-nav-li">
+                <p class="hos-nav-p">М. Белорусская</p><span class="hos-nav-span">Ленинский проспект, 20</span>
+              </li>
+            </ul>
+            <div class="tab-cont">
+              <div class="active">
+                <div class="row">
+                  <div class="col-lg-7 loc-block">
+                    <div class="iframe_map">
+                      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36de576975b0c11351ee15ac01165fb08627bd92dcf742d055e81433fa313de6&amp;amp;source=constructor" width="690" height="345" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 address-block">
+                    <p class="address-block-p">Ленинский проспект, 20</p><span class="address-block-span">М. Третьяковская, М. Новокузнецкая, М. Полянка</span>
+                    <div class="row">
+                      <div class="col-md-6 address-block-time">
+                        <p class="address-block-time-p">Время работы отделения</p><span class="address-block-time-span">Пн-Пт с 09:00 до 20:00</span><span class="address-block-time-span">Сб с 10:00 до 18:00</span><span class="address-block-time-span">Вс с 10:00 до 15:00</span>
+                      </div>
+                      <div class="col-md-6 address-block-time">
+                        <p class="address-block-time-p">Телефон отделения</p><span class="address-block-time-span">+7 495 700 8000</span>
+                      </div>
+                    </div>
+                    <div class="address-block-btn">
+                      <button>записаться на прием</button><a href="#">Подробнее об отделении</a>
+                    </div>
+                    <div class="tur-3d">
+                      <button id="tur-3d-btn">Посмотреть 3D-тур</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="hospital-loc-slider">
+                  <div class="slider4-1 swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev swiper-button-prev41"></div>
+                  <div class="swiper-button-next swiper-button-next41"></div>
+                </div>
+              </div>
+              <div>
+                <div class="row">
+                  <div class="col-lg-7 loc-block">
+                    <div class="iframe_map">
+                      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36de576975b0c11351ee15ac01165fb08627bd92dcf742d055e81433fa313de6&amp;amp;source=constructor" width="690" height="345" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 address-block">
+                    <p class="address-block-p">2Ленинский проспект, 20</p><span class="address-block-span">М. Третьяковская, М. Новокузнецкая, М. Полянка</span>
+                    <div class="row">
+                      <div class="col-md-6 address-block-time">
+                        <p class="address-block-time-p">Время работы отделения</p><span class="address-block-time-span">Пн-Пт с 09:00 до 20:00</span><span class="address-block-time-span">Сб с 10:00 до 18:00</span><span class="address-block-time-span">Вс с 10:00 до 15:00</span>
+                      </div>
+                      <div class="col-md-6 address-block-time">
+                        <p class="address-block-time-p">Телефон отделения</p><span class="address-block-time-span">+7 495 700 8000</span>
+                      </div>
+                    </div>
+                    <div class="address-block-btn">
+                      <button>записаться на прием</button><a href="#">Подробнее об отделении</a>
+                    </div>
+                    <div class="tur-3d">
+                      <button id="tur-3d-btn">Посмотреть 3D-тур</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="hospital-loc-slider">
+                  <div class="slider4-2 swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev swiper-button-prev42"></div>
+                  <div class="swiper-button-next swiper-button-next42"></div>
+                </div>
+              </div>
+              <div>
+                <div class="row">
+                  <div class="col-lg-7 loc-block">
+                    <div class="iframe_map">
+                      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A36de576975b0c11351ee15ac01165fb08627bd92dcf742d055e81433fa313de6&amp;amp;source=constructor" width="690" height="345" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 address-block">
+                    <p class="address-block-p">3Ленинский проспект, 20</p><span class="address-block-span">М. Третьяковская, М. Новокузнецкая, М. Полянка</span>
+                    <div class="row">
+                      <div class="col-md-6 address-block-time">
+                        <p class="address-block-time-p">Время работы отделения</p><span class="address-block-time-span">Пн-Пт с 09:00 до 20:00</span><span class="address-block-time-span">Сб с 10:00 до 18:00</span><span class="address-block-time-span">Вс с 10:00 до 15:00</span>
+                      </div>
+                      <div class="col-md-6 address-block-time">
+                        <p class="address-block-time-p">Телефон отделения</p><span class="address-block-time-span">+7 495 700 8000</span>
+                      </div>
+                    </div>
+                    <div class="address-block-btn">
+                      <button>записаться на прием</button><a href="#">Подробнее об отделении</a>
+                    </div>
+                    <div class="tur-3d">
+                      <button id="tur-3d-btn">Посмотреть 3D-тур</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="hospital-loc-slider">
+                  <div class="slider4-3 swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                      <div class="slider-block4 swiper-slide"><img src="images/hos-slider.png"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev swiper-button-prev43"></div>
+                  <div class="swiper-button-next swiper-button-next43"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantage">
+      <div class="center">
+        <div class="advantage-block"> 
+          <div class="row">
+            <div class="col-lg-5 advantage-1">
+              <p>Наши преимущества — профессиональная работа и гарантия на результат</p><a href="#">Подробнее о нас и гарантиях</a>
+            </div>
+            <div class="col-lg-7 advantage-2">
+              <p>Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты  под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США.</p>
+              <div class="row">
+                <div class="tooth-block col-md-4"><img src="images/icon-tooth-white.svg">
+                  <p>Иконка и какой-нибудь полезный факт</p><span>Краткое описание факта, детали в несколько строк</span>
+                </div>
+                <div class="tooth-block col-md-4"><img src="images/icon-tooth-white.svg">
+                  <p>Иконка и какой-нибудь полезный факт</p><span>Краткое описание факта, детали в несколько строк</span>
+                </div>
+                <div class="tooth-block col-md-4"><img src="images/icon-tooth-white.svg">
+                  <p>Иконка и какой-нибудь полезный факт</p><span>Краткое описание факта, детали в несколько строк</span>
+                </div>
+              </div><a href="#">Подробнее о нас и гарантиях</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comment">
+      <div class="center">
+        <h3 class="comment-head">Отзывы</h3>
+        <div class="comment-block">
+          <p class="comment-block-p">Отзыв о клинике</p><span class="comment-block-span mob_all">
+             Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+            <button class="mob_all_btn">Развернуть</button></span>
+          <div class="comment-autor">
+            <div class="autor-n">Ирина</div>
+            <div class="comment-date"><span class="comment-d">15.03.2019</span><span class="comment-mark">
+                <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div></span></div>
+          </div>
+          <div class="doc-callback"><a href="#"><img src="images/doc.png"></a><a class="doc-collback-name" href="#">Вадим Петров, Главный врач</a><span>Спасибо большое за ваш отзыв, были рады помочь!</span></div>
+        </div>
+        <div class="comment-block">
+          <p class="comment-block-p">Отзыв врачу Иванову Владимиру Петровичу</p><span class="comment-block-span">
+             Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.</span>
+          <div class="comment-autor">
+            <div class="autor-n">Ирина</div>
+            <div class="comment-date"><span class="comment-d">15.03.2019</span><span class="comment-mark">
+                <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div></span></div>
+          </div>
+        </div>
+        <div class="comment-block">
+          <p class="comment-block-p">Отзыв об отделении на Белорусской</p><span class="comment-block-span mob_all">
+             Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть». Фильм рассказывает о жизненном пути 46-го вице-президента США, Дика Чейни, о том, с какими политическими трудностями и конфликтами он сталкивался. Это кино про самого теневого игрока Белого Дома, который навсегда изменил ход истории Америки.
+            <button class="mob_all_btn">Развернуть </button></span>
+          <div class="comment-slider">
+            <div class="slider3 swiper-container">
+              <div class="swiper-wrapper">
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+                <div class="slider-block3 swiper-slide"><img src="images/comment-slider.png"></div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="comment-autor">
+            <div class="autor-n">Ирина</div>
+            <div class="comment-date"><span class="comment-d">15.03.2019</span><span class="comment-mark">
+                <div><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span active_h"></span><span class="expert-m-span"></span></div></span></div>
+          </div>
+          <div class="doc-callback"><a href="#"><img src="images/doc.png"></a><a class="doc-collback-name" href="#">Вадим Петров, Главный врач </a><span>Спасибо большое за ваш отзыв, были рады помочь!</span></div>
+        </div>
+      </div>
+      <div class="comment-btn">
+        <button class="comment-btn1" onclick="popup(&quot;lpgin-popup&quot;)">Оставить отзыв</button>
+        <button class="comment-btn2" onclick="popup(&quot;confirm&quot;)">Еще отзывы</button>
+        <button class="comment-btn1">Оставить отзыв</button>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="center">
+        <div class="row">
+          <div class="col-lg-6 questions-block">
+            <div>
+              <p>Вопросы и ответы</p>
+              <ul>
+                <li><a href="#">Можно ли летать на самолете после имплантации?</a></li>
+                <li><a href="#">Как ухаживать за зубными имплантами?</a></li>
+                <li><a href="#">Как выбрать зубную пасту?</a></li>
+                <li><a href="#">Как снимают временные коронки?</a></li>
+                <li><a href="#">Сколько можно носить временные коронки?</a></li>
+              </ul><a class="quest-all" href="#">Все вопросы и ответы</a>
+            </div>
+          </div>
+          <div class="col-lg-6 questions-block">
+            <div><a class="library" href="#">Энциклопедия</a>
+              <ul class="library-list">
+                <li><a href="#">Можно ли летать на самолете после имплантации?</a></li>
+                <li><a href="#">Как ухаживать за зубными имплантами?</a></li>
+                <li><a href="#">Как выбрать зубную пасту?</a></li>
+                <li><a href="#">Как снимают временные коронки?</a></li>
+                <li><a href="#">Сколько можно носить временные коронки?</a></li>
+              </ul><a class="quest-all" href="#">Все статьи</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ceo2">
+      <div class="center">
+        <div class="ceo2-block mob_all">
+          <div class="ceo2-items">
+            <h3 class="ceo2-h3">CEO-текст</h3><span class="ceo2-text">Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.</span>
+          </div>
+          <div class="ceo2-items">
+            <p class="ceo2-head">История развития</p><span class="ceo2-text">Самые ранние упоминания об отбеливании зубов относятся к первому веку нашей эры. Римские врачеватели считали, что использование мочи в значительной мере способствует осветлению зубов.</span><span class="ceo2-text">Начиная с XIV по конец конца XVIII столетия, врачеватели славянских народов осуществляли отбеливание зубов при помощи слабого раствора азотной кислоты. Предварительно зубы обрабатывались металлическим напильником: снимался поверхностный слой эмали. Такую технологию применяли Смоляр Н.И., Кононенко В.В., Безвушко Э.В.</span><span class="ceo2-text">Начиная с 1848 г. для отбеливания зубов начали применять хлорную известь — раствора кальция гидрохлорида и уксусной кислоты (активным элементом служил хлор). Данную методику предложил Труман.</span>
+          </div>
+          <div class="ceo2-items">
+            <p class="ceo2-head">Классификация</p>
+            <p class="ceo2-head2">Отбеливание зубов подразделяет</p><span class="ceo2-text2"><span></span>Домашнее – проводятся в домашних условиях. Применяются разнообразные осветляющие зубные пасты, жвачки с абразивами, специальные средства, приготовленные дома (народные рецепты).      </span><span class="ceo2-text2"><span></span>Профессиональное — проводятся в стоматологических клиниках при помощи специального оборудования.</span>
+            <p class="ceo2-head2">Профессиональное отбеливание зубов подразделяется по методу воздействия:</p><span class="ceo2-text2"><span></span>Механическое – очистка эмали путём подачи на неё смеси чистящего порошка с воздухом.</span><span class="ceo2-text2"><span></span>Ультразвуковое – воздействие на зубную эмаль ультразвуком. Наиболее щадящий метод, но и наиболее дорогостоящий.</span><span class="ceo2-text2"><span></span>Химическое – воздействие на эмаль зуба химическими составами. Наиболее эффективный метод, но имеет множество побочных эффектов. Применение разрешается только на абсолютно здоровых зубах.</span><span class="ceo2-text2"><span></span>Лазерное – воздействие на эмаль зуба лазерным лучом. Быстрый и эффективный метод. Значительно отличается от щадящих методов и имеет большую стоимость.</span><span class="ceo2-text2"><span></span>Фотоотбеливание – воздействие на эмаль зуба светом, подходит для чувствительных зубов. Применяется достаточно редко, так как требуется высокая квалификация и не всегда даёт желаемый результат – в ряде случаев придаёт неестественный оттенок.</span>
+          </div>
+          <div class="ceo2-items">
+            <p class="ceo2-head">Список с нумерацией</p><span class="ceo2-text">Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..</span>
+            <p class="ceo2-head3"><span>1</span>Название пункта<span class="ceo2-text">Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..</span></p>
+            <p class="ceo2-head3"><span>2</span>Название пункта<span class="ceo2-text">Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..</span></p>
+            <p class="ceo2-head3"><span>3</span>Название пункта<span class="ceo2-text">Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты под названием «Власть»..</span></p>
+          </div>
+          <div class="ceo2-items">
+            <p class="ceo2-head">Еще кусок текста</p><span class="ceo2-text">Отбеливание зубов – стоматологическая процедура изменения оттенка зубной эмали. Отбеливание зубов относится к области косметической стоматологии и имеет ряд сторонников и противников. Сторонники отбеливания зубов считают, что современные методики позволяют достигать значительных результатов при малых рисках для здоровья. Противники же, наоборот, считают что отбеливание зубов может привести к ухудшению здоровья полости рта.  </span>
+          </div>
+          <button class="mob_all_btn">Развернуть</button>
+        </div>
+      </div>
+    </section>
+    <section class="price-slider">
+      <div class="center">
+        <p class="price-slider-p">Вам также может быть интересно</p>
+        <div class="price-slider-bl">
+          <div class="slider7 swiper-container">
+            <div class="swiper-wrapper">
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+              <div class="slider-block7 swiper-slide">
+                <div class="price_pop"><img src="images/comment-slider.png"></div><span class="price-slider-txt">Текст ссылки от 1 слова до 5 слов</span><span class="price-slider-span">Цена от</span><span class="price-slider-s">1 000<span class="circel_m">₽</span></span><span class="price_pop price_ll">ЗАПИСАТЬСЯ</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev swiper-button-prev7"></div>
+          <div class="swiper-button-next swiper-button-next7"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-callback"> 
+        <div class="center">
+          <div class="row">
+            <div class="col-lg-7 footer-head no-padding">
+              <p>Хотите записаться или у вас есть вопросы? Звоните<span>+7 (495) 700-80-00</span></p>
+            </div>
+            <div class="col-lg-5 footer-btn">
+              <button onclick="popup(&quot;callback-popup&quot;)">Обратный звонок</button>
+              <button onclick="popup(&quot;appointment-popup&quot;)">Запись на прием</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-m">
+        <div class="center">
+          <div class="row">
+            <div class="col-lg-8 no-padding"> 
+              <div class="row">
+                <div class="col-md-4 no-padding">
+                  <div class="row">
+                    <div class="col-md-6 col-6 footer-menu no-padding">
+                      <ul> 
+                        <li><a href="cart.html">Услуги</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li> <a href="#">Врачи</a></li>
+                        <li> <a href="#">Наш опыт</a></li>
+                        <li> <a href="#">Отделения</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6 col-6 footer-nav no-padding"><span class="footer-span">Информация</span>
+                      <ul>
+                        <li><a href="order_confirm.html">Энциклопедия</a></li>
+                        <li><a href="shop_filtred.html">Вопросы-Ответы</a></li>
+                        <li><a href="shop_noresult.html">О клинике</a></li>
+                        <li><a href="article.html">Пресса о нас</a></li>
+                        <li><a href="case.html">Магазин</a></li>
+                        <li><a href="check_out.html">Личный кабинет</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8 no-padding">
+                  <div class="row">
+                    <div class="col-md-4  col-6 footer-adress"><span class="footer-span">Отделения</span>
+                      <ul>
+                        <li><a href="clinics2.html">М. Третьяковская</a></li>
+                        <li><a href="clinics3.html">М. Парк Культуры</a></li>
+                        <li><a href="qa.html">М. Белорусская</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 col-6 footer-w-week"><span class="footer-span">Время работы</span>
+                      <ul>
+                        <li>Пн-Пт: с 9:00 до 21:00</li>
+                        <li>Сб: с 10:00 до 20:00</li>
+                        <li>Вс: выходной</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4 footer-social"><span class="footer-span">Мы в соцсетях</span>
+                      <div><a href="qa2.html"><i class="ic-ins"></i></a><a href="shop_item.html"><i class="ic-fb"></i></a><a href="shop_item2.html"><i class="ic-vk"></i></a></div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 nopadding foot-conf"><a href="#">Политика конфеденциальности</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-8 no-padding footer-logo">
+              <div><a herf="#"><img src="images/logo.svg"></a>
+                <div class="foot-add">
+                  <p>ООО «Стоматология ЛаЛаДент»</p>
+                  <p><span>ИНН </span>3664069397</p>
+                  <p><span>ОГРН </span>1053600591197</p>
+                  <p><span>№ лицензии </span>ЛО-25-01-004603</p>
+                </div>
+                <p class="copyrigth">© 2019 ЛалаДент</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="menu_background"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/datepicker.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

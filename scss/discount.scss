@@ -1,0 +1,95 @@
+.discount-block {
+  max-width: 997px;
+  height: 220px;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ff1616;
+  margin: 0 auto;
+  padding: 34px  10px 24px 50px;
+  position: relative;
+    background: url(../images/girl.png) no-repeat;
+    background-size: 46% 104%;
+    background-position: right center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+.discount-block:hover {
+    transform: translate(0, -5px);
+    transition: all 0.3s ease;
+}
+section.discount {
+  background: #f0f4f5;
+  padding: 20px 0; 
+  }
+
+p.discount-p {
+  font-family: FuturaDemiC;
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 0;
+  line-height: 37px;
+  max-width: 350px;
+      position: relative;
+    z-index: 5;
+
+  }
+
+span.discount-span {
+  font-family: FuturaDemiC;
+  font-size: 64px;
+  text-align: right;
+  color: #ffffff;
+      position: relative;
+    z-index: 5;
+
+  }
+.discount-block:before {
+    background-image: url(../img/index/ad-card-red.png);
+}
+
+.discount-block:after {
+    content: "";
+    background-image: url(../images/ad-card-red.png);
+    width: 82.2%;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top left;
+    z-index: 2;
+}
+
+@media(max-width:991px){
+  p.discount-p {
+    font-size: 22px;
+    max-width: 230px;
+}
+
+span.discount-span {
+    font-size: 34px;
+}
+
+.discount-block {
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 124px;
+    background-size: 50% 150%;
+    background-position: 100% center;
+}
+}
+@media(max-width:767px){
+.discount-block {
+    padding-left: 20px !important;
+}
+.discount-block {
+    background-size: 65% 130% !important;
+    background-position: 135% 0% !important;
+}
+.discount-block:after {
+    width: 100% !important;
+}
+}

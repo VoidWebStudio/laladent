@@ -1,0 +1,257 @@
+doctype html
+html(lang="en") 
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+    .clinic-block
+     .center
+      div(class="clinic-bl withlink")
+       div(class="rigth-block", style="background: url(images/casebg.png)no-repeat;")
+       .withlink-block
+        a(href="#") Главная
+        a(href="#") Наш опыт
+        span Отбеливание зубов
+       h1(class="clinic-block-head") Отбеливание зубов
+       span(class="clinic-block-disc pages") Небольшой текст об опыте работы
+       div(class="col-md-8 no-padding")
+        .row
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк 
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+    .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#", class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+         p(class="mini-discount-items-p mini-s-d1")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#", class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+         p(class="mini-discount-items-p mini-s-d2")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#", class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+         p(class="mini-discount-items-p mini-s-d3")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#", class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#", class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#", class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  section(class="case")
+   .center
+    div(class="case-block")
+     div(class="case-items")
+      .row
+       div(class="col-md-6 case-items-l")
+        div(class="case-items-img")
+         img(src="images/before.png")
+        span(class="case-items-s") до
+        div(class="case-items-info")
+         p История клиента
+         span
+          | Причины обращения — недостаточно белые зубы от природы, неуверенность у себе, вызванная неудовлетворённостью эстетикой улыбки.
+        div(class="case-doc")
+         .row
+          div(class="case-items-doc-img col-sm-3")
+           a(href="#")
+            img(src="images/doc.png")
+          div(class="case-items-doc col-sm-9")
+           p(class="case-items-doc-p") 
+            a(href="#") Иванов Владимир Петрович
+           .row
+            div(class="case-items-doc-block col-6")
+             p Специализация
+             span(class="case-items-span") 
+              a(href="#") Стоматолог-имплантолог,
+             span(class="case-items-span") 
+              a(href="#") стоматолог-терапевт,
+             span(class="case-items-span") 
+              a(href="#") стоматолог-ортопед
+            div(class="case-items-doc-block col-6")
+             p Опыт работы
+             span(class="case-items-year") 15 лет
+             div(class="case-mark") 
+              div
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span")
+             span(class="case-items-comment") 25 отзывов
+             a(href="#")
+              span Записатсья
+
+       div(class="col-md-6 case-items-r")
+        div(class="case-items-img")
+         img(src="images/after.png")
+        span(class="case-items-s") после
+        div(class="case-items-info")
+         p Оказанные услуги
+         span
+          | Бережное отбеливание эмали зубов с применением передовой системы фотоотбеливания ZOOM.
+         div(class="case-price")
+          .row
+            div(class="case-price-l")
+             p Услуги по кейсу
+             a(href="#") Лечение кариеса
+             a(href="#") Профессиональная чистка зубов
+             a(href="#") Лечение кариеса
+             a(href="#") Профессиональная чистка зубов
+            div(class="case-price-l")
+             p цена
+             span от 10 000
+              span(class="circel_m") ₽  
+             span от 10 000
+              span(class="circel_m") ₽   
+             span от 10 000
+              span(class="circel_m") ₽  
+             span от 10 000
+              span(class="circel_m") ₽   
+
+  section(class="case-tech")
+   .center
+    div(class="case-tech-block")
+     h3 Особенности процесса и технологий
+     span(class="services-sub-history-span")
+      span
+      | Домашнее – проводятся в домашних условиях. Применяются разнообразные осветляющие зубные пасты, жвачки с абразивами, специальные средства, приготовленные дома (народные рецепты).
+     span(class="services-sub-history-span")
+      span
+      | Профессиональное — проводятся в стоматологических клиниках при помощи специального оборудования.
+  section(class="case")
+   h3(class="case-p") Альтернативный блок с 1 фотографией
+   .center
+    div(class="case-block")
+     div(class="case-items")
+      .row
+       div(class="col-md-6 case-items-l")
+        div(class="case-items-img")
+         img(src="images/after.png")
+        span(class="case-items-s") Результат
+        div(class="case-items-info")
+         p История клиента
+         span
+          | Причины обращения — недостаточно белые зубы от природы, неуверенность у себе, вызванная неудовлетворённостью эстетикой улыбки.
+
+       div(class="col-md-6 case-items-r")
+        div(class="case-doc")
+         .row
+          div(class="case-items-doc-img col-sm-3")
+           a(href="#")
+            img(src="images/doc.png")
+          div(class="case-items-doc col-sm-9")
+           p(class="case-items-doc-p") 
+            a(href="#") Иванов Владимир Петрович
+           .row
+            div(class="case-items-doc-block col-6")
+             p Специализация
+             span(class="case-items-span") 
+              a(href="#") Стоматолог-имплантолог,
+             span(class="case-items-span") 
+              a(href="#") стоматолог-терапевт,
+             span(class="case-items-span") 
+              a(href="#") стоматолог-ортопед
+            div(class="case-items-doc-block col-6")
+             p Опыт работы
+             span(class="case-items-year") 15 лет
+             div(class="case-mark") 
+              div
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span active_h")
+               span(class="expert-m-span")
+             span(class="case-items-comment") 25 отзывов
+             a(href="#")
+              span Записатсья
+        div(class="case-items-info case2")
+         p Оказанные услуги
+         span
+          | Бережное отбеливание эмали зубов с применением передовой системы фотоотбеливания ZOOM.
+         div(class="case-price")
+          .row
+            div(class="case-price-l")
+             p Услуги по кейсу
+             a(href="#") Лечение кариеса
+             a(href="#") Профессиональная чистка зубов
+             a(href="#") Лечение кариеса
+             a(href="#") Профессиональная чистка зубов
+            div(class="case-price-l")
+             p цена
+             span от 10 000
+              span(class="circel_m") ₽  
+             span от 10 000
+              span(class="circel_m") ₽   
+             span от 10 000
+              span(class="circel_m") ₽  
+             span от 10 000
+              span(class="circel_m") ₽
+  section(class="video-answer-slider")
+   .center  
+    h3 Видео интевью с клиентом
+    div(class="video-answer-slider-slider")
+     div(class="slider15 swiper-container")
+      .swiper-wrapper
+       div(class="v-answer-block swiper-slide")
+        div
+         img(src="images/girl4.png")
+        button(class="video-btn")
+       div(class="v-answer-block swiper-slide")
+        div
+         img(src="images/girl4.png")
+        button(class="video-btn")
+       div(class="v-answer-block swiper-slide")
+        div
+         img(src="images/girl4.png")
+        button(class="video-btn")
+     .swiper-button-prev
+     .swiper-button-next
+  include modules/comment3              
+  include modules/ceo2
+  include modules/comment-all
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions
+  include modules/price-slider
+  include modules/footer

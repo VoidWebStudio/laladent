@@ -1,0 +1,362 @@
+doctype html
+html(lang="en") 
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+    .clinic-block
+     .center
+      div(class="clinic-bl withlink")
+       div(class="rigth-block")
+       .withlink-block
+        a(href="#") Главная
+        a(href="#") Врачи
+        span Иванов Владимир Петрович
+       h1(class="clinic-block-head") Иванов Владимир Петрович
+       span(class="pages-span1") Ведущий специалист клиники LalaDent
+       div(class="col-md-8 no-padding")
+        div(class="row doc-page-block1")
+         div(class="doc-page-items-btn")
+          a(href="#", class="d-flex doc-page-items-a") записаться на прием
+         div(class="doc-page-items-mark")
+          .expert-mark 
+           div
+            span(class="expert-m-span active_h")
+            span(class="expert-m-span active_h")
+            span(class="expert-m-span active_h")
+            span(class="expert-m-span active_h")
+            span(class="expert-m-span")
+         div(class="doc-page-items-cb")
+          span 
+           a(href="reviews.html") 25 отзывов
+        div(class="row doc-page-block2")
+         div(class="doc-page-items-text")
+          p Специализация
+          span Стоматолог-имплантолог,
+          span стоматолог-терапевт,
+          span стоматолог-ортопед
+         div(class="doc-page-items-text")
+          p Опыт работы
+          span 15 лет
+         div(class="doc-page-items-text")
+          p Отделения
+          span М. Парк Культуры,
+          span М. Белорусская
+         div(class="doc-page-items-text")
+          p Доктор в соцсетях
+          div
+           a(href="#")
+            i(class="ic-ins")
+           a(href="#")
+            i(class="ic-fb")
+           a(href="#")
+            i(class="ic-vk")
+           a(href="#")
+            i(class="ic-ok")
+    .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+         p(class="mini-discount-items-p mini-s-d1")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+         p(class="mini-discount-items-p mini-s-d2")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+         p(class="mini-discount-items-p mini-s-d3")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  section(class="doc-edu")
+   .center
+    .row
+     div(class="col-lg-6 doc-edu-block")
+      p(class="doc-edu-block-p") Образование
+      span(class="doc-edu-block-span")
+       span
+       | Аспирантура, Московский Государственный Медико- Стоматологический Университет им. А.Е.Евдокимова
+      span(class="doc-edu-block-span")
+       span
+       | Диплом по специальности "Стоматологический", Московский Государственный Медико- Стоматологический Университет им. А.Е.Евдокимова (2008 г.)
+      span(class="doc-edu-block-span")
+       span
+       | Ординатура по специальности "Общая стоматология", на базе стоматологической поликлиники N51 г. Москвы (2010 г.)
+     div(class="col-lg-6 doc-edu-block")
+      p(class="doc-edu-block-p") Специализация
+      span(class="doc-edu-block-span")
+       span
+       | Хирургическая стоматология, ортопедическая стоматология
+      span(class="doc-edu-block-span")
+       span
+       | Протезирование (съёмное и несъёмное), коронки на основе диоксида циркония, бескаркасная керамика, микропротезирование (виниры, керамические вкладки), протезирование на имплантах (Biohorizons, Nobel, Implantium, Astra Tech, Straumann, Alpha Bio, Adin, Titanium Fix, Mis, Ankylos, Superline, Impro, Biomet 3i, BioTech и др.)
+      span(class="doc-edu-block-span")
+       span
+       | Cоставление плана лечения по КТ и ведение пациента на всех этапах лечения
+  section(class="price")
+   .center
+    p(class="price-head") Основные услуги    
+    div(class="price-block")
+     div(class="price-nav")
+      div(class="price-nav-block")
+       .row
+        div(class="price-btn col-sm-6")
+         span Первичный осмотр и консультация
+        div(class="price-cont col-sm-6")
+         .price-contbl
+          p Цена
+          span Бесплатно
+      .price-nav-items
+        p(class="rice-nav-items-p") 
+         | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+        span(class="rice-nav-items-span") В стоимость входит:
+        ul
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+        a(href="#")(class="rice-link") Подробнее об услуге
+     div(class="price-nav")
+      div(class="price-nav-block")
+       .row
+        div(class="price-btn col-sm-6")
+         span Лечение кариеса
+        div(class="price-cont col-sm-6")
+         .price-contbl
+          p Цена
+          span от 1000
+           span(class="circel_m") ₽
+      .price-nav-items
+        p(class="rice-nav-items-p") 
+         | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+        span(class="rice-nav-items-span") В стоимость входит:
+        ul
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+        a(href="#")(class="rice-link") Подробнее об услуге
+     div(class="price-nav")
+      div(class="price-nav-block")
+       .row
+        div(class="price-btn col-sm-6")
+         span Световая пломба
+        div(class="price-cont col-sm-6 stock")        
+         .price-contbl
+          p Цена
+          span от 7000
+           span(class="circel_m") ₽
+         .stock-block
+          p акция до 22 сентября
+          span от 5000
+           span(class="circel_m") ₽
+      .price-nav-items
+        p(class="rice-nav-items-p") 
+         | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+        span(class="rice-nav-items-span") В стоимость входит:
+        ul
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+        a(href="#")(class="rice-link") Подробнее об услуге
+     div(class="price-nav")
+      div(class="price-nav-block")
+       .row
+        div(class="price-btn col-sm-6")
+         span Снятие зубных отложений
+        div(class="price-cont col-sm-6")
+         .price-contbl
+          p Цена
+          span от 1000
+           span(class="circel_m") ₽
+      .price-nav-items
+        p(class="rice-nav-items-p") 
+         | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+        span(class="rice-nav-items-span") В стоимость входит:
+        ul
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+        a(href="#")(class="rice-link") Подробнее об услуге
+     div(class="price-nav")
+      div(class="price-nav-block")
+       .row
+        div(class="price-btn col-sm-6")
+         span Профессиональная чистка зубов
+        div(class="price-cont col-sm-6")
+         .price-contbl
+          p Цена
+          span от 1000
+           span(class="circel_m") ₽
+      .price-nav-items
+        p(class="rice-nav-items-p") 
+         | Привет всем синемаголикам и простым читателям моей рецензии! Сегодня расскажу вам о своих впечатлениях от ожидаемой мной ленты
+        span(class="rice-nav-items-span") В стоимость входит:
+        ul
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+         li Название пункта, который входит в стоимость 
+        a(href="#")(class="rice-link") Подробнее об услуге
+  include modules/sertifikat
+  include modules/kurs
+  section(class="video-comment")
+   .center
+    p(class="comment-head") Личное портфолио
+    div(class="slide_block")
+     div(class="slider1 swiper-container")
+      .swiper-wrapper 
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+       div(class="slider-block swiper-slide")
+        img(src="images/lady.png")
+        div
+         p(class="video-comment-p") Установка имплантов, керамических виниров и коронок
+    
+     div(class="swiper-button-prev swiper-button-prev1")
+     div(class="swiper-button-next swiper-button-next1")
+     div(class="swiper-pagination swiper-pagination1")
+  include modules/comment
+  section(class="doc_public")
+   .center
+    .public-block
+     .public-items
+      p(class="public-items-head") Публикации доктора
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+     .public-items
+      p(class="public-items-head") О враче пишут
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+      div
+       a(href="#", class="public-a") Название публикации о докторе в научном журнале или в газете
+       span(class="public-date") 15.03.2019
+       span(class="public-name") Название журнала
+
+
+
+  section(class="questions")
+  .center
+   .row
+    div(class="col-lg-6 questions-block")
+     div
+      p Ответы доктора
+      ul
+       li
+        a(href="#") Можно ли летать на самолете после имплантации?
+       li
+        a(href="#") Как ухаживать за зубными имплантами?
+       li
+        a(href="#") Как выбрать зубную пасту?
+       li
+        a(href="#") Как снимают временные коронки?
+       li
+        a(href="#") Сколько можно носить временные коронки?
+      a(href="#")(class="quest-all") Все вопросы и ответы
+    div(class="col-lg-6 questions-block")
+     div
+      p Статьи доктора
+      ul
+       li
+        a(href="#") Можно ли летать на самолете после имплантации?
+       li
+        a(href="#") Как ухаживать за зубными имплантами?
+       li
+        a(href="#") Как выбрать зубную пасту?
+       li
+        a(href="#") Как снимают временные коронки?
+       li
+        a(href="#") Сколько можно носить временные коронки?
+      a(href="#")(class="quest-all") Все статьи
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/ceo2
+      
+  include modules/comment-all
+  include modules/price-slider
+  include modules/footer

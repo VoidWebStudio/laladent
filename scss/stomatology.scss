@@ -1,0 +1,183 @@
+
+p.stomatology-block-p a {
+    color: #2b2b2b;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+p.stomatology-block-p a:hover {
+    color: #29b3bc;
+    transition: all 0.3s ease;
+}
+.stomatology-p {
+    font-family: FuturaDemiC;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+    margin-bottom: 1px;
+}
+
+span.stomatology-span {
+    opacity: 0.5;
+    width: 302px;
+    height: 44px;
+    font-family: 'FuturaPTBook';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    display: block;
+    margin: 0 auto 11px auto;
+}
+
+p.stomatology-block-p {
+    background: url("../images/tooth-pink.svg") no-repeat;
+    height: 60px;
+    background-position: left center;
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    padding-left: 62px;
+    margin-bottom: 0;
+}
+
+.stomatology-block {
+    padding: 17px 0 2px 0;
+}
+
+
+.stomatology-block-list p {
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    color: #29b3bc;
+    letter-spacing: normal;
+    margin-bottom: -5px;
+}
+
+.stomatology-block-list span {
+    opacity: 0.35;
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    display: inline-block;
+}
+
+.stomatology-block-list {
+    margin-bottom: 5px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    display: block;
+}
+.stomatology-block-list:hover.stomatology-block-list p {
+    color: #09d9e7;
+    transition: all 0.3s ease;
+}
+
+
+.stomatology-link {
+    margin-top: 31px;
+    display: flex;
+}
+
+section.stomatology {
+    margin-bottom: 67px;
+}
+
+@media(min-width:1101px){
+   .stomatology-block:nth-child(3n+3) {
+    padding-left: 14px !important;
+   } 
+   .stomatology-block:nth-child(3n+2) {
+    padding-left: 59px !important;
+   }
+
+   .stomatology-block:nth-child(3n+1) {
+    padding-left: 101px;
+   }
+  
+}
+@media(min-width:768px){
+  .stomatology-block{
+   padding-left: 44px !important;
+  }
+  .stm-block-p {
+    padding-bottom: 19px;
+  }
+  
+
+}
+@media(max-width:767px){
+  .stomatology-block{
+   padding-left: 0 !important;
+   margin: 0 auto;
+   max-width: 400px;
+  }
+  p.stomatology-block-p{
+   padding-right: 10px;
+  }
+  
+  .stm-hidden-mob {
+    display: none;
+  }
+  .stm-block-p {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+  }
+  .stm-block-p:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 3px solid  #000000;
+    border-top: 3px solid  #000000;
+    transform: rotate(135deg);
+    right: 33px;
+    position: absolute;
+    /* margin-top: 4px; */
+    /* margin-left: 8px; */
+    top: 20%;
+    opacity: 0.2;
+}
+.stm-hidden-mob.sh_par {
+    display: block;
+}
+.stm-block-p.active_stm:after {
+    transform: rotate(-45deg);
+}
+}
+
+p.stomatology-block-p.cntr {
+    position: relative;
+    padding-top: 10px;
+    top: 10px;
+    background-position: left 0px;
+}
+.stm-block-p.cntr:after {
+    top: 40%;
+}
+
+

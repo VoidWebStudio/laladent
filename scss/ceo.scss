@@ -1,0 +1,52 @@
+section.ceo {
+    margin-bottom: 59px;
+}
+.center2 {
+    max-width: 796px;
+    margin: 0 auto;
+}
+@media(max-width:1200px){
+    .center2{
+    padding:0 15px;
+}
+}
+
+.center2 .row {
+    margin: 0 !important;
+}
+.ceo-img {
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.ceo-text p {
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 29px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    margin-bottom: 3px;
+}
+
+.ceo-text span {
+    opacity: 0.7;
+    font-family: "FuturaPTBook";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.ceo-text {
+    padding: 27px 0 0 10px;
+}
+.ceo-img img {
+    width: 100%;
+}

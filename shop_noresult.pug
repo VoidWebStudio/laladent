@@ -1,0 +1,184 @@
+doctype html 
+html(lang="en")
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+   .clinic-block
+    .center
+     div(class="clinic-bl withlink cart-page")
+      .withlink-block
+       a(href="#") Главная
+       span Магазин
+      h1(class="clinic-block-head") Магазин LalaDent
+    .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  section(class="navigation-shop")
+   .center
+    p Тематики
+    .categor-block
+     a(href="#") Все
+     a(href="#") Протезы
+     a(href="#") Категория
+     a(href="#", class="articles-btn btn_active") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+     a(href="#") Категория
+
+  section(class="shop")
+   .shop-nav
+     .center
+      div(class="shop-cat site-input")
+       p Цена от, ₽ 
+       input(type="text", placeholder="Цена от, ₽ ", value="0")
+      div(class="shop-cat site-input")
+       p Цена до, ₽
+       input(type="text", placeholder="Цена до, ₽ ", value="200 900")
+      div(class="shop-cat select-bl")
+       p(class="shop-cat-sel") Категория
+       .select-block
+        select
+         option(selected="select") все
+         option вваа
+      div(class="shop-cat select-bl")
+       p(class="shop-cat-sel") Материал
+       .select-block
+        select
+         option(selected="select") Любой
+         option вваа
+      div(class="shop-cat select-bl")
+       p(class="shop-cat-sel") Еще один параметр
+       .select-block
+        select
+         option(selected="select") Любое значение
+         option вваа
+      div(class="shop-cat select-bl")
+       p(class="shop-cat-sel") Еще один параметр
+       .select-block
+        select
+         option(selected="select") Любое значение
+         option вваа
+   .shop-body
+    .shop-block
+     .center
+      p(class="shop-block-p") Нет результатов по вашей фильтрации
+      button(class="shop-block-btn")
+       span Сбросить фильтры
+    
+      
+  section(class="shop-recomended")
+   .center 
+    p(class="shop-recomended-head") Рекомендуем посмотреть
+    .row
+     div(class="shop-recomended-block col-lg-3 col-md-3 col-sm-6")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        a(href="#")
+         span Купить
+     div(class="shop-recomended-block col-lg-3 col-md-3 col-sm-6")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        a(href="#")
+         span Купить
+     div(class="shop-recomended-block col-lg-3 col-md-3 col-sm-6")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        a(href="#")
+         span Купить
+     div(class="shop-recomended-block col-lg-3 col-md-3 col-sm-6")
+      .shop-recomended-item
+       .shop-recomended-img
+        img(src="images/search-result2.png")
+       .shop-recomended-txt
+        p Категория товара
+        span(class="shop-rec-span") 
+         | Наименование товара в несколько строк, с деталями
+        p Цена
+        span(class="shop-rec-price") 10 000
+         span(class="circel_m") ₽
+        a(href="#")
+         span Купить
+  include modules/discount  
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions
+  include modules/ceo2
+      
+  include modules/comment-all
+  include modules/price-slider
+  include modules/footer

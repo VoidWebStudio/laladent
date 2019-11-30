@@ -1,0 +1,576 @@
+div(class="popup_block ask-doctor-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Задать вопрос
+  .popup-body
+   form
+    .popup-line
+     div(class="shop-cat site-input")
+      p Ваше имя*
+      input(type="text", placeholder="Ваше имя*")
+     div(class="shop-cat site-input")
+      p Заголовок вопроса*
+      input(type="text", placeholder="Заголовок вопроса*")
+     div(class="shop-cat sitetextarea site-input")
+      p Ваш вопрос*
+      textarea(placeholder="Ваш вопрос*")
+    .popup-twoline
+     p(class="popup-p") Оставьте email или ваш номер, и мы оповестим вас, когда будет опубликован ответ:
+     div(class="shop-cat site-input")
+      p Email
+      input(type="text", placeholder="Email")
+     div(class="shop-cat site-input")
+      p Номер телефона*
+      input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+    span(class="popup-span") * обязаельно к заполнению
+    .popup-robot
+     div(class="popup-robot-btn-bl")
+      label(class="popup-robot-btn")
+       input(type="checkbox")
+       span I'm not a robot
+     button(class="popup-btn")
+      span отправить
+     span(class="popup-robot-span") Текст про капчу для бабули
+     div(class="popup-conf")
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Положением по обработке персональных данных
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Политикой конфиденциальности
+     
+
+div(class="popup_block callback-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Обратный звонок 
+  .popup-body
+   form
+    .popup-twoline
+     p(class="popup-p") Оставьте номер и ваше имя, и мы перезвоним вам в ближайшее время
+     div(class="shop-cat site-input")
+      p Email
+      input(type="text", placeholder="Email")
+     div(class="shop-cat site-input")
+      p Номер телефона*
+      input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+    span(class="popup-span") * обязаельно к заполнению
+    .popup-robot
+     div(class="popup-robot-btn-bl")
+      label(class="popup-robot-btn")
+       input(type="checkbox")
+       span I'm not a robot
+     button(class="popup-btn")
+      span отправить
+     span(class="popup-robot-span") Текст про капчу для бабули
+     div(class="popup-conf")
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Положением по обработке персональных данных
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Политикой конфиденциальности
+     
+div(class="popup_block confirm")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Запись на прием принята!
+  .popup-body
+   span(class="popup-confirm-span") Наше менеджер свяжется с вами в ближайшее время и подтвердит запись.
+   .popup-disc
+    a(href="#", class="mini-discount-items col-lg-4")
+      div(class="mini-discount-item1")
+       p Белоснежная улыбка на 8 марта
+       span -50%
+   .popup-robot     
+    button(class="popup-btn cntr")
+     span Принято!
+  
+div(class="popup_block lpgin-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Регистрация и вход
+  .popup-body
+   form
+    .popup-social
+     p(class="popup-p2") По номеру телефона
+     div(class="shop-cat site-input")
+      p Номер телефона*
+      input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+     button(class="popup-btn")
+      span Войти
+     .popup-social-block
+      p(class="popup-p2") Через соцсети
+      .popup-social-block-items
+       a(href="#")
+       a(href="#")
+       a(href="#")
+    .popup-robot
+     div(class="popup-conf")
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Положением по обработке персональных данных
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Политикой конфиденциальности
+
+div(class="popup_block info-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p(class='info-popup-p') Расписание на праздники
+  .popup-body
+   form
+    .popup-twoline
+     p(class="popup-p witout-padd")
+      | В новогодние праздники не работаем с 1 по 5 января,  остальные дни в штатном режиме.
+     button(class="popup-btn cntr")
+      span ПРИНЯТО!
+
+
+
+
+div(class="popup_block review-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Оставить отзыв
+  .popup-body
+   form
+    .popup-line
+     span(class='review-popup-span')
+      | Вы можете опционально уточнить отделение, врача и услугу:
+     div(class="shop-cat sitetextarea site-input")
+      p Ваш отзыв
+      textarea(placeholder="Ваш отзыв")
+     div(class='mark-popup mark-blovk1')
+      p Ваша оценка нашей работы:
+      div
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+     div(class="shop-cat site-input")
+      p Ваше имя
+      input(type="text", placeholder="Ваше имя")
+    .popup-twoline
+     div(class="shop-cat twosel")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Врач
+         option вваа
+     div(class="shop-cat twosel")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Отделение
+         option вваа
+    div(class='popup-line selp')
+     div(class="shop-cat")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Услуга
+         option вваа
+    .popup-twoline
+     p(class="popup-p") Для того чтобы оставить отзыв - необходимо указать email или номер телефона:
+     div(class="shop-cat site-input")
+      p Email
+      input(type="text", placeholder="Email")
+     div(class="shop-cat site-input")
+      p Номер телефона*
+      input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+    .popup-robot
+     div(class="popup-robot-btn-bl")
+      label(class="popup-robot-btn")
+       input(type="checkbox")
+       span I'm not a robot
+     button(class="popup-btn")
+      span отправить
+     span(class="popup-robot-span") Текст про капчу для бабули
+     div(class="popup-conf")
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Положением по обработке персональных данных
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Политикой конфиденциальности
+     
+
+
+
+div(class="popup_block review-popup2")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Написать комментарий
+  .popup-body
+   form
+    .popup-line
+     div(class="shop-cat site-input")
+      p Ваше имя
+      input(type="text", placeholder="Ваше имя")
+     div(class="shop-cat sitetextarea site-input")
+      p Ваш комментарий
+      textarea(placeholder="Ваш комментарий")
+     div(class='mark-popup mark-blovk1')
+      p Ваша оценка нашей работы:
+      div
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+    .popup-twoline
+     p(class="popup-p") Для того чтобы оставить отзыв - необходимо указать email или номер телефона:
+     div(class="shop-cat site-input")
+      p Email
+      input(type="text", placeholder="Email")
+     div(class="shop-cat site-input")
+      p Номер телефона
+      input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+    .popup-robot
+     div(class="popup-robot-btn-bl")
+      label(class="popup-robot-btn")
+       input(type="checkbox")
+       span I'm not a robot
+     button(class="popup-btn")
+      span отправить
+     span(class="popup-robot-span") Текст про капчу для бабули
+     div(class="popup-conf")
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Положением по обработке персональных данных
+      label
+       input(type="checkbox")
+       span Согласен с
+        a(href="#") Политикой конфиденциальности
+     
+
+
+
+
+
+
+
+div(class="popup_block write-review-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Оставить отзыв
+  .popup-body
+   form
+    .popup-line
+     span(class='review-popup-span')
+      | Вы можете опционально уточнить отделение, врача и услугу:
+     div(class="shop-cat sitetextarea site-input")
+      p Ваш отзыв
+      textarea(placeholder="Ваш отзыв")
+     div(class='mark-popup mark-blovk1')
+      p Ваша оценка нашей работы:
+      div
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+    .popup-twoline
+     div(class="shop-cat twosel")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Врач
+         option вваа
+     div(class="shop-cat twosel")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Отделение
+         option вваа
+    div(class='popup-line selp')
+     div(class="shop-cat")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Услуга
+         option вваа
+    .popup-line
+     button(class="popup-btn cntr")
+      span отправить
+     
+
+
+
+
+
+
+
+
+
+
+
+div(class="popup_block write-review-popup2")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Написать комментарий
+  .popup-body
+   form
+    .popup-line
+     div(class="shop-cat sitetextarea site-input")
+      p Ваш комментарий
+      textarea(placeholder="Ваш комментарий")
+     div(class='mark-popup mark-blovk1')
+      p Ваша оценка нашей работы:
+      div
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+       span(class="expert-m-span")
+    .popup-line
+     button(class="popup-btn cntr")
+      span отправить
+     
+
+
+
+
+
+div(class="popup_block check-number-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Подтверждение номера
+  .popup-body
+   form
+    div(class="popup-robot withoutmargin")
+     div(class="popup-robot-btn-bl")
+      label(class="popup-robot-btn")
+       input(type="checkbox")
+       span I'm not a robot
+     button(class="popup-btn")
+      span отправить код
+     span(class="popup-robot-span") Текст про капчу для бабули
+    div(class="popup-twoline check-number-block")
+     p(class="check-number-p") На номер +7 (927) 333-43-82 отправлен код
+     div(class="shop-cat site-input")
+      p Код из SMS
+      input(type="text", placeholder="Код из SMS" , value="4821")
+     button(class="popup-btn")
+      span Войти
+     span(class="check-number-span") Отправить код повторно (
+      span(id="popup-timer")
+      | )
+     a(href="#", class="change-number-a") Изменить номер телефона
+    
+div(class="popup_block details-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Вы успешно зарегистрировались
+  .popup-body
+   form
+    div(class='details-block')
+     p(class='details-block-p') Пожалуйста заполните информацию о себе:
+     div
+      div(class="shop-cat site-input")
+       p Фамилия
+       input(type="text", placeholder="Пертров",)
+      div(class="shop-cat site-input")
+       p Дата рождения
+       input(type="text", placeholder="ДД.ММ.ГГГГ", class="popup_valid_date")
+      div(class="shop-cat site-input")
+       p Ваше имя
+       input(type="text", placeholder="Олег")
+      div(class="shop-cat site-input")
+       p Номер телефона
+       input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+      div(class="shop-cat site-input")
+       p Отчество
+       input(type="text", placeholder="Отчество")
+      div(class="shop-cat site-input")
+       p Email
+       input(type="text", placeholder="petrov@mail.ru")
+    div(class="profile-gender details-gender")
+     p Пол
+     label
+      input(type="radio", name="gender")
+      span Мужской
+     label
+      input(type="radio", name="gender")
+      span Женский
+    div(class="details-btn")
+     button(class="popup-btn cntr")
+      span Сохранить
+
+div(class="popup_block slider-popup")
+ div(class="popup-slider-close")
+  span
+  span
+ div(class="popup-slider-block")
+  div(class="gallery-popup")
+   div(class="swiper-container gallery-top")
+    div(class="swiper-wrapper")
+     div(class="swiper-slide slide-popup")
+      div
+       img(src="images/girl4.png")
+      p(class="slide-popup-з") Подпись к фото если есть
+     div(class="swiper-slide slide-popup")
+      div
+       img(src="images/girl4.png")
+      p(class="slide-popup-з") Подпись к фото если есть
+     div(class="swiper-slide slide-popup")
+      div
+       img(src="images/girl4.png")
+      p(class="slide-popup-з") Подпись к фото если есть
+     div(class="swiper-slide slide-popup")
+      div
+       img(src="images/girl4.png")
+      p(class="slide-popup-з") Подпись к фото если есть
+   div(class="swiper-button-next")
+   div(class="swiper-button-prev")
+  div(class="swiper-container gallery-thumbs")
+   div(class="swiper-wrapper")
+    div(class="swiper-slide thumb-popup")
+     div
+      img(src="images/girl4.png")
+    div(class="swiper-slide thumb-popup")
+     div
+      img(src="images/girl4.png")
+    div(class="swiper-slide thumb-popup")
+     div
+      img(src="images/girl4.png")
+    div(class="swiper-slide thumb-popup")
+     div
+      img(src="images/girl4.png")
+
+
+
+div(class="popup_block appointment-popup")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Записаться на прием
+  div(class="appointment-block popup-body")
+   div(class="appointment-item")
+    p(class="appointment-item-p") 1. Выберете отделение
+    div(class="appointment-item-sel")
+     div(class="shop-cat")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Отделение
+         option вваа
+    a(href="#", class="appointment-a", id="popup-next" ) Любое отделение
+
+
+div(class="popup_block appointment-popup2")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Записаться на прием
+  div(class="appointment-block popup-body")
+   div(class="appointment-item")
+    p(class="appointment-item-p") 1. Выберете отделение
+    span(class="appointment-item-span") Отделение на М. Третьяковская
+    a(href="#", class="appointment-a" ) Изменить
+   div(class="appointment-item appoint-sec")
+    p(class="appointment-item-p") 2. Выберете лечащего врача
+    div(class="appointment-item-sel")
+     div(class="shop-cat")
+       div(class='select-block popup-sel')
+        select
+         option(selected="select") Врач
+         option вваа
+    a(href="#", class="appointment-a", id="popup-next2" ) К любому врачу
+
+
+
+
+
+div(class="popup_block appointment-popup3")
+ div(class="popup_item")
+  span(class="close-popup")
+  .popup-head
+   p Записаться на прием
+  div(class="appointment-block popup-body")
+   div(class="appointment-item")
+    p(class="appointment-item-p") 1. Выберете отделение
+    span(class="appointment-item-span") Отделение на М. Третьяковская
+    a(href="#", class="appointment-a" ) Изменить
+   div(class="appointment-item appoint-sec")
+    p(class="appointment-item-p") 2. Выберете лечащего врача
+    div(class="appointment-item-doc")
+     div
+      img(src="images/doc.png")
+     p Стоматолог-Терапевт
+     span Иванов Владимир Петрович
+    a(href="#", class="appointment-a" ) Изменить
+   div(class="appointment-item appoint-three")
+    p(class="appointment-item-p") 3. Выберете доступные дату и время
+    div(class="appoint-date")
+     div(class="datepicker-here")
+     div(class="apppoint-time")
+      .row
+       div(class="apppoint-time-item")
+        button(class="appoin-disable") 10:00
+        button(class="appoin-disable") 10:30
+        button(class="appoin-disable") 11:00
+        button(class="appoin-disable") 11:30
+        button(class="appoin-disable") 12:00
+        button(class="appoin-disable") 12:30
+        button(class="appoin-active") 13:00
+        button(class="appoin-active") 13:30
+       div(class="apppoint-time-item")
+        button(class="appoin-active") 14:00
+        button(class="appoin-disable") 14:30
+        button(class="appoin-active") 15:00
+        button(class="appoin-active") 15:30
+        button(class="appoin-disable") 16:00
+        button(class="appoin-disable") 16:30
+        button(class="appoin-disable") 17:00
+        button(class="appoin-disable") 17:30
+       div(class="apppoint-time-item")
+        button(class="appoin-active") 18:00
+        button(class="appoin-active") 18:30
+        button(class="appoin-active") 19:00
+        button(class="appoin-active") 19:30
+        button(class="appoin-active") 20:00
+        button(class="appoin-active") 20:30
+    div(class="appoint-foot")
+     .popup-twoline
+      div(class="shop-cat site-input")
+       p Email
+       input(type="text", placeholder="Email")
+      div(class="shop-cat site-input")
+       p Номер телефона
+       input(class="popup_valid_num", type="text", placeholder="+7 (___) ___-__-__")
+     span(class="appoint-foot-span")
+      | Запись в отделение на М. Театральная к Васильеву М.В. на 15 марта в 15:00
+     .popup-robot
+      div(class="popup-robot-btn-bl")
+       label(class="popup-robot-btn")
+        input(type="checkbox")
+        span I'm not a robot
+      button(class="popup-btn")
+       span Записаться
+      span(class="popup-robot-span") Текст про капчу для бабули
+      div(class="popup-conf appointment-conf")
+       label
+        input(type="checkbox")
+        span Согласен с
+         a(href="#") Положением по обработке персональных данных
+       label
+        input(type="checkbox")
+        span Согласен с
+         a(href="#") Политикой конфиденциальности
+     

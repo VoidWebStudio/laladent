@@ -1,0 +1,88 @@
+doctype html
+html(lang="en") 
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+    .clinic-block
+     .center
+      div(class="clinic-bl withlink")
+       div(class="rigth-block", style="background: url(images/servbg.png)no-repeat;background-position: 30px center !important;")
+       .withlink-block
+        a(href="#") Главная
+        span Акции
+       h1(class="clinic-block-head") Акции стоматологии LalaDent
+       span(class="clinic-block-disc pages") Текст про акции
+       div(class="col-md-8 no-padding")
+        .row
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк 
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+    .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+         p(class="mini-discount-items-p mini-s-d1")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+         p(class="mini-discount-items-p mini-s-d2")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+         p(class="mini-discount-items-p mini-s-d3")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  include modules/offers
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions
+  include modules/ceo2
+      
+  include modules/comment-all
+  include modules/price-slider
+  include modules/footer

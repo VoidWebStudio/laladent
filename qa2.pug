@@ -1,0 +1,241 @@
+doctype html
+html(lang="en") 
+ head
+ meta(charset="UTF-8")
+ meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+ meta(http-equiv="X-UA-Compatible" content="ie=edge")
+ meta(name="format-detection" content="telephone=no")
+ link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+ link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css")
+ link(rel='stylesheet', href='css/styles.css')
+ body
+  include modules/header
+  section(class="clinic")
+    .clinic-block
+     .center
+      div(class="clinic-bl withlink")
+       div(class="rigth-block", style="background: url(images/servbg.png)no-repeat;background-position: 30px center !important;")
+       .withlink-block
+        a(href="#") Главная
+        a(href="#") Вопросы и ответы
+        span Какой имплант лучше поставить на жевательные зубы?
+       h1(class="clinic-block-head qa-page") Какой имплант лучше поставить на жевательные зубы?
+       div(class="col-md-8 no-padding")
+        .row
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк 
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+         div(class="clinic-items")
+          p Иконка и какой-нибудь полезный факт
+          span Краткое описание факта, детали в несколько строк
+    .mini-discount 
+     .center
+      .without-slider
+       .row
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item1")
+          p Белоснежная улыбка на 8 марта
+          span -50%
+         p(class="mini-discount-items-p mini-s-d1")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item2")
+          p Имплантация Nobel по специальной цене
+          span -10%
+         p(class="mini-discount-items-p mini-s-d2")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+        a(href="#")(class="mini-discount-items col-lg-4")
+         div(class="mini-discount-item3")
+          p Композитный виниры по специальной цене
+          span 9000
+           span(class="circel_m") ₽
+         p(class="mini-discount-items-p mini-s-d3")
+          | Купить диваны в Москве в нашем интернет-магазине. Цены на диваны от 9990 руб (с учетом скидок и распродаж). Недорогие диваны от производителя.
+      div(class="discount-slider")
+       div(class="discount-slider-block")
+        div(class="slider10 swiper-container")
+         .swiper-wrapper
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item1")
+             p Белоснежная улыбка на 8 марта
+             span -50%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item2")
+             p Имплантация Nobel по специальной цене
+             span -10%
+          div(class="swiper-slide")
+           a(href="#")(class="mini-discount-items")
+            div(class="mini-discount-item3")
+             p Композитный виниры по специальной цене
+             span 9000
+              span(class="circel_m") ₽
+        .swiper-pagination
+  section(class="qa-page")
+   .center
+    div(class="qa-page-block")
+     div(class="qa-page-question")
+      h3(class="qa-question-head") Вопрос
+      p(class="qa-page-p") Какой имплант лучше поставить на жевательные зубы?
+      span
+       | Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.
+      include modules/qa-slider
+      div(class="qa2")
+       span(class="qa-date") 15.03.2019
+       span(class="qa-autor") Ирина
+     div(class="qa-page-answer")
+      h3(class="qa-answer-head") Ответ
+      div(class="qa-doctor")
+       .row
+        div(class="qa-doc-img col-md-2")
+         div
+          a(href="#")
+           img(src="images/doc.png")
+         div(class="qa-mark")
+          div
+           span(class="expert-m-span active_h")
+           span(class="expert-m-span active_h")
+           span(class="expert-m-span active_h")
+           span(class="expert-m-span active_h")
+           span(class="expert-m-span")
+         span(class="qa-callback") 25 отзывов
+        div(class="qa-doc-info col-md-7")
+         a(href="#", class="qa-doc-info-p") Иванов Владимир Петрович
+         span(class="qa-doc-info-span") Опыт работы 15 лет
+         .row
+          .div(class="col-6 qa-doc-info-block")
+           p(class="qa-doc-info-block-p") Специализация
+           span(class="qa-doc-info-block-span") Стоматолог-имплантолог,
+           span(class="qa-doc-info-block-span") стоматолог-терапевт,
+           span(class="qa-doc-info-block-span") стоматолог-ортопед
+          .div(class="col-6 qa-doc-info-block")
+           p(class="qa-doc-info-block-p") Второй список
+           span(class="qa-doc-info-block-span") Второй список строка 1,
+           span(class="qa-doc-info-block-span") Второй список строка 2,
+           span(class="qa-doc-info-block-span") Второй список строка 3,
+           span(class="qa-doc-info-block-span") Второй список строка 4
+        div(class="qa-doc-address col-md-3")
+         a(href="#")
+          span записаться на прием
+         p(class="qa-doc-info-block-p") Принимает в отделениях
+           span(class="qa-doc-info-block-span") М. Третьяковская,
+           span(class="qa-doc-info-block-span") М. Парк Культуры
+     div(class="qa-page-txt")
+      span
+       | Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.
+      span
+       | Производители имплантационных систем грамотно подошли к решению вопроса, поэтому стали выпускать широкий размерный ряд моделей. При подборе конструкции для жевательной группы зубов учитываются следующие факторы: качество материалов, прогнозируемый срок службы, соотношение цены и качества.
+      span
+       | Врачи нашей стоматологии работают с проверенными системами имплантации, на которые предоставляется пожизненная гарантия. Если говорить о лучшем производителе на сегодняшний день, то наш опыт подсказывает, что это швейцарская компания Nobel Biocare. Их системы характеризуются лучшей прочностью и приживаемостью.
+      span
+       | Доверьтесь профессионалу при выборе и не волнуйтесь!
+
+
+  include modules/mini_discount3
+  include modules/price2.pug
+  section(class="services-sub-gallery")
+   .center  
+    p(class="services-sub-gallery-p") Галерея фотографий
+    .services-sub-gallery-block
+     div(class="slider11 swiper-container")
+      .swiper-wrapper 
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+       div(class="slider-block swiper-slide")
+        img(src="images/chair.png")
+     .swiper-button-prev
+     .swiper-button-next
+     .swiper-pagination
+  section(class="video-answer")
+   .center  
+    p Видео ответ
+    div(class="video-answer-block")
+     div
+      img(src="images/girl4.png")
+     button(class="video-btn")
+  include modules/discount
+  include modules/comment-all
+  include modules/search-services2
+  section(class="qa")
+   .qa-body
+    p Вопросы и ответы по теме
+    .qa-block
+     .center
+      .qa-question
+       p Какой имплант лучше поставить на жевательные зубы?
+       span(class="qa-txt")
+        | Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.
+       span(class="qa-date") 15.03.2019
+       span(class="qa-autor") Ирина
+      .qa-answer
+       p ответ
+       span(class="qa-txt")
+        | Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.
+       div(class="qa-doc")
+        .row
+         div(class="qa-doc1 col-sm-8")
+          a(href="#")
+           img(src="images/doc.png")
+          span Стоматолог-Терапевт
+          a(href="#") Иванов Владимир Петрович
+         div(class="qa-doc2 col-sm-4")
+          span 7 комментариев
+    .qa-block
+     .center
+      .qa-question
+       p Какой имплант лучше поставить на жевательные зубы?
+       span(class="qa-txt")
+        | Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.
+       span(class="qa-date") 15.03.2019
+       span(class="qa-autor") Ирина
+      .qa-answer
+       p ответ
+       span(class="qa-txt")
+        | Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.
+       div(class="qa-doc")
+        .row
+         div(class="qa-doc1 col-sm-8")
+          a(href="#")
+           img(src="images/doc.png")
+          span Стоматолог-Терапевт
+          a(href="#") Иванов Владимир Петрович
+         div(class="qa-doc2 col-sm-4")
+          span 7 комментариев
+    .qa-block
+     .center
+      .qa-question
+       p Какой имплант лучше поставить на жевательные зубы?
+       span(class="qa-txt")
+        | Здравствуйте! Подскажите, какой имплант лучше установить вместо жевательного зуба? Хочется, чтобы попрочнее был и прослужил долго. Порекомендуйте, пожалуйста, хорошего производителя.
+       span(class="qa-date") 15.03.2019
+       span(class="qa-autor") Ирина
+      .qa-answer
+       p ответ
+       span(class="qa-txt")
+        | Все современные импланты изготавливаются из прочного титана или его сплава, поэтому способны выдерживать значительные жевательные нагрузки длительное время.
+       div(class="qa-doc")
+        .row
+         div(class="qa-doc1 col-sm-8")
+          a(href="#")
+           img(src="images/doc.png")
+          span Стоматолог-Терапевт
+          a(href="#") Иванов Владимир Петрович
+         div(class="qa-doc2 col-sm-4")
+          span 7 комментариев    
+  include modules/our-expert2
+  include modules/hospital-loc
+  include modules/advantage
+  include modules/comment
+  include modules/questions
+  include modules/ceo2
+  
+  include modules/price-slider
+  include modules/footer
