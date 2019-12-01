@@ -126,7 +126,9 @@ p.search-result-head {
     margin-bottom: 28px;
     border-bottom: solid 1px #dddddd;
 }
-
+.search-services-padding{
+    padding-top: 40px;
+}
 p.search-result-p {
     opacity: 0.45;
     font-family: FuturaDemiC;
@@ -152,9 +154,21 @@ a.search-result-p {
     line-height: normal;
     letter-spacing: 1.67px;
     color: #000000;
-  text-decoration: none;
+    text-decoration: none;
 }
 
+a.search-result-sub-p {
+    font-family: FuturaDemiC;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 8px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    text-decoration: none;
+}
 p.search-result-sub-p {
     font-family: FuturaDemiC;
     font-size: 28px;
